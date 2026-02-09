@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "Hızlı IQ Testi - IQ'nuzu 20 Soruyla Ölçün",
+    "description": "Desen tanıma, dizi ve mantık hakkında 20 soru ile IQ'nuzu ölçün. Ücretsiz çevrimiçi IQ test oyunu! Sonuçlarınızı kaydedin ve sosyal medyada paylaşın.",
+    "keywords": "IQ testi, IQ ölçümü, ücretsiz IQ testi, zeka testi, mantık oyunu",
+    "og_title": "Hızlı IQ Testi - IQ'nuz Kaç?",
+    "og_description": "20 zeka sorusuyla IQ'nuzu ölçün! Desen tanımadan mantığa. Ücretsiz IQ testi!",
+    "twitter_title": "Hızlı IQ Testi - Ne Kadar Zekisiniz?",
+    "twitter_description": "20 soruluk IQ testini yapın ve zekanızı ölçün! Ücretsiz, hızlı ve eğlenceli!"
+  },
+  "header": {
+    "subtitle": "Zekanızı 20 soruyla ölçün"
+  },
+  "start": {
+    "title": "IQ Testinizi Başlatın",
+    "description": "20 soruyu çözün ve IQ'nuzu ölçün.",
+    "info1": "Soru başına 30 saniye",
+    "info2": "Detaylı analiz",
+    "info3": "Sonuçları paylaşın",
+    "disclaimer": "⚠️ Bu test sadece eğlence içindir ve resmi bir IQ değerlendirmesi değildir.",
+    "button": "Testi Başlat"
+  },
+  "test": {
+    "question": "Soru",
+    "seconds": "saniye",
+    "previous": "Önceki",
+    "next": "Sonraki"
+  },
+  "results": {
+    "iq": "IQ",
+    "analysis": "Kategori Analizi",
+    "category_pattern": "Desen Tanıma",
+    "category_sequence": "Dizi Mantığı",
+    "category_logic": "Mantıksal Akıl Yürütme",
+    "category_spatial": "Mekansal Farkındalık",
+    "category_language": "Dil Yeteneği",
+    "scores": "Skor Analizi",
+    "ai_analysis": "🤖 AI Analizi Görüntüle",
+    "ai_hint": "Reklam izledikten sonra kullanılabilir",
+    "ai_title": "AI Analizi",
+    "close": "✕",
+    "share_image": "📸 Görüntü Olarak Paylaş",
+    "share_web": "🔗 Bağlantı Paylaş",
+    "retry": "Tekrar Dene"
+  },
+  "grades": {
+    "genius": {
+      "title": "Dahi",
+      "description": "En İyi %2 - İstisna Zeka"
+    },
+    "superior": {
+      "title": "Üstün",
+      "description": "En İyi %10 - Mükemmel Yetenekler"
+    },
+    "high_average": {
+      "title": "Ortalamanın Üstü",
+      "description": "En İyi %25 - İleri Yetenekler"
+    },
+    "average": {
+      "title": "Orta",
+      "description": "Orta Seviye Yetenekler"
+    },
+    "below_average": {
+      "title": "Ortalamanın Altı",
+      "description": "Alt %25 - İyileştirme Alanı"
+    },
+    "needs_improvement": {
+      "title": "İyileştirilmesi Gerekli",
+      "description": "Alt %10 - Özel Eğitim Gerekli"
+    }
+  },
+  "ai_insights": {
+    "genius": "Siz istisna bilişsel yetenekler ve sorun çözme becerilerine sahip bir dahisiz. Desen tanıma, mantıksal akıl yürütme ve mekansal farkındalık yeteneğiniz olağanüstündür.",
+    "superior": "Üstün zekaya sahipsiniz ve mükemmel mantıksal düşünme ve desen tanıma yetenekleri var. Karmaşık sorunları sistemli bir şekilde çözebilir ve yeni konseptleri hızlı bir şekilde öğrenebilirsiniz.",
+    "high_average": "Çoğu öğrenme ve çalışma ortamında mükemmel sonuçlar elde etmenize izin veren ileri yeteneklere sahipsiniz. Mekansal farkındalık ve dil yetenekleriniz özellikle güçlüdür.",
+    "average": "Çoğu görevi iyi bir şekilde gerçekleştirmek için sağlıklı bilişsel yeteneklere sahip orta zeka seviyesine sahipsiniz. Belirli alanlara odaklanarak uzmanlık geliştirebilirsiniz.",
+    "below_average": "Çaba yoluyla yeteneklerinizi geliştirebilirsiniz. Zayıf alanlara yoğun eğitim gelişmeyi sağlayacaktır.",
+    "needs_improvement": "Özel eğitimden faydalanacaksınız. Mantıksal düşünme ve sorun çözme yeteneklerini kademeli olarak geliştirmek önemlidir."
+  }
+}

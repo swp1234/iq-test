@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "Test de QI Rapide - Mesurez Votre QI en 20 Questions",
+    "description": "Mesurez votre QI avec 20 questions sur la reconnaissance de modèles, les séquences et la logique. Jeu de test de QI en ligne gratuit ! Enregistrez et partagez vos résultats sur les réseaux sociaux.",
+    "keywords": "test de QI, mesure de QI, test de QI gratuit, test d'intelligence, jeu de logique",
+    "og_title": "Test de QI Rapide - Quel est votre QI ?",
+    "og_description": "Mesurez votre QI avec 20 questions d'intelligence ! De la reconnaissance de modèles à la logique. Test de QI gratuit !",
+    "twitter_title": "Test de QI Rapide - Êtes-vous intelligent ?",
+    "twitter_description": "Passez le test de QI de 20 questions et mesurez votre intelligence ! Gratuit, rapide et amusant !"
+  },
+  "header": {
+    "subtitle": "Mesurez votre intelligence en 20 questions"
+  },
+  "start": {
+    "title": "Commencez Votre Test de QI",
+    "description": "Résolvez 20 questions et mesurez votre QI.",
+    "info1": "30 secondes par question",
+    "info2": "Analyse détaillée",
+    "info3": "Partagez les résultats",
+    "disclaimer": "⚠️ Ce test est à titre informatif et n'est pas une évaluation officielle du QI.",
+    "button": "Commencer le test"
+  },
+  "test": {
+    "question": "Question",
+    "seconds": "secondes",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "results": {
+    "iq": "QI",
+    "analysis": "Analyse par Catégorie",
+    "category_pattern": "Reconnaissance de Modèles",
+    "category_sequence": "Logique de Séquence",
+    "category_logic": "Raisonnement Logique",
+    "category_spatial": "Conscience Spatiale",
+    "category_language": "Capacité Linguistique",
+    "scores": "Analyse du Score",
+    "ai_analysis": "🤖 Afficher l'Analyse IA",
+    "ai_hint": "Disponible après avoir regardé une publicité",
+    "ai_title": "Analyse IA",
+    "close": "✕",
+    "share_image": "📸 Partager Comme Image",
+    "share_web": "🔗 Partager le Lien",
+    "retry": "Réessayer"
+  },
+  "grades": {
+    "genius": {
+      "title": "Génie",
+      "description": "Top 2% - Intelligence Exceptionnelle"
+    },
+    "superior": {
+      "title": "Supérieur",
+      "description": "Top 10% - Capacités Excellentes"
+    },
+    "high_average": {
+      "title": "Au-Dessus de la Moyenne",
+      "description": "Top 25% - Capacités Avancées"
+    },
+    "average": {
+      "title": "Moyen",
+      "description": "Capacités de Niveau Moyen"
+    },
+    "below_average": {
+      "title": "Au-Dessous de la Moyenne",
+      "description": "Bottom 25% - Espace pour l'Amélioration"
+    },
+    "needs_improvement": {
+      "title": "Amélioration Nécessaire",
+      "description": "Bottom 10% - Éducation Spécialisée Nécessaire"
+    }
+  },
+  "ai_insights": {
+    "genius": "Vous êtes un génie doté de capacités cognitives exceptionnelles et de compétences exceptionnelles en résolution de problèmes. Votre reconnaissance de modèles, votre raisonnement logique et votre conscience spatiale sont remarquables.",
+    "superior": "Vous possédez une intelligence supérieure avec une excellente réflexion logique et des compétences de reconnaissance de modèles. Vous pouvez résoudre systématiquement des problèmes complexes et apprendre rapidement de nouveaux concepts.",
+    "high_average": "Vous possédez des capacités avancées qui vous permettent d'obtenir d'excellents résultats dans la plupart des situations d'apprentissage et de travail. Vos compétences de conscience spatiale et de langage sont particulièrement solides.",
+    "average": "Vous possédez un niveau d'intelligence moyen avec des capacités cognitives saines pour accomplir correctement la plupart des tâches. En vous concentrant sur des domaines spécifiques, vous pouvez développer une expertise.",
+    "below_average": "Vous pouvez améliorer vos capacités par l'effort. L'entraînement ciblé dans les domaines faibles entraînera des améliorations.",
+    "needs_improvement": "Vous bénéficierez d'une éducation spécialisée. Développer progressivement la réflexion logique et les compétences en résolution de problèmes est important."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "Quick IQ Test - Measure Your IQ in 20 Questions",
+    "description": "Measure your IQ with 20 pattern recognition, sequence, and logic questions. Free online IQ test game! Save and share your results on social media.",
+    "keywords": "IQ test, IQ measurement, free IQ test, intelligence test, logic game, pattern recognition",
+    "og_title": "Quick IQ Test - What's Your IQ?",
+    "og_description": "Measure your IQ with 20 intelligence questions! From pattern recognition to logic. Free IQ test!",
+    "twitter_title": "Quick IQ Test - What's Your Intelligence?",
+    "twitter_description": "Take the 20-question IQ test and measure your intelligence! Free, fast, and fun!"
+  },
+  "header": {
+    "subtitle": "Measure your intelligence in 20 questions"
+  },
+  "start": {
+    "title": "Start Your IQ Test",
+    "description": "Solve 20 questions and measure your IQ.",
+    "info1": "30 seconds per question",
+    "info2": "Detailed analysis",
+    "info3": "Share results",
+    "disclaimer": "⚠️ This test is for entertainment purposes only and is not an official IQ assessment.",
+    "button": "Start Test"
+  },
+  "test": {
+    "question": "Question",
+    "seconds": "seconds",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "results": {
+    "iq": "IQ",
+    "analysis": "Category Analysis",
+    "category_pattern": "Pattern Recognition",
+    "category_sequence": "Sequence Logic",
+    "category_logic": "Logical Reasoning",
+    "category_spatial": "Spatial Awareness",
+    "category_language": "Language Ability",
+    "scores": "Score Analysis",
+    "ai_analysis": "🤖 View AI Brain Analysis",
+    "ai_hint": "Available after watching an ad",
+    "ai_title": "AI Brain Analysis",
+    "close": "✕",
+    "share_image": "📸 Share as Image",
+    "share_web": "🔗 Share Link",
+    "retry": "Try Again"
+  },
+  "grades": {
+    "genius": {
+      "title": "Genius",
+      "description": "Top 2% - Exceptional intelligence"
+    },
+    "superior": {
+      "title": "Superior",
+      "description": "Top 10% - Excellent abilities"
+    },
+    "high_average": {
+      "title": "High Average",
+      "description": "Top 25% - Advanced capabilities"
+    },
+    "average": {
+      "title": "Average",
+      "description": "Average level abilities"
+    },
+    "below_average": {
+      "title": "Below Average",
+      "description": "Bottom 25% - Room for improvement"
+    },
+    "needs_improvement": {
+      "title": "Needs Improvement",
+      "description": "Bottom 10% - Specialized learning needed"
+    }
+  },
+  "ai_insights": {
+    "genius": "You are a genius with exceptional cognitive abilities and problem-solving skills. Your pattern recognition, logical reasoning, and spatial awareness are outstanding. These abilities can lead to remarkable achievements in creative fields or scientific research.",
+    "superior": "You possess superior intelligence with excellent logical thinking and pattern recognition abilities. You can systematically solve complex problems and quickly learn new concepts. You are well-suited for leadership or strategic roles.",
+    "high_average": "You have advanced abilities that allow you to excel in most learning and work situations. Your spatial awareness and language skills are particularly strong. Continuous learning will help you develop further.",
+    "average": "You have average intelligence with healthy cognitive abilities to perform most tasks well. By focusing on specific areas, you can develop expertise. Consistent effort is the key to success.",
+    "below_average": "You can improve your abilities through effort. Focused training in your weak areas will lead to improvement. Investing more time in logic problems and pattern recognition will enhance your skills.",
+    "needs_improvement": "You would benefit from specialized education. Developing basic logic and problem-solving skills step by step is important. Regular practice and professional education will enable continuous progress."
+  }
+}

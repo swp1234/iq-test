@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "快速智商测试 - 用20道题测量你的智商",
+    "description": "通过20道模式识别、数列和逻辑问题来测量您的智商。免费在线智商测试游戏!保存结果并在社交媒体上分享。",
+    "keywords": "智商测试、智商测量、免费智商测试、智力测试、逻辑游戏、模式识别",
+    "og_title": "快速智商测试 - 你的智商是多少?",
+    "og_description": "用20道智力题测量你的智商!从模式识别到逻辑推理。免费智商测试!",
+    "twitter_title": "快速智商测试 - 你有多聪明?",
+    "twitter_description": "用20道题的智商测试来测量你的智力!免费、快速、有趣!"
+  },
+  "header": {
+    "subtitle": "用20道题测量你的智力"
+  },
+  "start": {
+    "title": "开始你的智商测试",
+    "description": "解答20道题并测量你的智商。",
+    "info1": "每题30秒",
+    "info2": "详细分析",
+    "info3": "分享结果",
+    "disclaimer": "⚠️ 此测试仅供娱乐目的，不是官方智商评估。",
+    "button": "开始测试"
+  },
+  "test": {
+    "question": "题目",
+    "seconds": "秒",
+    "previous": "上一题",
+    "next": "下一题"
+  },
+  "results": {
+    "iq": "智商",
+    "analysis": "类别分析",
+    "category_pattern": "模式识别",
+    "category_sequence": "数列逻辑",
+    "category_logic": "逻辑推理",
+    "category_spatial": "空间感知",
+    "category_language": "语言能力",
+    "scores": "分数分析",
+    "ai_analysis": "🤖 查看AI大脑分析",
+    "ai_hint": "观看广告后可用",
+    "ai_title": "AI大脑分析",
+    "close": "✕",
+    "share_image": "📸 分享为图像",
+    "share_web": "🔗 分享链接",
+    "retry": "再试一次"
+  },
+  "grades": {
+    "genius": {
+      "title": "天才",
+      "description": "前2% - 非常卓越的智力"
+    },
+    "superior": {
+      "title": "优秀",
+      "description": "前10% - 杰出的能力"
+    },
+    "high_average": {
+      "title": "高于平均",
+      "description": "前25% - 先进的能力"
+    },
+    "average": {
+      "title": "平均",
+      "description": "平均水平的能力"
+    },
+    "below_average": {
+      "title": "低于平均",
+      "description": "后25% - 有改进空间"
+    },
+    "needs_improvement": {
+      "title": "需要改进",
+      "description": "后10% - 需要专业学习"
+    }
+  },
+  "ai_insights": {
+    "genius": "你是拥有杰出认知能力和解决问题能力的天才。你的模式识别、逻辑推理和空间感知能力非常出众。这些能力可以在创意领域或科学研究中取得显著成就。",
+    "superior": "你拥有卓越的智力。特别是你的逻辑思维和模式识别能力非常出色。你能够系统地解决复杂问题，并快速学习新概念。你适合担任领导力或战略性角色。",
+    "high_average": "你拥有先进的能力，可以在大多数学习和工作中取得优异成绩。你的空间感知和语言技能尤其强大。持续学习将帮助你进一步发展。",
+    "average": "你拥有平均水平的智力，具有健全的认知能力，可以很好地完成大多数任务。通过专注于特定领域，你可以开发专业知识。持之以恒是成功的关键。",
+    "below_average": "你可以通过努力来提高你的能力。集中训练你的薄弱领域可以改进。在逻辑问题和模式识别上投入更多时间将增强你的技能。",
+    "needs_improvement": "你将从专业教育中受益。逐步开发基础逻辑和解决问题的能力很重要。通过定期练习和专业教育，你可以实现持续进步。"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "Tes IQ Cepat - Ukur IQ Anda dalam 20 Pertanyaan",
+    "description": "Ukur IQ Anda dengan 20 pertanyaan tentang pengenalan pola, urutan, dan logika. Permainan tes IQ online gratis! Simpan dan bagikan hasil Anda di media sosial.",
+    "keywords": "tes IQ, pengukuran IQ, tes IQ gratis, tes kecerdasan, permainan logika",
+    "og_title": "Tes IQ Cepat - Berapa IQ Anda?",
+    "og_description": "Ukur IQ Anda dengan 20 pertanyaan kecerdasan! Dari pengenalan pola hingga logika. Tes IQ gratis!",
+    "twitter_title": "Tes IQ Cepat - Seberapa Cerdas Anda?",
+    "twitter_description": "Ambil tes IQ 20 pertanyaan dan ukur kecerdasan Anda! Gratis, cepat, dan menyenangkan!"
+  },
+  "header": {
+    "subtitle": "Ukur kecerdasan Anda dalam 20 pertanyaan"
+  },
+  "start": {
+    "title": "Mulai Tes IQ Anda",
+    "description": "Selesaikan 20 pertanyaan dan ukur IQ Anda.",
+    "info1": "30 detik per pertanyaan",
+    "info2": "Analisis detail",
+    "info3": "Bagikan hasil",
+    "disclaimer": "⚠️ Tes ini hanya untuk hiburan dan bukan penilaian IQ resmi.",
+    "button": "Mulai Tes"
+  },
+  "test": {
+    "question": "Pertanyaan",
+    "seconds": "detik",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya"
+  },
+  "results": {
+    "iq": "IQ",
+    "analysis": "Analisis Kategori",
+    "category_pattern": "Pengenalan Pola",
+    "category_sequence": "Logika Urutan",
+    "category_logic": "Penalaran Logis",
+    "category_spatial": "Kesadaran Spasial",
+    "category_language": "Kemampuan Bahasa",
+    "scores": "Analisis Skor",
+    "ai_analysis": "🤖 Lihat Analisis AI",
+    "ai_hint": "Tersedia setelah menonton iklan",
+    "ai_title": "Analisis AI",
+    "close": "✕",
+    "share_image": "📸 Bagikan sebagai Gambar",
+    "share_web": "🔗 Bagikan Tautan",
+    "retry": "Coba Lagi"
+  },
+  "grades": {
+    "genius": {
+      "title": "Jenius",
+      "description": "Top 2% - Kecerdasan Luar Biasa"
+    },
+    "superior": {
+      "title": "Superior",
+      "description": "Top 10% - Kemampuan Hebat"
+    },
+    "high_average": {
+      "title": "Di Atas Rata-rata",
+      "description": "Top 25% - Kemampuan Canggih"
+    },
+    "average": {
+      "title": "Rata-rata",
+      "description": "Kemampuan Level Rata-rata"
+    },
+    "below_average": {
+      "title": "Di Bawah Rata-rata",
+      "description": "Bottom 25% - Ruang untuk Perbaikan"
+    },
+    "needs_improvement": {
+      "title": "Perlu Ditingkatkan",
+      "description": "Bottom 10% - Pendidikan Khusus Diperlukan"
+    }
+  },
+  "ai_insights": {
+    "genius": "Anda adalah jenius dengan kemampuan kognitif luar biasa dan keterampilan pemecahan masalah. Pengenalan pola, penalaran logis, dan kesadaran spasial Anda sangat menonjol.",
+    "superior": "Anda memiliki kecerdasan superior dengan pemikiran logis dan keterampilan pengenalan pola yang sangat baik. Anda dapat menyelesaikan masalah kompleks secara sistematis dan belajar konsep baru dengan cepat.",
+    "high_average": "Anda memiliki kemampuan canggih yang memungkinkan Anda mencapai hasil luar biasa dalam situasi apa pun. Kemampuan kesadaran spasial dan bahasa Anda sangat kuat.",
+    "average": "Anda memiliki tingkat kecerdasan rata-rata dengan kemampuan kognitif yang sehat untuk melakukan sebagian besar tugas dengan baik. Dengan fokus pada area tertentu, Anda dapat mengembangkan keahlian.",
+    "below_average": "Anda dapat meningkatkan kemampuan Anda melalui upaya. Pelatihan yang terfokus pada area lemah akan menghasilkan perbaikan.",
+    "needs_improvement": "Anda akan mendapat manfaat dari pendidikan khusus. Mengembangkan pemikiran logis dan keterampilan pemecahan masalah secara bertahap sangat penting."
+  }
+}

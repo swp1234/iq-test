@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "Schneller IQ-Test - Messen Sie Ihren IQ in 20 Fragen",
+    "description": "Messen Sie Ihren IQ mit 20 Fragen zu Mustererkennung, Sequenzen und Logik. Kostenloses Online-IQ-Test-Spiel! Speichern und teilen Sie Ihre Ergebnisse in sozialen Medien.",
+    "keywords": "IQ-Test, IQ-Messung, kostenloser IQ-Test, Intelligenztest, Logikspiel",
+    "og_title": "Schneller IQ-Test - Wie hoch ist Ihr IQ?",
+    "og_description": "Messen Sie Ihren IQ mit 20 Intelligentzfragen! Von Mustererkennung bis Logik. Kostenloser IQ-Test!",
+    "twitter_title": "Schneller IQ-Test - Wie intelligent sind Sie?",
+    "twitter_description": "Machen Sie den 20-Fragen-IQ-Test und messen Sie Ihre Intelligenz! Kostenlos, schnell und unterhaltsam!"
+  },
+  "header": {
+    "subtitle": "Messen Sie Ihre Intelligenz in 20 Fragen"
+  },
+  "start": {
+    "title": "Beginnen Sie Ihren IQ-Test",
+    "description": "Lösen Sie 20 Fragen und messen Sie Ihren IQ.",
+    "info1": "30 Sekunden pro Frage",
+    "info2": "Detaillierte Analyse",
+    "info3": "Ergebnisse teilen",
+    "disclaimer": "⚠️ Dieser Test dient nur zu Unterhaltungszwecken und ist keine offizielle IQ-Bewertung.",
+    "button": "Test starten"
+  },
+  "test": {
+    "question": "Frage",
+    "seconds": "Sekunden",
+    "previous": "Zurück",
+    "next": "Weiter"
+  },
+  "results": {
+    "iq": "IQ",
+    "analysis": "Kategorieanalyse",
+    "category_pattern": "Mustererkennung",
+    "category_sequence": "Sequenzlogik",
+    "category_logic": "Logisches Denken",
+    "category_spatial": "Räumliches Bewusstsein",
+    "category_language": "Sprachfähigkeit",
+    "scores": "Punkteanalyse",
+    "ai_analysis": "🤖 KI-Analyse anzeigen",
+    "ai_hint": "Verfügbar nach dem Anschauen einer Anzeige",
+    "ai_title": "KI-Analyse",
+    "close": "✕",
+    "share_image": "📸 Als Bild teilen",
+    "share_web": "🔗 Link teilen",
+    "retry": "Erneut versuchen"
+  },
+  "grades": {
+    "genius": {
+      "title": "Genie",
+      "description": "Top 2% - Außergewöhnliche Intelligenz"
+    },
+    "superior": {
+      "title": "Überlegen",
+      "description": "Top 10% - Hervorragende Fähigkeiten"
+    },
+    "high_average": {
+      "title": "Überdurchschnittlich",
+      "description": "Top 25% - Fortgeschrittene Fähigkeiten"
+    },
+    "average": {
+      "title": "Durchschnitt",
+      "description": "Durchschnittliche Fähigkeiten"
+    },
+    "below_average": {
+      "title": "Unterdurchschnittlich",
+      "description": "Bottom 25% - Verbesserungsbedarf"
+    },
+    "needs_improvement": {
+      "title": "Verbesserung erforderlich",
+      "description": "Bottom 10% - Spezialausbildung erforderlich"
+    }
+  },
+  "ai_insights": {
+    "genius": "Sie sind ein Genie mit außergewöhnlichen kognitiven Fähigkeiten und Problemlösungskompetenzen. Ihre Mustererkennung, Ihr logisches Denken und Ihr räumliches Bewusstsein sind außerordentlich.",
+    "superior": "Sie verfügen über überlegene Intelligenz mit ausgezeichnetem logischem Denken und Mustererkennungsfähigkeiten. Sie können komplexe Probleme systematisch lösen und neue Konzepte schnell erlernen.",
+    "high_average": "Sie verfügen über fortgeschrittene Fähigkeiten, mit denen Sie in den meisten Lern- und Arbeitssituationen hervorragende Ergebnisse erzielen können. Ihre räumliche Wahrnehmung und Sprachfähigkeiten sind besonders stark.",
+    "average": "Sie verfügen über ein durchschnittliches Intelligenzniveau mit gesunden kognitiven Fähigkeiten, um die meisten Aufgaben gut zu bewältigen. Durch Konzentration auf spezifische Bereiche können Sie Fachkompetenz entwickeln.",
+    "below_average": "Sie können Ihre Fähigkeiten durch Anstrengung verbessern. Fokussiertes Training in schwachen Bereichen führt zu Verbesserungen.",
+    "needs_improvement": "Sie werden von spezialisierter Ausbildung profitieren. Die schrittweise Entwicklung von logischem Denken und Problemlösungsfähigkeiten ist wichtig."
+  }
+}
