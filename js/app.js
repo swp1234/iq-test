@@ -649,7 +649,11 @@ class IQTestApp {
 // Initialize app when DOM is ready
 let app;
 document.addEventListener('DOMContentLoaded', async () => {
-    await i18n.initialize();
+    try {
+        await i18n.initialize();
+    } catch (e) {
+        console.warn('i18n init failed:', e);
+    }
     app = new IQTestApp();
     await app.init();
 });

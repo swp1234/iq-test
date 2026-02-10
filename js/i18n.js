@@ -198,7 +198,11 @@ const i18n = new I18n();
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', async () => {
-    await i18n.initialize();
+    try {
+        await i18n.initialize();
+    } catch (e) {
+        console.warn('i18n init failed:', e);
+    }
 
     // Setup language selector
     const langToggle = document.getElementById('lang-toggle');
