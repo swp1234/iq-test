@@ -35,6 +35,7 @@
     "category_spatial": "Mekansal Farkındalık",
     "category_language": "Dil Yeteneği",
     "scores": "Skor Analizi",
+    "percentile": "Top {percentile}%",
     "ai_analysis": "🤖 AI Analizi Görüntüle",
     "ai_hint": "Reklam izledikten sonra kullanılabilir",
     "ai_title": "AI Analizi",

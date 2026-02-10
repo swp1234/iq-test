@@ -35,6 +35,7 @@
     "category_spatial": "空間認識",
     "category_language": "言語能力",
     "scores": "スコア分析",
+    "percentile": "上位 {percentile}%",
     "ai_analysis": "🤖 AI 脳分析を表示",
     "ai_hint": "広告を見た後に利用可能",
     "ai_title": "AI 脳分析",

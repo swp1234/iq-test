@@ -35,6 +35,7 @@
     "category_spatial": "Percepción Espacial",
     "category_language": "Habilidad Lingüística",
     "scores": "Análisis de Puntuación",
+    "percentile": "Top {percentile}%",
     "ai_analysis": "🤖 Ver Análisis de IA",
     "ai_hint": "Disponible después de ver un anuncio",
     "ai_title": "Análisis de IA",

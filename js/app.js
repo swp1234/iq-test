@@ -334,7 +334,7 @@ class IQTestApp {
         );
         const percentile = gradeInfo.percent;
         document.getElementById('grade-desc').textContent =
-            this.i18n_t('results.percentile', `상위 ${percentile}%`);
+            this.i18n_t('results.percentile', `Top ${percentile}%`);
 
         // Update category analysis
         this.updateRadarChart();

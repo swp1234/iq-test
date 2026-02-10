@@ -35,6 +35,7 @@
     "category_spatial": "Kesadaran Spasial",
     "category_language": "Kemampuan Bahasa",
     "scores": "Analisis Skor",
+    "percentile": "Top {percentile}%",
     "ai_analysis": "🤖 Lihat Analisis AI",
     "ai_hint": "Tersedia setelah menonton iklan",
     "ai_title": "Analisis AI",

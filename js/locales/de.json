@@ -35,6 +35,7 @@
     "category_spatial": "Räumliches Bewusstsein",
     "category_language": "Sprachfähigkeit",
     "scores": "Punkteanalyse",
+    "percentile": "Top {percentile}%",
     "ai_analysis": "🤖 KI-Analyse anzeigen",
     "ai_hint": "Verfügbar nach dem Anschauen einer Anzeige",
     "ai_title": "KI-Analyse",

@@ -35,6 +35,7 @@
     "category_spatial": "空间感知",
     "category_language": "语言能力",
     "scores": "分数分析",
+    "percentile": "前 {percentile}%",
     "ai_analysis": "🤖 查看AI大脑分析",
     "ai_hint": "观看广告后可用",
     "ai_title": "AI大脑分析",

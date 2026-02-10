@@ -35,6 +35,7 @@
     "category_spatial": "Conscience Spatiale",
     "category_language": "Capacité Linguistique",
     "scores": "Analyse du Score",
+    "percentile": "Top {percentile}%",
     "ai_analysis": "🤖 Afficher l'Analyse IA",
     "ai_hint": "Disponible après avoir regardé une publicité",
     "ai_title": "Analyse IA",

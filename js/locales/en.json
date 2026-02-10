@@ -35,6 +35,7 @@
     "category_spatial": "Spatial Awareness",
     "category_language": "Language Ability",
     "scores": "Score Analysis",
+    "percentile": "Top {percentile}%",
     "ai_analysis": "🤖 View AI Brain Analysis",
     "ai_hint": "Available after watching an ad",
     "ai_title": "AI Brain Analysis",
