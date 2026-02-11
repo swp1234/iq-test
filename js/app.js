@@ -23,12 +23,32 @@ class IQTestApp {
 
     // Initialize the app
     async init() {
+        // Initialize theme
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+        }
+        
         this.setupEventListeners();
         this.questions = getRandomQuestions(20);
     }
 
     // Setup event listeners
     setupEventListeners() {
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const current = document.documentElement.getAttribute('data-theme') || 'dark';
+                const next = current === 'light' ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('theme', next);
+                themeToggle.textContent = next === 'light' ? '🌙' : '☀️';
+            });
+        }
+
         // Start button
         document.getElementById('btn-start').addEventListener('click', () => this.startTest());
 
@@ -650,10 +670,20 @@ class IQTestApp {
 let app;
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        await i18n.initialize();
-    } catch (e) {
-        console.warn('i18n init failed:', e);
+        try {
+            await i18n.initialize();
+        } catch (e) {
+            console.warn('i18n init failed:', e);
+        }
+        app = new IQTestApp();
+        await app.init();
+    } catch(e) {
+        console.error('Init error:', e);
+    } finally {
+        const loader = document.getElementById('app-loader');
+        if (loader) {
+            loader.classList.add('hidden');
+            setTimeout(() => loader.remove(), 300);
+        }
     }
-    app = new IQTestApp();
-    await app.init();
 });
