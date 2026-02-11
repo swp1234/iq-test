@@ -24,7 +24,7 @@ class IQTestApp {
     // Initialize the app
     async init() {
         // Initialize theme
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        const savedTheme = localStorage.getItem('app-theme') || 'dark';
         document.documentElement.setAttribute('data-theme', savedTheme);
         const themeToggle = document.getElementById('theme-toggle');
         if (themeToggle) {
@@ -44,7 +44,7 @@ class IQTestApp {
                 const current = document.documentElement.getAttribute('data-theme') || 'dark';
                 const next = current === 'light' ? 'dark' : 'light';
                 document.documentElement.setAttribute('data-theme', next);
-                localStorage.setItem('theme', next);
+                localStorage.setItem('app-theme', next);
                 themeToggle.textContent = next === 'light' ? '🌙' : '☀️';
             });
         }
