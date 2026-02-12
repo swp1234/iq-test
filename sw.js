@@ -2,7 +2,7 @@
    Service Worker - Offline Support & Caching
    ================================================================= */
 
-const CACHE_NAME = 'iq-test-v1';
+const CACHE_NAME = 'iq-test-v2';
 const ASSETS_TO_CACHE = [
     '/iq-test/',
     '/iq-test/index.html',
@@ -50,7 +50,7 @@ self.addEventListener('activate', (event) => {
     );
 });
 
-// Fetch event - serve from cache, fallback to network
+// Fetch event - network first, fallback to cache
 self.addEventListener('fetch', (event) => {
     // Skip non-GET requests
     if (event.request.method !== 'GET') {
@@ -58,55 +58,24 @@ self.addEventListener('fetch', (event) => {
     }
 
     // Skip external URLs (analytics, ads, etc.)
-    const isExternalUrl = new URL(event.request.url).origin !== self.location.origin;
-    if (isExternalUrl) {
-        event.respondWith(
-            fetch(event.request).catch(() => {
-                // Offline fallback for external requests
-                return new Response('Resource unavailable offline', {
-                    status: 503,
-                    statusText: 'Service Unavailable',
-                    headers: new Headers({
-                        'Content-Type': 'text/plain'
-                    })
-                });
-            })
-        );
+    if (!event.request.url.startsWith(self.location.origin)) {
         return;
     }
 
-    // For app files - cache first, fallback to network
     event.respondWith(
-        caches.match(event.request)
+        fetch(event.request)
             .then((response) => {
-                if (response) {
-                    return response;
-                }
-
-                return fetch(event.request).then((response) => {
-                    // Don't cache if response is not successful
-                    if (!response || response.status !== 200 || response.type !== 'basic') {
-                        return response;
-                    }
-
-                    // Clone the response
+                if (response && response.status === 200) {
                     const responseToCache = response.clone();
-                    caches.open(CACHE_NAME)
-                        .then((cache) => {
-                            cache.put(event.request, responseToCache);
-                        });
-
-                    return response;
-                });
+                    caches.open(CACHE_NAME).then((cache) => {
+                        cache.put(event.request, responseToCache);
+                    });
+                }
+                return response;
             })
             .catch(() => {
-                // Offline fallback
-                if (event.request.destination === 'document') {
-                    return caches.match('/iq-test/');
-                }
-                return new Response('Offline - Resource not available', {
-                    status: 503
-                });
+                return caches.match(event.request)
+                    .then((cached) => cached || caches.match('/iq-test/index.html'));
             })
     );
 });
