@@ -904,6 +904,19 @@ body {
     transform: translateY(0);
 }
 
+/* CTA pulse for start button */
+@keyframes ctaPulse {
+    0%, 100% { box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
+    50% { box-shadow: 0 4px 30px rgba(52, 152, 219, 0.6), 0 0 60px rgba(52, 152, 219, 0.2); }
+}
+#btn-start {
+    animation: ctaPulse 2s ease-in-out infinite;
+    font-size: 1.1rem;
+}
+@media (prefers-reduced-motion: reduce) {
+    #btn-start { animation: none !important; }
+}
+
 .btn-secondary {
     background: var(--bg-card);
     color: var(--text-primary);

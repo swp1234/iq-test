@@ -86,10 +86,10 @@ class IQTestApp {
         this.loadQuestion(0);
 
         // Track in GA4
-        gtag('event', 'test_start', {
-            'event_category': 'engagement',
-            'event_label': 'iq_test_start'
-        });
+        if (typeof gtag === 'function') {
+            gtag('event', 'test_start', { event_category: 'engagement', event_label: 'iq_test_start' });
+            gtag('event', 'engagement', { event_category: 'iq_test', event_label: 'first_interaction' });
+        }
     }
 
     // Load and display question
@@ -686,4 +686,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             setTimeout(() => loader.remove(), 300);
         }
     }
+
+    // GA4 engagement tracking (scroll + timer)
+    let scrollFired = false;
+    window.addEventListener('scroll', function() {
+        if (!scrollFired && window.scrollY > 100) {
+            scrollFired = true;
+            if (typeof gtag === 'function') gtag('event', 'scroll_engagement', { engagement_type: 'scroll' });
+        }
+    }, { passive: true });
+    setTimeout(function() {
+        if (typeof gtag === 'function') gtag('event', 'timer_engagement', { engagement_time_msec: 5000 });
+    }, 5000);
 });
