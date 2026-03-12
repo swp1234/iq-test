@@ -88,5 +88,13 @@
   "canvas.footer": "Tes IQ di dopabrain.com/iq-test",
   "share.text": "Skor IQ saya {iq}! Berapa milikmu?",
   "share.title": "Tes IQ",
-  "share.copied": "Tautan disalin!"
+  "share.copied": "Tautan disalin!",
+  "error": {
+    "storage": "Beberapa fitur mungkin terbatas dalam mode privat.",
+    "data": "Kesalahan memuat data. Silakan muat ulang.",
+    "canvas": "Masalah rendering grafis. Silakan coba lagi.",
+    "audio": "Audio tidak tersedia. Anda dapat melanjutkan.",
+    "network": "Periksa koneksi Anda dan coba lagi.",
+    "general": "Terjadi kesalahan. Muat ulang atau coba lagi."
+  }
 }

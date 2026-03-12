@@ -88,5 +88,13 @@
   "canvas.footer": "Teste seu QI em dopabrain.com/iq-test",
   "share.text": "Meu QI é {iq}! Qual é o seu?",
   "share.title": "Teste de QI",
-  "share.copied": "Link copiado!"
+  "share.copied": "Link copiado!",
+  "error": {
+    "storage": "Algumas funções podem ser limitadas no modo privado.",
+    "data": "Erro ao carregar dados. Atualize a página.",
+    "canvas": "Problema de renderização. Tente novamente.",
+    "audio": "Áudio indisponível. Você pode continuar.",
+    "network": "Verifique sua conexão e tente novamente.",
+    "general": "Algo deu errado. Atualize ou tente novamente."
+  }
 }

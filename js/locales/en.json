@@ -88,5 +88,13 @@
   "canvas.footer": "Test your IQ at dopabrain.com/iq-test",
   "share.text": "I scored {iq} IQ on the Quick IQ Test! What's your score?",
   "share.title": "Quick IQ Test",
-  "share.copied": "Link copied to clipboard!"
+  "share.copied": "Link copied to clipboard!",
+  "error": {
+    "storage": "Some features may be limited in private mode. You can continue.",
+    "data": "Data loading error. Please refresh the page.",
+    "canvas": "Graphics rendering issue. Please try again.",
+    "audio": "Audio unavailable. You can still continue.",
+    "network": "Please check your connection and try again.",
+    "general": "Something went wrong. Please refresh or try again."
+  }
 }

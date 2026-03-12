@@ -88,5 +88,13 @@
   "canvas.footer": "Haz tu test de IQ en dopabrain.com/iq-test",
   "share.text": "¡Mi IQ es {iq}! ¿Cuál es el tuyo?",
   "share.title": "Test de IQ",
-  "share.copied": "¡Enlace copiado!"
+  "share.copied": "¡Enlace copiado!",
+  "error": {
+    "storage": "Algunas funciones pueden estar limitadas en modo privado.",
+    "data": "Error al cargar datos. Actualice la página.",
+    "canvas": "Problema de renderizado. Inténtelo de nuevo.",
+    "audio": "Audio no disponible. Puede continuar.",
+    "network": "Verifique su conexión e inténtelo de nuevo.",
+    "general": "Algo salió mal. Actualice o inténtelo de nuevo."
+  }
 }

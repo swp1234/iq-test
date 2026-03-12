@@ -88,5 +88,13 @@
   "canvas.footer": "dopabrain.com/iq-test'te IQ testi yap",
   "share.text": "IQ puanım {iq}! Seninki kaç?",
   "share.title": "IQ Testi",
-  "share.copied": "Bağlantı kopyalandı!"
+  "share.copied": "Bağlantı kopyalandı!",
+  "error": {
+    "storage": "Gizli modda bazı özellikler sınırlı olabilir.",
+    "data": "Veri yükleme hatası. Lütfen sayfayı yenileyin.",
+    "canvas": "Grafik oluşturma sorunu. Lütfen tekrar deneyin.",
+    "audio": "Ses kullanılamıyor. Devam edebilirsiniz.",
+    "network": "Bağlantınızı kontrol edip tekrar deneyin.",
+    "general": "Bir şeyler ters gitti. Yenileyip tekrar deneyin."
+  }
 }
