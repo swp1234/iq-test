@@ -77,5 +77,16 @@
     "average": "你拥有平均水平的智力，具有健全的认知能力，可以很好地完成大多数任务。通过专注于特定领域，你可以开发专业知识。持之以恒是成功的关键。",
     "below_average": "你可以通过努力来提高你的能力。集中训练你的薄弱领域可以改进。在逻辑问题和模式识别上投入更多时间将增强你的技能。",
     "needs_improvement": "你将从专业教育中受益。逐步开发基础逻辑和解决问题的能力很重要。通过定期练习和专业教育，你可以实现持续进步。"
-  }
+  },
+  "canvas.title": "IQ测试结果",
+  "canvas.breakdown": "类别分析：",
+  "canvas.pattern": "模式识别",
+  "canvas.sequence": "序列逻辑",
+  "canvas.logic": "逻辑推理",
+  "canvas.spatial": "空间感知",
+  "canvas.language": "语言能力",
+  "canvas.footer": "在dopabrain.com/iq-test测试IQ",
+  "share.text": "我的IQ得分{iq}！你的呢？",
+  "share.title": "IQ测试",
+  "share.copied": "链接已复制！"
 }

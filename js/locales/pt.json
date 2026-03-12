@@ -77,5 +77,16 @@
     "average": "Você possui um nível de inteligência médio com capacidades cognitivas saudáveis para realizar a maioria das tarefas bem. Focando em áreas específicas, pode desenvolver especialização.",
     "below_average": "Você pode melhorar suas habilidades através do esforço. Treinamento focado em áreas fracas levará a melhorias.",
     "needs_improvement": "Você se beneficiará de educação especializada. Desenvolver gradualmente o pensamento lógico e habilidades de resolução de problemas é importante."
-  }
+  },
+  "canvas.title": "Resultado do Teste de QI",
+  "canvas.breakdown": "Análise:",
+  "canvas.pattern": "Reconhecimento de padrões",
+  "canvas.sequence": "Lógica sequencial",
+  "canvas.logic": "Raciocínio lógico",
+  "canvas.spatial": "Percepção espacial",
+  "canvas.language": "Habilidade linguística",
+  "canvas.footer": "Teste seu QI em dopabrain.com/iq-test",
+  "share.text": "Meu QI é {iq}! Qual é o seu?",
+  "share.title": "Teste de QI",
+  "share.copied": "Link copiado!"
 }

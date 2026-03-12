@@ -77,5 +77,16 @@
     "average": "Vous possédez un niveau d'intelligence moyen avec des capacités cognitives saines pour accomplir correctement la plupart des tâches. En vous concentrant sur des domaines spécifiques, vous pouvez développer une expertise.",
     "below_average": "Vous pouvez améliorer vos capacités par l'effort. L'entraînement ciblé dans les domaines faibles entraînera des améliorations.",
     "needs_improvement": "Vous bénéficierez d'une éducation spécialisée. Développer progressivement la réflexion logique et les compétences en résolution de problèmes est important."
-  }
+  },
+  "canvas.title": "Résultat du Test de QI",
+  "canvas.breakdown": "Analyse :",
+  "canvas.pattern": "Reconnaissance de motifs",
+  "canvas.sequence": "Logique séquentielle",
+  "canvas.logic": "Raisonnement logique",
+  "canvas.spatial": "Perception spatiale",
+  "canvas.language": "Capacité linguistique",
+  "canvas.footer": "Teste ton QI sur dopabrain.com/iq-test",
+  "share.text": "Mon QI : {iq} ! Et le tien ?",
+  "share.title": "Test de QI",
+  "share.copied": "Lien copié !"
 }

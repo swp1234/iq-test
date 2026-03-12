@@ -77,5 +77,16 @@
     "average": "You have average intelligence with healthy cognitive abilities to perform most tasks well. By focusing on specific areas, you can develop expertise. Consistent effort is the key to success.",
     "below_average": "You can improve your abilities through effort. Focused training in your weak areas will lead to improvement. Investing more time in logic problems and pattern recognition will enhance your skills.",
     "needs_improvement": "You would benefit from specialized education. Developing basic logic and problem-solving skills step by step is important. Regular practice and professional education will enable continuous progress."
-  }
+  },
+  "canvas.title": "Quick IQ Test Result",
+  "canvas.breakdown": "Category Breakdown:",
+  "canvas.pattern": "Pattern Recognition",
+  "canvas.sequence": "Sequence Logic",
+  "canvas.logic": "Logical Reasoning",
+  "canvas.spatial": "Spatial Awareness",
+  "canvas.language": "Language Ability",
+  "canvas.footer": "Test your IQ at dopabrain.com/iq-test",
+  "share.text": "I scored {iq} IQ on the Quick IQ Test! What's your score?",
+  "share.title": "Quick IQ Test",
+  "share.copied": "Link copied to clipboard!"
 }

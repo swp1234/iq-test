@@ -77,5 +77,16 @@
     "average": "Anda memiliki tingkat kecerdasan rata-rata dengan kemampuan kognitif yang sehat untuk melakukan sebagian besar tugas dengan baik. Dengan fokus pada area tertentu, Anda dapat mengembangkan keahlian.",
     "below_average": "Anda dapat meningkatkan kemampuan Anda melalui upaya. Pelatihan yang terfokus pada area lemah akan menghasilkan perbaikan.",
     "needs_improvement": "Anda akan mendapat manfaat dari pendidikan khusus. Mengembangkan pemikiran logis dan keterampilan pemecahan masalah secara bertahap sangat penting."
-  }
+  },
+  "canvas.title": "Hasil Tes IQ",
+  "canvas.breakdown": "Analisis Kategori:",
+  "canvas.pattern": "Pengenalan Pola",
+  "canvas.sequence": "Logika Urutan",
+  "canvas.logic": "Penalaran Logis",
+  "canvas.spatial": "Kesadaran Spasial",
+  "canvas.language": "Kemampuan Bahasa",
+  "canvas.footer": "Tes IQ di dopabrain.com/iq-test",
+  "share.text": "Skor IQ saya {iq}! Berapa milikmu?",
+  "share.title": "Tes IQ",
+  "share.copied": "Tautan disalin!"
 }

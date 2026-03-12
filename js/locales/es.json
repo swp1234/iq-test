@@ -77,5 +77,16 @@
     "average": "Posee un nivel de inteligencia promedio con capacidades cognitivas saludables para realizar la mayoría de tareas bien. Al enfocarse en áreas específicas, puede desarrollar experiencia.",
     "below_average": "Puede mejorar sus habilidades a través del esfuerzo. El entrenamiento enfocado en áreas débiles conducirá a mejoras.",
     "needs_improvement": "Se beneficiará de la educación especializada. El desarrollo gradual del pensamiento lógico y las habilidades de resolución de problemas es importante."
-  }
+  },
+  "canvas.title": "Resultado del Test de IQ",
+  "canvas.breakdown": "Desglose:",
+  "canvas.pattern": "Reconocimiento de patrones",
+  "canvas.sequence": "Lógica secuencial",
+  "canvas.logic": "Razonamiento lógico",
+  "canvas.spatial": "Percepción espacial",
+  "canvas.language": "Habilidad lingüística",
+  "canvas.footer": "Haz tu test de IQ en dopabrain.com/iq-test",
+  "share.text": "¡Mi IQ es {iq}! ¿Cuál es el tuyo?",
+  "share.title": "Test de IQ",
+  "share.copied": "¡Enlace copiado!"
 }

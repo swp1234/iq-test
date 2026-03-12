@@ -77,5 +77,16 @@
     "average": "Çoğu görevi iyi bir şekilde gerçekleştirmek için sağlıklı bilişsel yeteneklere sahip orta zeka seviyesine sahipsiniz. Belirli alanlara odaklanarak uzmanlık geliştirebilirsiniz.",
     "below_average": "Çaba yoluyla yeteneklerinizi geliştirebilirsiniz. Zayıf alanlara yoğun eğitim gelişmeyi sağlayacaktır.",
     "needs_improvement": "Özel eğitimden faydalanacaksınız. Mantıksal düşünme ve sorun çözme yeteneklerini kademeli olarak geliştirmek önemlidir."
-  }
+  },
+  "canvas.title": "IQ Testi Sonucu",
+  "canvas.breakdown": "Kategori Analizi:",
+  "canvas.pattern": "Örüntü Tanıma",
+  "canvas.sequence": "Sıra Mantığı",
+  "canvas.logic": "Mantıksal Akıl Yürütme",
+  "canvas.spatial": "Uzamsal Farkındalık",
+  "canvas.language": "Dil Yeteneği",
+  "canvas.footer": "dopabrain.com/iq-test'te IQ testi yap",
+  "share.text": "IQ puanım {iq}! Seninki kaç?",
+  "share.title": "IQ Testi",
+  "share.copied": "Bağlantı kopyalandı!"
 }

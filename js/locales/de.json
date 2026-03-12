@@ -77,5 +77,16 @@
     "average": "Sie verfügen über ein durchschnittliches Intelligenzniveau mit gesunden kognitiven Fähigkeiten, um die meisten Aufgaben gut zu bewältigen. Durch Konzentration auf spezifische Bereiche können Sie Fachkompetenz entwickeln.",
     "below_average": "Sie können Ihre Fähigkeiten durch Anstrengung verbessern. Fokussiertes Training in schwachen Bereichen führt zu Verbesserungen.",
     "needs_improvement": "Sie werden von spezialisierter Ausbildung profitieren. Die schrittweise Entwicklung von logischem Denken und Problemlösungsfähigkeiten ist wichtig."
-  }
+  },
+  "canvas.title": "IQ-Test Ergebnis",
+  "canvas.breakdown": "Kategorieanalyse:",
+  "canvas.pattern": "Mustererkennung",
+  "canvas.sequence": "Sequenzlogik",
+  "canvas.logic": "Logisches Denken",
+  "canvas.spatial": "Raumwahrnehmung",
+  "canvas.language": "Sprachfähigkeit",
+  "canvas.footer": "Teste deinen IQ auf dopabrain.com/iq-test",
+  "share.text": "Mein IQ: {iq}! Was ist deiner?",
+  "share.title": "IQ-Test",
+  "share.copied": "Link kopiert!"
 }

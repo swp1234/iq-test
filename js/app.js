@@ -542,7 +542,7 @@ class IQTestApp {
         ctx.fillStyle = '#ffffff';
         ctx.font = 'bold 60px Arial';
         ctx.textAlign = 'center';
-        ctx.fillText('Quick IQ Test Result', canvas.width / 2, 100);
+        ctx.fillText(window.i18n?.t('canvas.title') || 'Quick IQ Test Result', canvas.width / 2, 100);
 
         // IQ Score
         ctx.font = 'bold 120px Arial';
@@ -567,14 +567,14 @@ class IQTestApp {
         ctx.font = 'bold 30px Arial';
         ctx.fillStyle = '#ffffff';
         ctx.textAlign = 'left';
-        ctx.fillText('Category Breakdown:', 100, 750);
+        ctx.fillText(window.i18n?.t('canvas.breakdown') || 'Category Breakdown:', 100, 750);
 
         const categories = [
-            { label: 'Pattern Recognition', key: 'pattern', y: 820 },
-            { label: 'Sequence Logic', key: 'sequence', y: 920 },
-            { label: 'Logical Reasoning', key: 'logic', y: 1020 },
-            { label: 'Spatial Awareness', key: 'spatial', y: 1120 },
-            { label: 'Language Ability', key: 'language', y: 1220 }
+            { label: window.i18n?.t('canvas.pattern') || 'Pattern Recognition', key: 'pattern', y: 820 },
+            { label: window.i18n?.t('canvas.sequence') || 'Sequence Logic', key: 'sequence', y: 920 },
+            { label: window.i18n?.t('canvas.logic') || 'Logical Reasoning', key: 'logic', y: 1020 },
+            { label: window.i18n?.t('canvas.spatial') || 'Spatial Awareness', key: 'spatial', y: 1120 },
+            { label: window.i18n?.t('canvas.language') || 'Language Ability', key: 'language', y: 1220 }
         ];
 
         categories.forEach(cat => {
@@ -590,7 +590,7 @@ class IQTestApp {
         ctx.font = '20px Arial';
         ctx.fillStyle = '#95a5a6';
         ctx.textAlign = 'center';
-        ctx.fillText('Test your IQ at dopabrain.com/iq-test', canvas.width / 2, 1550);
+        ctx.fillText(window.i18n?.t('canvas.footer') || 'Test your IQ at dopabrain.com/iq-test', canvas.width / 2, 1550);
 
         // Download image
         canvas.toBlob((blob) => {
@@ -610,12 +610,12 @@ class IQTestApp {
 
     // Share Web
     shareWeb() {
-        const text = `I scored ${this.results.iq} IQ on the Quick IQ Test! What's your score?`;
+        const text = (window.i18n?.t('share.text') || 'I scored {iq} IQ on the Quick IQ Test! What\'s your score?').replace('{iq}', this.results.iq);
         const url = 'https://dopabrain.com/iq-test/';
 
         if (navigator.share) {
             navigator.share({
-                title: 'Quick IQ Test',
+                title: window.i18n?.t('share.title') || 'Quick IQ Test',
                 text: text,
                 url: url
             }).catch(err => console.log('Share failed:', err));
@@ -623,7 +623,7 @@ class IQTestApp {
             // Fallback: copy to clipboard
             const fullText = `${text}\n\n${url}`;
             navigator.clipboard.writeText(fullText).then(() => {
-                alert('Link copied to clipboard!');
+                alert(window.i18n?.t('share.copied') || 'Link copied to clipboard!');
             });
         }
 

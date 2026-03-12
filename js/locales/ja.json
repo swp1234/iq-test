@@ -77,5 +77,16 @@
     "average": "あなたは平均的な知能水準を持っており、ほとんどのタスクを実行できる健全な認知能力があります。特定の分野に焦点を当てることで専門性を開発でき、一貫した努力が成功の鍵となります。",
     "below_average": "あなたは努力を通じて能力を向上させることができます。特定の弱い分野に集中的に訓練することで改善が可能です。論理問題やパターン認識により多くの時間を費やすことで能力が向上します。",
     "needs_improvement": "あなたは専門的な教育の恩恵を受けます。基本的な論理と問題解決能力を段階的に開発することが重要です。定期的な練習と専門教育により継続的に進歩できます。"
-  }
+  },
+  "canvas.title": "IQテスト結果",
+  "canvas.breakdown": "カテゴリー分析：",
+  "canvas.pattern": "パターン認識",
+  "canvas.sequence": "論理的順序",
+  "canvas.logic": "論理的推理",
+  "canvas.spatial": "空間認知",
+  "canvas.language": "言語能力",
+  "canvas.footer": "dopabrain.com/iq-testでIQテスト",
+  "share.text": "IQテストで{iq}点！あなたのIQは？",
+  "share.title": "IQテスト",
+  "share.copied": "リンクがコピーされました！"
 }
