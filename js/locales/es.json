@@ -44,6 +44,16 @@
     "share_web": "🔗 Compartir Enlace",
     "retry": "Intentar de Nuevo"
   },
+  "result": {
+    "moreTests": "Explorar más",
+    "percentileStat": "Solo el <strong>{percent}%</strong> en tu rango de CI"
+  },
+  "related": {
+    "brainType": "Tipo de Cerebro",
+    "mentalAge": "Edad Mental",
+    "eqTest": "Test de EQ",
+    "reactionTest": "Test de Reacción"
+  },
   "grades": {
     "genius": {
       "title": "Genio",

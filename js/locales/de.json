@@ -44,6 +44,16 @@
     "share_web": "🔗 Link teilen",
     "retry": "Erneut versuchen"
   },
+  "result": {
+    "moreTests": "Mehr entdecken",
+    "percentileStat": "Nur <strong>{percent}%</strong> in deinem IQ-Bereich"
+  },
+  "related": {
+    "brainType": "Gehirntyp",
+    "mentalAge": "Mentales Alter",
+    "eqTest": "EQ-Test",
+    "reactionTest": "Reaktionstest"
+  },
   "grades": {
     "genius": {
       "title": "Genie",

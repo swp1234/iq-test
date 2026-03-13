@@ -44,6 +44,16 @@
     "share_web": "🔗 リンク共有",
     "retry": "もう一度試す"
   },
+  "result": {
+    "moreTests": "もっと見る",
+    "percentileStat": "参加者の<strong>{percent}%</strong>だけがあなたと同じIQ範囲です"
+  },
+  "related": {
+    "brainType": "脳タイプ",
+    "mentalAge": "精神年齢",
+    "eqTest": "EQテスト",
+    "reactionTest": "反応テスト"
+  },
   "grades": {
     "genius": {
       "title": "天才",

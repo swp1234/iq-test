@@ -356,6 +356,11 @@ class IQTestApp {
         document.getElementById('grade-desc').textContent =
             this.i18n_t('results.percentile', `Top ${percentile}%`);
 
+        // Update percentile stat
+        const percentileText = this.i18n_t('result.percentileStat',
+            `Only <strong>${percentile}%</strong> scored in your IQ range`);
+        document.getElementById('percentile-stat').innerHTML = percentileText.replace('{percent}', percentile);
+
         // Update category analysis
         this.updateRadarChart();
         this.updateScoreBars();

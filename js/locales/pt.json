@@ -44,6 +44,16 @@
     "share_web": "🔗 Compartilhar Link",
     "retry": "Tentar Novamente"
   },
+  "result": {
+    "moreTests": "Explorar mais",
+    "percentileStat": "Apenas <strong>{percent}%</strong> na sua faixa de QI"
+  },
+  "related": {
+    "brainType": "Tipo Cerebral",
+    "mentalAge": "Idade Mental",
+    "eqTest": "Teste de QE",
+    "reactionTest": "Teste de Reação"
+  },
   "grades": {
     "genius": {
       "title": "Gênio",

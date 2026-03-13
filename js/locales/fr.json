@@ -44,6 +44,16 @@
     "share_web": "🔗 Partager le Lien",
     "retry": "Réessayer"
   },
+  "result": {
+    "moreTests": "Explorer plus",
+    "percentileStat": "Seulement <strong>{percent}%</strong> dans votre plage de QI"
+  },
+  "related": {
+    "brainType": "Type de Cerveau",
+    "mentalAge": "Âge Mental",
+    "eqTest": "Test QE",
+    "reactionTest": "Test de Réaction"
+  },
   "grades": {
     "genius": {
       "title": "Génie",

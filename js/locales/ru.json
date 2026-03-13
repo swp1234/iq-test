@@ -44,6 +44,16 @@
     "share_web": "🔗 Поделиться ссылкой",
     "retry": "Попробовать снова"
   },
+  "result": {
+    "moreTests": "Ещё тесты",
+    "percentileStat": "Только <strong>{percent}%</strong> в вашем диапазоне IQ"
+  },
+  "related": {
+    "brainType": "Тип мозга",
+    "mentalAge": "Ментальный возраст",
+    "eqTest": "Тест EQ",
+    "reactionTest": "Тест реакции"
+  },
   "grades": {
     "genius": {
       "title": "Гений",

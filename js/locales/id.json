@@ -44,6 +44,16 @@
     "share_web": "🔗 Bagikan Tautan",
     "retry": "Coba Lagi"
   },
+  "result": {
+    "moreTests": "Jelajahi lagi",
+    "percentileStat": "Hanya <strong>{percent}%</strong> di rentang IQ yang sama"
+  },
+  "related": {
+    "brainType": "Tipe Otak",
+    "mentalAge": "Usia Mental",
+    "eqTest": "Tes EQ",
+    "reactionTest": "Tes Reaksi"
+  },
   "grades": {
     "genius": {
       "title": "Jenius",

@@ -44,6 +44,16 @@
     "share_web": "🔗 分享链接",
     "retry": "再试一次"
   },
+  "result": {
+    "moreTests": "探索更多",
+    "percentileStat": "仅 <strong>{percent}%</strong> 处于你的IQ范围"
+  },
+  "related": {
+    "brainType": "大脑类型",
+    "mentalAge": "心理年龄",
+    "eqTest": "情商测试",
+    "reactionTest": "反应测试"
+  },
   "grades": {
     "genius": {
       "title": "天才",

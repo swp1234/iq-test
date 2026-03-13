@@ -44,6 +44,16 @@
     "share_web": "🔗 링크 공유",
     "retry": "다시 도전하기"
   },
+  "result": {
+    "moreTests": "더 많은 테스트",
+    "percentileStat": "참가자의 <strong>{percent}%</strong>만이 당신과 같은 IQ 범위입니다"
+  },
+  "related": {
+    "brainType": "뇌 유형",
+    "mentalAge": "정신 연령",
+    "eqTest": "EQ 테스트",
+    "reactionTest": "반응 속도"
+  },
   "grades": {
     "genius": {
       "title": "천재",

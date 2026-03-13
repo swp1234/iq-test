@@ -44,6 +44,16 @@
     "share_web": "🔗 Bağlantı Paylaş",
     "retry": "Tekrar Dene"
   },
+  "result": {
+    "moreTests": "Daha fazla keşfet",
+    "percentileStat": "Sadece <strong>{percent}%</strong> senin IQ aralığında"
+  },
+  "related": {
+    "brainType": "Beyin Tipi",
+    "mentalAge": "Zihinsel Yaş",
+    "eqTest": "EQ Testi",
+    "reactionTest": "Reaksiyon Testi"
+  },
   "grades": {
     "genius": {
       "title": "Dahi",

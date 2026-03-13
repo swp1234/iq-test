@@ -44,6 +44,16 @@
     "share_web": "🔗 लिंक साझा करें",
     "retry": "फिर से प्रयास करें"
   },
+  "result": {
+    "moreTests": "और जानें",
+    "percentileStat": "केवल <strong>{percent}%</strong> आपकी IQ सीमा में हैं"
+  },
+  "related": {
+    "brainType": "मस्तिष्क प्रकार",
+    "mentalAge": "मानसिक उम्र",
+    "eqTest": "EQ परीक्षण",
+    "reactionTest": "प्रतिक्रिया परीक्षण"
+  },
   "grades": {
     "genius": {
       "title": "प्रतिभाशाली",

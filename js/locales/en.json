@@ -44,6 +44,16 @@
     "share_web": "🔗 Share Link",
     "retry": "Try Again"
   },
+  "result": {
+    "moreTests": "Explore More",
+    "percentileStat": "Only <strong>{percent}%</strong> scored in your IQ range"
+  },
+  "related": {
+    "brainType": "Brain Type",
+    "mentalAge": "Mental Age",
+    "eqTest": "EQ Test",
+    "reactionTest": "Reaction Test"
+  },
   "grades": {
     "genius": {
       "title": "Genius",
