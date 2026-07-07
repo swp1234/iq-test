@@ -8,11 +8,20 @@ class I18n {
         this.translations = {};
         this.supportedLanguages = ['ko', 'en', 'ja', 'zh', 'hi', 'ru', 'es', 'pt', 'id', 'tr', 'de', 'fr'];
         this.currentLang = this.detectLanguage();
+        document.documentElement.lang = this.currentLang;
         this.initialized = false;
     }
 
     // Detect user language preference
     detectLanguage() {
+        try {
+            const params = new URLSearchParams(window.location.search || '');
+            const urlLang = params.get('lang');
+            if (urlLang && this.supportedLanguages.includes(urlLang)) {
+                return urlLang;
+            }
+        } catch (error) {}
+
         // 1. Check localStorage for saved preference
         const saved = localStorage.getItem('appLanguage');
         if (saved && this.supportedLanguages.includes(saved)) {
