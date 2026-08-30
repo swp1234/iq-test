@@ -1,7 +1,7 @@
 {
-  "name": "Quick IQ Test - Measure Your Intelligence",
-  "short_name": "IQ Test",
-  "description": "Test your intelligence with 20 questions about pattern recognition, sequences, and logic. Get detailed analysis and share your results!",
+  "name": "IQ-Style Puzzle Test",
+  "short_name": "Puzzle Test",
+  "description": "Try 20 timed IQ-style puzzles and get a transparent game score with a category breakdown. Entertainment only, not a standardized IQ assessment.",
   "start_url": "/iq-test/",
   "scope": "/iq-test/",
   "display": "standalone",

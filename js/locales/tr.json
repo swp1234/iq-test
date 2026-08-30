@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "Hızlı IQ Testi - IQ'nuzu 20 Soruyla Ölçün",
-    "description": "Desen tanıma, dizi ve mantık hakkında 20 soru ile IQ'nuzu ölçün. Ücretsiz çevrimiçi IQ test oyunu! Sonuçlarınızı kaydedin ve sosyal medyada paylaşın.",
-    "keywords": "IQ testi, IQ ölçümü, ücretsiz IQ testi, zeka testi, mantık oyunu",
-    "og_title": "Hızlı IQ Testi - IQ'nuz Kaç?",
-    "og_description": "20 zeka sorusuyla IQ'nuzu ölçün! Desen tanımadan mantığa. Ücretsiz IQ testi!",
-    "twitter_title": "Hızlı IQ Testi - Ne Kadar Zekisiniz?",
-    "twitter_description": "20 soruluk IQ testini yapın ve zekanızı ölçün! Ücretsiz, hızlı ve eğlenceli!"
+    "title": "Ücretsiz IQ tarzı bulmaca testi - 20 mantık sorusu",
+    "description": "Desen, dizi, uzamsal, dil ve mantık alanlarında süreli 20 bulmaca çözün. Şeffaf oyun puanı alın; bu standartlaştırılmış bir IQ testi değildir.",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "Ücretsiz IQ tarzı bulmaca testi - 20 mantık sorusu",
+    "og_description": "Desen, dizi, uzamsal, dil ve mantık alanlarında süreli 20 bulmaca çözün. Şeffaf oyun puanı alın; bu standartlaştırılmış bir IQ testi değildir.",
+    "twitter_title": "Ücretsiz IQ tarzı bulmaca testi - 20 mantık sorusu",
+    "twitter_description": "Desen, dizi, uzamsal, dil ve mantık alanlarında süreli 20 bulmaca çözün. Şeffaf oyun puanı alın; bu standartlaştırılmış bir IQ testi değildir."
   },
   "header": {
-    "subtitle": "Zekanızı 20 soruyla ölçün"
+    "subtitle": "Süreli 20 IQ tarzı mantık bulmacası çözün"
   },
   "start": {
-    "title": "IQ Testinizi Başlatın",
-    "description": "20 soruyu çözün ve IQ'nuzu ölçün.",
+    "title": "Bulmaca yarışmasını başlat",
+    "description": "20 soruyu yanıtlayın, oyun puanınızı ve kategori dökümünü görün.",
     "info1": "Soru başına 30 saniye",
-    "info2": "Detaylı analiz",
+    "info2": "Kategori dökümü",
     "info3": "Sonuçları paylaşın",
-    "disclaimer": "⚠️ Bu test sadece eğlence içindir ve resmi bir IQ değerlendirmesi değildir.",
+    "disclaimer": "⚠️ Yalnızca eğlence amaçlı bir bulmacadır. Puan bu oturumu yansıtır; zekâyı veya nüfus sıralamasını ölçmez.",
     "button": "Testi Başlat"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "Sonraki"
   },
   "results": {
-    "iq": "IQ",
     "analysis": "Kategori Analizi",
     "category_pattern": "Desen Tanıma",
     "category_sequence": "Dizi Mantığı",
@@ -35,18 +34,20 @@
     "category_spatial": "Mekansal Farkındalık",
     "category_language": "Dil Yeteneği",
     "scores": "Skor Analizi",
-    "percentile": "Top {percentile}%",
     "close": "✕",
     "share_image": "📸 Görüntü Olarak Paylaş",
     "share_web": "🔗 Bağlantı Paylaş",
     "retry": "Tekrar Dene",
     "detail_notes": "Ayrıntılı puan notları",
     "detail_hint": "Sonucunuza göre eşleştirilen hazır notlar",
-    "detail_title": "Ayrıntılı puan notları"
+    "detail_title": "Ayrıntılı puan notları",
+    "score_label": "Bulmaca puanı",
+    "session_summary": "Oturum özeti",
+    "correct_count": "{total} sorudan {correct} doğru",
+    "detail_body": "Hangi bulmaca türlerinin daha kolay geldiğini kategori çubuklarından inceleyin. Bu 20 soruluk oyun puanı zekâyı veya nüfus sıralamasını ölçmez."
   },
   "result": {
-    "moreTests": "Daha fazla keşfet",
-    "percentileStat": "Sadece <strong>{percent}%</strong> senin IQ aralığında"
+    "moreTests": "Daha fazla keşfet"
   },
   "related": {
     "brainType": "Beyin Tipi",
@@ -54,42 +55,16 @@
     "eqTest": "EQ Testi",
     "reactionTest": "Reaksiyon Testi"
   },
-  "grades": {
-    "genius": {
-      "title": "Dahi",
-      "description": "En İyi %2 - İstisna Zeka"
-    },
-    "superior": {
-      "title": "Üstün",
-      "description": "En İyi %10 - Mükemmel Yetenekler"
-    },
-    "high_average": {
-      "title": "Ortalamanın Üstü",
-      "description": "En İyi %25 - İleri Yetenekler"
-    },
-    "average": {
-      "title": "Orta",
-      "description": "Orta Seviye Yetenekler"
-    },
-    "below_average": {
-      "title": "Ortalamanın Altı",
-      "description": "Alt %25 - İyileştirme Alanı"
-    },
-    "needs_improvement": {
-      "title": "İyileştirilmesi Gerekli",
-      "description": "Alt %10 - Özel Eğitim Gerekli"
-    }
-  },
-  "canvas.title": "IQ Testi Sonucu",
+  "canvas.title": "IQ tarzı bulmaca sonucu",
   "canvas.breakdown": "Kategori Analizi:",
   "canvas.pattern": "Örüntü Tanıma",
   "canvas.sequence": "Sıra Mantığı",
   "canvas.logic": "Mantıksal Akıl Yürütme",
   "canvas.spatial": "Uzamsal Farkındalık",
   "canvas.language": "Dil Yeteneği",
-  "canvas.footer": "dopabrain.com/iq-test'te IQ testi yap",
-  "share.text": "IQ puanım {iq}! Seninki kaç?",
-  "share.title": "IQ Testi",
+  "canvas.footer": "dopabrain.com/iq-test adresinde bulmacayı deneyin",
+  "share.text": "IQ tarzı bulmacada {score}/100 aldım. Aynı 20 soruyu sen de dene!",
+  "share.title": "IQ tarzı bulmaca",
   "share.copied": "Bağlantı kopyalandı!",
   "error": {
     "storage": "Gizli modda bazı özellikler sınırlı olabilir.",
@@ -98,13 +73,5 @@
     "audio": "Ses kullanılamıyor. Devam edebilirsiniz.",
     "network": "Bağlantınızı kontrol edip tekrar deneyin.",
     "general": "Bir şeyler ters gitti. Yenileyip tekrar deneyin."
-  },
-  "detail_notes": {
-    "genius": "Siz istisna bilişsel yetenekler ve sorun çözme becerilerine sahip bir dahisiz. Desen tanıma, mantıksal akıl yürütme ve mekansal farkındalık yeteneğiniz olağanüstündür.",
-    "superior": "Üstün zekaya sahipsiniz ve mükemmel mantıksal düşünme ve desen tanıma yetenekleri var. Karmaşık sorunları sistemli bir şekilde çözebilir ve yeni konseptleri hızlı bir şekilde öğrenebilirsiniz.",
-    "high_average": "Çoğu öğrenme ve çalışma ortamında mükemmel sonuçlar elde etmenize izin veren ileri yeteneklere sahipsiniz. Mekansal farkındalık ve dil yetenekleriniz özellikle güçlüdür.",
-    "average": "Çoğu görevi iyi bir şekilde gerçekleştirmek için sağlıklı bilişsel yeteneklere sahip orta zeka seviyesine sahipsiniz. Belirli alanlara odaklanarak uzmanlık geliştirebilirsiniz.",
-    "below_average": "Çaba yoluyla yeteneklerinizi geliştirebilirsiniz. Zayıf alanlara yoğun eğitim gelişmeyi sağlayacaktır.",
-    "needs_improvement": "Özel eğitimden faydalanacaksınız. Mantıksal düşünme ve sorun çözme yeteneklerini kademeli olarak geliştirmek önemlidir."
   }
 }

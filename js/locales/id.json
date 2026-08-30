@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "Tes IQ Cepat - Ukur IQ Anda dalam 20 Pertanyaan",
-    "description": "Ukur IQ Anda dengan 20 pertanyaan tentang pengenalan pola, urutan, dan logika. Permainan tes IQ online gratis! Simpan dan bagikan hasil Anda di media sosial.",
-    "keywords": "tes IQ, pengukuran IQ, tes IQ gratis, tes kecerdasan, permainan logika",
-    "og_title": "Tes IQ Cepat - Berapa IQ Anda?",
-    "og_description": "Ukur IQ Anda dengan 20 pertanyaan kecerdasan! Dari pengenalan pola hingga logika. Tes IQ gratis!",
-    "twitter_title": "Tes IQ Cepat - Seberapa Cerdas Anda?",
-    "twitter_description": "Ambil tes IQ 20 pertanyaan dan ukur kecerdasan Anda! Gratis, cepat, dan menyenangkan!"
+    "title": "Tes teka-teki gaya IQ gratis - 20 soal logika",
+    "description": "Selesaikan 20 teka-teki berpola, urutan, ruang, bahasa, dan logika dengan batas waktu. Dapatkan skor permainan transparan; bukan tes IQ standar.",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "Tes teka-teki gaya IQ gratis - 20 soal logika",
+    "og_description": "Selesaikan 20 teka-teki berpola, urutan, ruang, bahasa, dan logika dengan batas waktu. Dapatkan skor permainan transparan; bukan tes IQ standar.",
+    "twitter_title": "Tes teka-teki gaya IQ gratis - 20 soal logika",
+    "twitter_description": "Selesaikan 20 teka-teki berpola, urutan, ruang, bahasa, dan logika dengan batas waktu. Dapatkan skor permainan transparan; bukan tes IQ standar."
   },
   "header": {
-    "subtitle": "Ukur kecerdasan Anda dalam 20 pertanyaan"
+    "subtitle": "Selesaikan 20 teka-teki logika bergaya IQ"
   },
   "start": {
-    "title": "Mulai Tes IQ Anda",
-    "description": "Selesaikan 20 pertanyaan dan ukur IQ Anda.",
+    "title": "Mulai tantangan teka-teki",
+    "description": "Jawab 20 soal dan lihat skor permainan serta rincian kategori.",
     "info1": "30 detik per pertanyaan",
-    "info2": "Analisis detail",
+    "info2": "Rincian kategori",
     "info3": "Bagikan hasil",
-    "disclaimer": "⚠️ Tes ini hanya untuk hiburan dan bukan penilaian IQ resmi.",
+    "disclaimer": "⚠️ Hanya teka-teki hiburan. Skor mencerminkan sesi ini dan tidak mengukur kecerdasan atau peringkat populasi.",
     "button": "Mulai Tes"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "Berikutnya"
   },
   "results": {
-    "iq": "IQ",
     "analysis": "Analisis Kategori",
     "category_pattern": "Pengenalan Pola",
     "category_sequence": "Logika Urutan",
@@ -35,18 +34,20 @@
     "category_spatial": "Kesadaran Spasial",
     "category_language": "Kemampuan Bahasa",
     "scores": "Analisis Skor",
-    "percentile": "Top {percentile}%",
     "close": "✕",
     "share_image": "📸 Bagikan sebagai Gambar",
     "share_web": "🔗 Bagikan Tautan",
     "retry": "Coba Lagi",
     "detail_notes": "Catatan skor terperinci",
     "detail_hint": "Catatan siap pakai yang disesuaikan dengan hasil Anda",
-    "detail_title": "Catatan skor terperinci"
+    "detail_title": "Catatan skor terperinci",
+    "score_label": "Skor teka-teki",
+    "session_summary": "Ringkasan sesi",
+    "correct_count": "{correct} dari {total} benar",
+    "detail_body": "Tinjau bilah kategori untuk melihat jenis teka-teki yang terasa paling mudah. Skor 20 soal ini tidak mengukur kecerdasan atau peringkat populasi."
   },
   "result": {
-    "moreTests": "Jelajahi lagi",
-    "percentileStat": "Hanya <strong>{percent}%</strong> di rentang IQ yang sama"
+    "moreTests": "Jelajahi lagi"
   },
   "related": {
     "brainType": "Tipe Otak",
@@ -54,42 +55,16 @@
     "eqTest": "Tes EQ",
     "reactionTest": "Tes Reaksi"
   },
-  "grades": {
-    "genius": {
-      "title": "Jenius",
-      "description": "Top 2% - Kecerdasan Luar Biasa"
-    },
-    "superior": {
-      "title": "Superior",
-      "description": "Top 10% - Kemampuan Hebat"
-    },
-    "high_average": {
-      "title": "Di Atas Rata-rata",
-      "description": "Top 25% - Kemampuan Canggih"
-    },
-    "average": {
-      "title": "Rata-rata",
-      "description": "Kemampuan Level Rata-rata"
-    },
-    "below_average": {
-      "title": "Di Bawah Rata-rata",
-      "description": "Bottom 25% - Ruang untuk Perbaikan"
-    },
-    "needs_improvement": {
-      "title": "Perlu Ditingkatkan",
-      "description": "Bottom 10% - Pendidikan Khusus Diperlukan"
-    }
-  },
-  "canvas.title": "Hasil Tes IQ",
+  "canvas.title": "Hasil teka-teki gaya IQ",
   "canvas.breakdown": "Analisis Kategori:",
   "canvas.pattern": "Pengenalan Pola",
   "canvas.sequence": "Logika Urutan",
   "canvas.logic": "Penalaran Logis",
   "canvas.spatial": "Kesadaran Spasial",
   "canvas.language": "Kemampuan Bahasa",
-  "canvas.footer": "Tes IQ di dopabrain.com/iq-test",
-  "share.text": "Skor IQ saya {iq}! Berapa milikmu?",
-  "share.title": "Tes IQ",
+  "canvas.footer": "Coba kuis di dopabrain.com/iq-test",
+  "share.text": "Saya mendapat {score}/100 pada teka-teki gaya IQ. Coba 20 soal yang sama!",
+  "share.title": "Teka-teki gaya IQ",
   "share.copied": "Tautan disalin!",
   "error": {
     "storage": "Beberapa fitur mungkin terbatas dalam mode privat.",
@@ -98,13 +73,5 @@
     "audio": "Audio tidak tersedia. Anda dapat melanjutkan.",
     "network": "Periksa koneksi Anda dan coba lagi.",
     "general": "Terjadi kesalahan. Muat ulang atau coba lagi."
-  },
-  "detail_notes": {
-    "genius": "Anda adalah jenius dengan kemampuan kognitif luar biasa dan keterampilan pemecahan masalah. Pengenalan pola, penalaran logis, dan kesadaran spasial Anda sangat menonjol.",
-    "superior": "Anda memiliki kecerdasan superior dengan pemikiran logis dan keterampilan pengenalan pola yang sangat baik. Anda dapat menyelesaikan masalah kompleks secara sistematis dan belajar konsep baru dengan cepat.",
-    "high_average": "Anda memiliki kemampuan canggih yang memungkinkan Anda mencapai hasil luar biasa dalam situasi apa pun. Kemampuan kesadaran spasial dan bahasa Anda sangat kuat.",
-    "average": "Anda memiliki tingkat kecerdasan rata-rata dengan kemampuan kognitif yang sehat untuk melakukan sebagian besar tugas dengan baik. Dengan fokus pada area tertentu, Anda dapat mengembangkan keahlian.",
-    "below_average": "Anda dapat meningkatkan kemampuan Anda melalui upaya. Pelatihan yang terfokus pada area lemah akan menghasilkan perbaikan.",
-    "needs_improvement": "Anda akan mendapat manfaat dari pendidikan khusus. Mengembangkan pemikiran logis dan keterampilan pemecahan masalah secara bertahap sangat penting."
   }
 }

@@ -879,35 +879,3 @@ function getQuestionsByCategory(category, count = 4) {
     const shuffled = [...categoryQuestions].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, Math.min(count, categoryQuestions.length));
 }
-
-// Function to calculate IQ from score
-function calculateIQ(score, totalQuestions = 20, timeBonus = 0) {
-    // Base IQ: 100 = 50% correct, 85-145 range
-    const percentCorrect = (score / totalQuestions) * 100;
-
-    // IQ formula: 100 + (percentCorrect - 50) * 0.9
-    let baseIQ = 100 + ((percentCorrect - 50) * 0.9);
-
-    // Add time bonus (bonus for answering quickly)
-    baseIQ = baseIQ + (timeBonus * 0.1);
-
-    // Clamp to 85-145 range
-    return Math.max(85, Math.min(145, Math.round(baseIQ)));
-}
-
-// Function to get grade from IQ
-function getGradeInfo(iq) {
-    if (iq >= 130) {
-        return { grade: '천재', label: 'Genius', percent: 2, color: '#ff6b6b' };
-    } else if (iq >= 120) {
-        return { grade: '우수', label: 'Superior', percent: 10, color: '#4ecdc4' };
-    } else if (iq >= 110) {
-        return { grade: '평균상', label: 'High Average', percent: 25, color: '#ffe66d' };
-    } else if (iq >= 90) {
-        return { grade: '평균', label: 'Average', percent: 50, color: '#95e1d3' };
-    } else if (iq >= 80) {
-        return { grade: '노력필요', label: 'Below Average', percent: 75, color: '#c7b3e5' };
-    } else {
-        return { grade: '특화교육필요', label: 'Needs Improvement', percent: 90, color: '#d4a574' };
-    }
-}

@@ -965,20 +965,6 @@ body {
     box-shadow: 0 8px 24px rgba(255, 215, 0, 0.4);
 }
 
-/* Percentile Stat */
-.percentile-stat {
-    text-align: center;
-    font-size: var(--font-size-lg);
-    color: var(--text-secondary);
-    margin: var(--spacing-lg) 0;
-    line-height: 1.6;
-}
-
-.percentile-stat strong {
-    color: var(--primary);
-    font-weight: 700;
-}
-
 /* Related Tests */
 .related-tests {
     margin-top: var(--spacing-xl);

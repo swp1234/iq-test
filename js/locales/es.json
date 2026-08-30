@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "Prueba Rápida de CI - Mida su CI en 20 Preguntas",
-    "description": "Mida su CI con 20 preguntas sobre reconocimiento de patrones, secuencias y lógica. ¡Juego de prueba de CI en línea gratuito! Guarde y comparta sus resultados en redes sociales.",
-    "keywords": "prueba de CI, medición de CI, prueba de CI gratis, prueba de inteligencia, juego de lógica",
-    "og_title": "Prueba Rápida de CI - ¿Cuál es su CI?",
-    "og_description": "¡Mida su CI con 20 preguntas de inteligencia! Desde reconocimiento de patrones hasta lógica. ¡Prueba de CI gratuita!",
-    "twitter_title": "Prueba Rápida de CI - ¿Qué tan inteligente es?",
-    "twitter_description": "¡Tome la prueba de CI de 20 preguntas y mida su inteligencia! ¡Gratuito, rápido y divertido!"
+    "title": "Test gratuito de rompecabezas estilo IQ - 20 preguntas de lógica",
+    "description": "Resuelve 20 rompecabezas cronometrados de patrones, secuencias, espacio, lenguaje y lógica. Obtén una puntuación de juego; no es un test de IQ estandarizado.",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "Test gratuito de rompecabezas estilo IQ - 20 preguntas de lógica",
+    "og_description": "Resuelve 20 rompecabezas cronometrados de patrones, secuencias, espacio, lenguaje y lógica. Obtén una puntuación de juego; no es un test de IQ estandarizado.",
+    "twitter_title": "Test gratuito de rompecabezas estilo IQ - 20 preguntas de lógica",
+    "twitter_description": "Resuelve 20 rompecabezas cronometrados de patrones, secuencias, espacio, lenguaje y lógica. Obtén una puntuación de juego; no es un test de IQ estandarizado."
   },
   "header": {
-    "subtitle": "Mida su inteligencia en 20 preguntas"
+    "subtitle": "Resuelve 20 rompecabezas de lógica estilo IQ"
   },
   "start": {
-    "title": "Comience su Prueba de CI",
-    "description": "Resuelva 20 preguntas y mida su CI.",
+    "title": "Iniciar el reto de rompecabezas",
+    "description": "Responde 20 preguntas y consulta tu puntuación y el desglose por categorías.",
     "info1": "30 segundos por pregunta",
-    "info2": "Análisis detallado",
+    "info2": "Desglose por categorías",
     "info3": "Compartir resultados",
-    "disclaimer": "⚠️ Esta prueba es solo para entretenimiento y no es una evaluación de CI oficial.",
+    "disclaimer": "⚠️ Es solo un juego de entretenimiento. La puntuación refleja esta sesión y no mide la inteligencia ni el rango poblacional.",
     "button": "Iniciar Prueba"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "Siguiente"
   },
   "results": {
-    "iq": "CI",
     "analysis": "Análisis por Categoría",
     "category_pattern": "Reconocimiento de Patrones",
     "category_sequence": "Lógica de Secuencias",
@@ -35,18 +34,20 @@
     "category_spatial": "Percepción Espacial",
     "category_language": "Habilidad Lingüística",
     "scores": "Análisis de Puntuación",
-    "percentile": "Top {percentile}%",
     "close": "✕",
     "share_image": "📸 Compartir como Imagen",
     "share_web": "🔗 Compartir Enlace",
     "retry": "Intentar de Nuevo",
     "detail_notes": "Notas detalladas de la puntuación",
     "detail_hint": "Notas predefinidas según tu resultado",
-    "detail_title": "Notas detalladas de la puntuación"
+    "detail_title": "Notas detalladas de la puntuación",
+    "score_label": "Puntuación del juego",
+    "session_summary": "Resumen de la sesión",
+    "correct_count": "{correct} de {total} correctas",
+    "detail_body": "Revisa las barras de categorías para ver qué tipos de rompecabezas resultaron más fáciles. Esta puntuación de 20 preguntas no mide la inteligencia ni el rango poblacional."
   },
   "result": {
-    "moreTests": "Explorar más",
-    "percentileStat": "Solo el <strong>{percent}%</strong> en tu rango de CI"
+    "moreTests": "Explorar más"
   },
   "related": {
     "brainType": "Tipo de Cerebro",
@@ -54,42 +55,16 @@
     "eqTest": "Test de EQ",
     "reactionTest": "Test de Reacción"
   },
-  "grades": {
-    "genius": {
-      "title": "Genio",
-      "description": "Top 2% - Inteligencia Excepcional"
-    },
-    "superior": {
-      "title": "Superior",
-      "description": "Top 10% - Capacidades Excelentes"
-    },
-    "high_average": {
-      "title": "Por Encima del Promedio",
-      "description": "Top 25% - Capacidades Avanzadas"
-    },
-    "average": {
-      "title": "Promedio",
-      "description": "Capacidades de Nivel Promedio"
-    },
-    "below_average": {
-      "title": "Por Debajo del Promedio",
-      "description": "Bajo 25% - Espacio para Mejora"
-    },
-    "needs_improvement": {
-      "title": "Necesita Mejorar",
-      "description": "Bajo 10% - Se Requiere Educación Especializada"
-    }
-  },
-  "canvas.title": "Resultado del Test de IQ",
+  "canvas.title": "Resultado del rompecabezas estilo IQ",
   "canvas.breakdown": "Desglose:",
   "canvas.pattern": "Reconocimiento de patrones",
   "canvas.sequence": "Lógica secuencial",
   "canvas.logic": "Razonamiento lógico",
   "canvas.spatial": "Percepción espacial",
   "canvas.language": "Habilidad lingüística",
-  "canvas.footer": "Haz tu test de IQ en dopabrain.com/iq-test",
-  "share.text": "¡Mi IQ es {iq}! ¿Cuál es el tuyo?",
-  "share.title": "Test de IQ",
+  "canvas.footer": "Prueba el reto en dopabrain.com/iq-test",
+  "share.text": "Obtuve {score}/100 en el rompecabezas estilo IQ. ¡Prueba las mismas 20 preguntas!",
+  "share.title": "Rompecabezas estilo IQ",
   "share.copied": "¡Enlace copiado!",
   "error": {
     "storage": "Algunas funciones pueden estar limitadas en modo privado.",
@@ -98,13 +73,5 @@
     "audio": "Audio no disponible. Puede continuar.",
     "network": "Verifique su conexión e inténtelo de nuevo.",
     "general": "Algo salió mal. Actualice o inténtelo de nuevo."
-  },
-  "detail_notes": {
-    "genius": "Usted es un genio con habilidades cognitivas excepcionales y capacidades de resolución de problemas. Su reconocimiento de patrones, razonamiento lógico y percepción espacial son sobresalientes.",
-    "superior": "Posee una inteligencia superior con excelente pensamiento lógico y habilidades de reconocimiento de patrones. Puede resolver problemas complejos de manera sistemática y aprender conceptos nuevos rápidamente.",
-    "high_average": "Posee capacidades avanzadas que le permiten obtener excelentes resultados en la mayoría de situaciones. Sus habilidades de percepción espacial y lenguaje son particularmente fuertes.",
-    "average": "Posee un nivel de inteligencia promedio con capacidades cognitivas saludables para realizar la mayoría de tareas bien. Al enfocarse en áreas específicas, puede desarrollar experiencia.",
-    "below_average": "Puede mejorar sus habilidades a través del esfuerzo. El entrenamiento enfocado en áreas débiles conducirá a mejoras.",
-    "needs_improvement": "Se beneficiará de la educación especializada. El desarrollo gradual del pensamiento lógico y las habilidades de resolución de problemas es importante."
   }
 }

@@ -272,15 +272,14 @@ class IQTestApp {
         // Calculate scores
         const score = this.calculateScore();
         const totalTime = (Date.now() - this.startTime) / 1000;
-        const iq = this.calculateIQ(score, totalTime);
+        const puzzleScore = this.calculatePuzzleScore(score);
 
         // Store results
         this.results = {
             score,
-            iq,
+            puzzleScore,
             totalTime,
             categoryScores: this.categoryScores,
-            gradeInfo: getGradeInfo(iq),
             timestamp: new Date().toISOString()
         };
 
@@ -291,7 +290,7 @@ class IQTestApp {
         gtag('event', 'test_complete', {
             'event_category': 'engagement',
             'event_label': 'iq_test_complete',
-            'value': iq
+            'value': puzzleScore
         });
     }
 
@@ -314,50 +313,32 @@ class IQTestApp {
         return score;
     }
 
-    // Calculate IQ
-    calculateIQ(score, totalTime) {
-        // Base IQ calculation
-        const percentCorrect = (score / this.questions.length) * 100;
-        let iq = 100 + ((percentCorrect - 50) * 0.9);
-
-        // Speed bonus (faster = higher bonus)
-        const speedBonus = Math.max(0, (600 - totalTime) / 20); // Max 30 points for quick completion
-        iq += speedBonus;
-
-        // Clamp to 85-145 range
-        return Math.max(85, Math.min(145, Math.round(iq)));
+    // Transparent game score: percentage of this session's questions answered correctly.
+    calculatePuzzleScore(score) {
+        return Math.round((score / this.questions.length) * 100);
     }
 
     // Show results
     showResults() {
         this.switchScreen('test', 'results');
 
-        const iq = this.results.iq;
-        const gradeInfo = this.results.gradeInfo;
+        const puzzleScore = this.results.puzzleScore;
 
-        // Update IQ display
-        document.getElementById('score-value').textContent = iq;
+        // Update transparent puzzle score display.
+        document.getElementById('score-value').textContent = puzzleScore;
 
         // Update gauge chart
         const gaugeProgress = document.getElementById('gauge-progress');
-        const percentage = ((iq - 85) / (145 - 85)) * 100;
+        const percentage = puzzleScore;
         const circumference = 565;
         const offset = circumference - (percentage / 100) * circumference;
         gaugeProgress.style.strokeDashoffset = offset;
 
-        // Update grade info
-        document.getElementById('grade-title').textContent = this.i18n_t(
-            `grades_${gradeInfo.grade}_title`,
-            gradeInfo.grade
-        );
-        const percentile = gradeInfo.percent;
-        document.getElementById('grade-desc').textContent =
-            this.i18n_t('results.percentile', `Top ${percentile}%`);
-
-        // Update percentile stat
-        const percentileText = this.i18n_t('result.percentileStat',
-            `Only <strong>${percentile}%</strong> scored in your IQ range`);
-        document.getElementById('percentile-stat').innerHTML = percentileText.replace('{percent}', percentile);
+        document.getElementById('grade-title').textContent = this.i18n_t('results.session_summary', 'Session Summary');
+        document.getElementById('grade-desc').textContent = this.i18n_t(
+            'results.correct_count',
+            '{correct} of {total} correct'
+        ).replace('{correct}', this.results.score).replace('{total}', this.questions.length);
 
         // Update category analysis
         this.updateRadarChart();
@@ -501,20 +482,19 @@ class IQTestApp {
         });
     }
 
-    // Show the prewritten note that corresponds to the calculated grade.
+    // Show a transparent explanation of what this session can and cannot indicate.
     showDetailNotes() {
-        const gradeKey = this.results.gradeInfo.label.toLowerCase().replace(/\s+/g, '_');
         const detailText = this.i18n_t(
-            `detail_notes.${gradeKey}`,
-            'Detailed score notes are not available.'
-        );
+            'results.detail_body',
+            'Review the category bars to see which puzzle types felt easiest. This 20-question game score does not measure intelligence or population rank.'
+        ).replace('{score}', this.results.score).replace('{total}', this.questions.length);
 
         document.getElementById('detail-notes-text').textContent = detailText;
         document.getElementById('detail-modal').classList.remove('hidden');
 
         gtag('event', 'iq_detail_notes_view', {
             'event_category': 'engagement',
-            'event_label': `grade_${gradeKey}`
+            'event_label': 'session_score_context'
         });
     }
 
@@ -532,8 +512,7 @@ class IQTestApp {
         canvas.width = 1200;
         canvas.height = 1600;
 
-        const iq = this.results.iq;
-        const gradeInfo = this.results.gradeInfo;
+        const puzzleScore = this.results.puzzleScore;
 
         // Background
         ctx.fillStyle = '#0f0f23';
@@ -543,39 +522,39 @@ class IQTestApp {
         ctx.fillStyle = '#ffffff';
         ctx.font = 'bold 60px Arial';
         ctx.textAlign = 'center';
-        ctx.fillText(window.i18n?.t('canvas.title') || 'Quick IQ Test Result', canvas.width / 2, 100);
+        ctx.fillText(this.i18n_t('canvas.title', 'IQ-Style Puzzle Result'), canvas.width / 2, 100);
 
-        // IQ Score
+        // Puzzle score
         ctx.font = 'bold 120px Arial';
         ctx.fillStyle = '#3498db';
-        ctx.fillText(iq, canvas.width / 2, 350);
+        ctx.fillText(puzzleScore, canvas.width / 2, 350);
 
         ctx.font = 'bold 40px Arial';
         ctx.fillStyle = '#b8c5d6';
-        ctx.fillText('IQ', canvas.width / 2, 420);
+        ctx.fillText(this.i18n_t('results.score_label', 'Puzzle Score'), canvas.width / 2, 420);
 
-        // Grade
-        ctx.font = 'bold 50px Arial';
-        ctx.fillStyle = gradeInfo.color;
-        ctx.fillText(gradeInfo.label, canvas.width / 2, 550);
-
-        // Percentile
         ctx.font = '30px Arial';
         ctx.fillStyle = '#b8c5d6';
-        ctx.fillText(`Top ${gradeInfo.percent}%`, canvas.width / 2, 620);
+        ctx.fillText(
+            this.i18n_t('results.correct_count', '{correct} of {total} correct')
+                .replace('{correct}', this.results.score)
+                .replace('{total}', this.questions.length),
+            canvas.width / 2,
+            550
+        );
 
         // Category scores
         ctx.font = 'bold 30px Arial';
         ctx.fillStyle = '#ffffff';
         ctx.textAlign = 'left';
-        ctx.fillText(window.i18n?.t('canvas.breakdown') || 'Category Breakdown:', 100, 750);
+        ctx.fillText(this.i18n_t('canvas.breakdown', 'Category Breakdown:'), 100, 750);
 
         const categories = [
-            { label: window.i18n?.t('canvas.pattern') || 'Pattern Recognition', key: 'pattern', y: 820 },
-            { label: window.i18n?.t('canvas.sequence') || 'Sequence Logic', key: 'sequence', y: 920 },
-            { label: window.i18n?.t('canvas.logic') || 'Logical Reasoning', key: 'logic', y: 1020 },
-            { label: window.i18n?.t('canvas.spatial') || 'Spatial Awareness', key: 'spatial', y: 1120 },
-            { label: window.i18n?.t('canvas.language') || 'Language Ability', key: 'language', y: 1220 }
+            { label: this.i18n_t('canvas.pattern', 'Pattern Recognition'), key: 'pattern', y: 820 },
+            { label: this.i18n_t('canvas.sequence', 'Sequence Logic'), key: 'sequence', y: 920 },
+            { label: this.i18n_t('canvas.logic', 'Logical Reasoning'), key: 'logic', y: 1020 },
+            { label: this.i18n_t('canvas.spatial', 'Spatial Awareness'), key: 'spatial', y: 1120 },
+            { label: this.i18n_t('canvas.language', 'Language Ability'), key: 'language', y: 1220 }
         ];
 
         categories.forEach(cat => {
@@ -591,14 +570,14 @@ class IQTestApp {
         ctx.font = '20px Arial';
         ctx.fillStyle = '#95a5a6';
         ctx.textAlign = 'center';
-        ctx.fillText(window.i18n?.t('canvas.footer') || 'Test your IQ at dopabrain.com/iq-test', canvas.width / 2, 1550);
+        ctx.fillText(this.i18n_t('canvas.footer', 'Try the puzzle quiz at dopabrain.com/iq-test'), canvas.width / 2, 1550);
 
         // Download image
         canvas.toBlob((blob) => {
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `iq-test-result-${iq}.png`;
+            a.download = `iq-style-puzzle-score-${puzzleScore}.png`;
             a.click();
             URL.revokeObjectURL(url);
         });
@@ -611,12 +590,13 @@ class IQTestApp {
 
     // Share Web
     shareWeb() {
-        const text = (window.i18n?.t('share.text') || 'I scored {iq} IQ on the Quick IQ Test! What\'s your score?').replace('{iq}', this.results.iq);
+        const text = this.i18n_t('share.text', 'I scored {score}/100 on the IQ-style puzzle quiz. Try the same 20 questions!')
+            .replace('{score}', this.results.puzzleScore);
         const url = 'https://dopabrain.com/iq-test/';
 
         if (navigator.share) {
             navigator.share({
-                title: window.i18n?.t('share.title') || 'Quick IQ Test',
+                title: this.i18n_t('share.title', 'IQ-Style Puzzle Quiz'),
                 text: text,
                 url: url
             }).catch(err => console.log('Share failed:', err));
@@ -624,7 +604,7 @@ class IQTestApp {
             // Fallback: copy to clipboard
             const fullText = `${text}\n\n${url}`;
             navigator.clipboard.writeText(fullText).then(() => {
-                alert(window.i18n?.t('share.copied') || 'Link copied to clipboard!');
+                alert(this.i18n_t('share.copied', 'Link copied to clipboard!'));
             });
         }
 

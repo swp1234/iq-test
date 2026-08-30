@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "Schneller IQ-Test - Messen Sie Ihren IQ in 20 Fragen",
-    "description": "Messen Sie Ihren IQ mit 20 Fragen zu Mustererkennung, Sequenzen und Logik. Kostenloses Online-IQ-Test-Spiel! Speichern und teilen Sie Ihre Ergebnisse in sozialen Medien.",
-    "keywords": "IQ-Test, IQ-Messung, kostenloser IQ-Test, Intelligenztest, Logikspiel",
-    "og_title": "Schneller IQ-Test - Wie hoch ist Ihr IQ?",
-    "og_description": "Messen Sie Ihren IQ mit 20 Intelligentzfragen! Von Mustererkennung bis Logik. Kostenloser IQ-Test!",
-    "twitter_title": "Schneller IQ-Test - Wie intelligent sind Sie?",
-    "twitter_description": "Machen Sie den 20-Fragen-IQ-Test und messen Sie Ihre Intelligenz! Kostenlos, schnell und unterhaltsam!"
+    "title": "Kostenloser IQ-ähnlicher Rätseltest – 20 Logikfragen",
+    "description": "Löse 20 zeitbegrenzte Muster-, Reihen-, Raum-, Sprach- und Logikrätsel. Du erhältst einen transparenten Spielwert; kein standardisierter IQ-Test.",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "Kostenloser IQ-ähnlicher Rätseltest – 20 Logikfragen",
+    "og_description": "Löse 20 zeitbegrenzte Muster-, Reihen-, Raum-, Sprach- und Logikrätsel. Du erhältst einen transparenten Spielwert; kein standardisierter IQ-Test.",
+    "twitter_title": "Kostenloser IQ-ähnlicher Rätseltest – 20 Logikfragen",
+    "twitter_description": "Löse 20 zeitbegrenzte Muster-, Reihen-, Raum-, Sprach- und Logikrätsel. Du erhältst einen transparenten Spielwert; kein standardisierter IQ-Test."
   },
   "header": {
-    "subtitle": "Messen Sie Ihre Intelligenz in 20 Fragen"
+    "subtitle": "Löse 20 zeitbegrenzte Rätsel im IQ-Stil"
   },
   "start": {
-    "title": "Beginnen Sie Ihren IQ-Test",
-    "description": "Lösen Sie 20 Fragen und messen Sie Ihren IQ.",
+    "title": "Rätsel-Challenge starten",
+    "description": "Beantworte 20 Fragen und sieh deinen Spielwert und die Kategorien.",
     "info1": "30 Sekunden pro Frage",
-    "info2": "Detaillierte Analyse",
+    "info2": "Kategorienübersicht",
     "info3": "Ergebnisse teilen",
-    "disclaimer": "⚠️ Dieser Test dient nur zu Unterhaltungszwecken und ist keine offizielle IQ-Bewertung.",
+    "disclaimer": "⚠️ Nur ein Unterhaltungspuzzle. Der Wert gilt nur für diese Runde und misst weder Intelligenz noch Bevölkerungsrang.",
     "button": "Test starten"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "Weiter"
   },
   "results": {
-    "iq": "IQ",
     "analysis": "Kategorieanalyse",
     "category_pattern": "Mustererkennung",
     "category_sequence": "Sequenzlogik",
@@ -35,18 +34,20 @@
     "category_spatial": "Räumliches Bewusstsein",
     "category_language": "Sprachfähigkeit",
     "scores": "Punkteanalyse",
-    "percentile": "Top {percentile}%",
     "close": "✕",
     "share_image": "📸 Als Bild teilen",
     "share_web": "🔗 Link teilen",
     "retry": "Erneut versuchen",
     "detail_notes": "Detaillierte Ergebnisnotizen",
     "detail_hint": "Vorformulierte Hinweise passend zu Ihrem Ergebnis",
-    "detail_title": "Detaillierte Ergebnisnotizen"
+    "detail_title": "Detaillierte Ergebnisnotizen",
+    "score_label": "Rätselwert",
+    "session_summary": "Rundenübersicht",
+    "correct_count": "{correct} von {total} richtig",
+    "detail_body": "Sieh dir die Kategorien an, um leichte und schwierige Rätseltypen zu erkennen. Dieser Wert aus 20 Fragen misst weder Intelligenz noch Bevölkerungsrang."
   },
   "result": {
-    "moreTests": "Mehr entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> in deinem IQ-Bereich"
+    "moreTests": "Mehr entdecken"
   },
   "related": {
     "brainType": "Gehirntyp",
@@ -54,42 +55,16 @@
     "eqTest": "EQ-Test",
     "reactionTest": "Reaktionstest"
   },
-  "grades": {
-    "genius": {
-      "title": "Genie",
-      "description": "Top 2% - Außergewöhnliche Intelligenz"
-    },
-    "superior": {
-      "title": "Überlegen",
-      "description": "Top 10% - Hervorragende Fähigkeiten"
-    },
-    "high_average": {
-      "title": "Überdurchschnittlich",
-      "description": "Top 25% - Fortgeschrittene Fähigkeiten"
-    },
-    "average": {
-      "title": "Durchschnitt",
-      "description": "Durchschnittliche Fähigkeiten"
-    },
-    "below_average": {
-      "title": "Unterdurchschnittlich",
-      "description": "Bottom 25% - Verbesserungsbedarf"
-    },
-    "needs_improvement": {
-      "title": "Verbesserung erforderlich",
-      "description": "Bottom 10% - Spezialausbildung erforderlich"
-    }
-  },
-  "canvas.title": "IQ-Test Ergebnis",
+  "canvas.title": "Ergebnis des IQ-ähnlichen Rätsels",
   "canvas.breakdown": "Kategorieanalyse:",
   "canvas.pattern": "Mustererkennung",
   "canvas.sequence": "Sequenzlogik",
   "canvas.logic": "Logisches Denken",
   "canvas.spatial": "Raumwahrnehmung",
   "canvas.language": "Sprachfähigkeit",
-  "canvas.footer": "Teste deinen IQ auf dopabrain.com/iq-test",
-  "share.text": "Mein IQ: {iq}! Was ist deiner?",
-  "share.title": "IQ-Test",
+  "canvas.footer": "Rätselquiz auf dopabrain.com/iq-test ausprobieren",
+  "share.text": "Ich habe {score}/100 im IQ-ähnlichen Rätselquiz erreicht. Probiere dieselben 20 Fragen!",
+  "share.title": "IQ-ähnliches Rätselquiz",
   "share.copied": "Link kopiert!",
   "error": {
     "storage": "Einige Funktionen sind im privaten Modus eingeschränkt.",
@@ -98,13 +73,5 @@
     "audio": "Audio nicht verfügbar. Sie können fortfahren.",
     "network": "Bitte Verbindung prüfen und erneut versuchen.",
     "general": "Etwas ist schiefgelaufen. Bitte aktualisieren oder erneut versuchen."
-  },
-  "detail_notes": {
-    "genius": "Sie sind ein Genie mit außergewöhnlichen kognitiven Fähigkeiten und Problemlösungskompetenzen. Ihre Mustererkennung, Ihr logisches Denken und Ihr räumliches Bewusstsein sind außerordentlich.",
-    "superior": "Sie verfügen über überlegene Intelligenz mit ausgezeichnetem logischem Denken und Mustererkennungsfähigkeiten. Sie können komplexe Probleme systematisch lösen und neue Konzepte schnell erlernen.",
-    "high_average": "Sie verfügen über fortgeschrittene Fähigkeiten, mit denen Sie in den meisten Lern- und Arbeitssituationen hervorragende Ergebnisse erzielen können. Ihre räumliche Wahrnehmung und Sprachfähigkeiten sind besonders stark.",
-    "average": "Sie verfügen über ein durchschnittliches Intelligenzniveau mit gesunden kognitiven Fähigkeiten, um die meisten Aufgaben gut zu bewältigen. Durch Konzentration auf spezifische Bereiche können Sie Fachkompetenz entwickeln.",
-    "below_average": "Sie können Ihre Fähigkeiten durch Anstrengung verbessern. Fokussiertes Training in schwachen Bereichen führt zu Verbesserungen.",
-    "needs_improvement": "Sie werden von spezialisierter Ausbildung profitieren. Die schrittweise Entwicklung von logischem Denken und Problemlösungsfähigkeiten ist wichtig."
   }
 }

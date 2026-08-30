@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "Test de QI Rapide - Mesurez Votre QI en 20 Questions",
-    "description": "Mesurez votre QI avec 20 questions sur la reconnaissance de modèles, les séquences et la logique. Jeu de test de QI en ligne gratuit ! Enregistrez et partagez vos résultats sur les réseaux sociaux.",
-    "keywords": "test de QI, mesure de QI, test de QI gratuit, test d'intelligence, jeu de logique",
-    "og_title": "Test de QI Rapide - Quel est votre QI ?",
-    "og_description": "Mesurez votre QI avec 20 questions d'intelligence ! De la reconnaissance de modèles à la logique. Test de QI gratuit !",
-    "twitter_title": "Test de QI Rapide - Êtes-vous intelligent ?",
-    "twitter_description": "Passez le test de QI de 20 questions et mesurez votre intelligence ! Gratuit, rapide et amusant !"
+    "title": "Test gratuit de puzzles façon QI - 20 questions de logique",
+    "description": "Résolvez 20 puzzles chronométrés de motifs, suites, espace, langage et logique. Obtenez un score de jeu transparent ; ce n’est pas un test de QI standardisé.",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "Test gratuit de puzzles façon QI - 20 questions de logique",
+    "og_description": "Résolvez 20 puzzles chronométrés de motifs, suites, espace, langage et logique. Obtenez un score de jeu transparent ; ce n’est pas un test de QI standardisé.",
+    "twitter_title": "Test gratuit de puzzles façon QI - 20 questions de logique",
+    "twitter_description": "Résolvez 20 puzzles chronométrés de motifs, suites, espace, langage et logique. Obtenez un score de jeu transparent ; ce n’est pas un test de QI standardisé."
   },
   "header": {
-    "subtitle": "Mesurez votre intelligence en 20 questions"
+    "subtitle": "Résolvez 20 puzzles de logique façon QI"
   },
   "start": {
-    "title": "Commencez Votre Test de QI",
-    "description": "Résolvez 20 questions et mesurez votre QI.",
+    "title": "Commencer le défi de puzzles",
+    "description": "Répondez à 20 questions et consultez votre score et le détail par catégorie.",
     "info1": "30 secondes par question",
-    "info2": "Analyse détaillée",
+    "info2": "Détail par catégorie",
     "info3": "Partagez les résultats",
-    "disclaimer": "⚠️ Ce test est à titre informatif et n'est pas une évaluation officielle du QI.",
+    "disclaimer": "⚠️ Puzzle de divertissement uniquement. Le score concerne cette session et ne mesure ni l’intelligence ni un rang dans la population.",
     "button": "Commencer le test"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "Suivant"
   },
   "results": {
-    "iq": "QI",
     "analysis": "Analyse par Catégorie",
     "category_pattern": "Reconnaissance de Modèles",
     "category_sequence": "Logique de Séquence",
@@ -35,18 +34,20 @@
     "category_spatial": "Conscience Spatiale",
     "category_language": "Capacité Linguistique",
     "scores": "Analyse du Score",
-    "percentile": "Top {percentile}%",
     "close": "✕",
     "share_image": "📸 Partager Comme Image",
     "share_web": "🔗 Partager le Lien",
     "retry": "Réessayer",
     "detail_notes": "Notes détaillées du score",
     "detail_hint": "Notes pré-rédigées correspondant à votre résultat",
-    "detail_title": "Notes détaillées du score"
+    "detail_title": "Notes détaillées du score",
+    "score_label": "Score du puzzle",
+    "session_summary": "Résumé de la session",
+    "correct_count": "{correct} bonnes réponses sur {total}",
+    "detail_body": "Consultez les catégories pour voir quels puzzles ont semblé les plus faciles. Ce score sur 20 questions ne mesure ni l’intelligence ni un rang dans la population."
   },
   "result": {
-    "moreTests": "Explorer plus",
-    "percentileStat": "Seulement <strong>{percent}%</strong> dans votre plage de QI"
+    "moreTests": "Explorer plus"
   },
   "related": {
     "brainType": "Type de Cerveau",
@@ -54,42 +55,16 @@
     "eqTest": "Test QE",
     "reactionTest": "Test de Réaction"
   },
-  "grades": {
-    "genius": {
-      "title": "Génie",
-      "description": "Top 2% - Intelligence Exceptionnelle"
-    },
-    "superior": {
-      "title": "Supérieur",
-      "description": "Top 10% - Capacités Excellentes"
-    },
-    "high_average": {
-      "title": "Au-Dessus de la Moyenne",
-      "description": "Top 25% - Capacités Avancées"
-    },
-    "average": {
-      "title": "Moyen",
-      "description": "Capacités de Niveau Moyen"
-    },
-    "below_average": {
-      "title": "Au-Dessous de la Moyenne",
-      "description": "Bottom 25% - Espace pour l'Amélioration"
-    },
-    "needs_improvement": {
-      "title": "Amélioration Nécessaire",
-      "description": "Bottom 10% - Éducation Spécialisée Nécessaire"
-    }
-  },
-  "canvas.title": "Résultat du Test de QI",
+  "canvas.title": "Résultat du puzzle façon QI",
   "canvas.breakdown": "Analyse :",
   "canvas.pattern": "Reconnaissance de motifs",
   "canvas.sequence": "Logique séquentielle",
   "canvas.logic": "Raisonnement logique",
   "canvas.spatial": "Perception spatiale",
   "canvas.language": "Capacité linguistique",
-  "canvas.footer": "Teste ton QI sur dopabrain.com/iq-test",
-  "share.text": "Mon QI : {iq} ! Et le tien ?",
-  "share.title": "Test de QI",
+  "canvas.footer": "Essayez le quiz sur dopabrain.com/iq-test",
+  "share.text": "J’ai obtenu {score}/100 au puzzle façon QI. Essayez les mêmes 20 questions !",
+  "share.title": "Puzzle façon QI",
   "share.copied": "Lien copié !",
   "error": {
     "storage": "Certaines fonctions peuvent être limitées en mode privé.",
@@ -98,13 +73,5 @@
     "audio": "Audio indisponible. Vous pouvez continuer.",
     "network": "Vérifiez votre connexion et réessayez.",
     "general": "Un problème est survenu. Rafraîchissez ou réessayez."
-  },
-  "detail_notes": {
-    "genius": "Vous êtes un génie doté de capacités cognitives exceptionnelles et de compétences exceptionnelles en résolution de problèmes. Votre reconnaissance de modèles, votre raisonnement logique et votre conscience spatiale sont remarquables.",
-    "superior": "Vous possédez une intelligence supérieure avec une excellente réflexion logique et des compétences de reconnaissance de modèles. Vous pouvez résoudre systématiquement des problèmes complexes et apprendre rapidement de nouveaux concepts.",
-    "high_average": "Vous possédez des capacités avancées qui vous permettent d'obtenir d'excellents résultats dans la plupart des situations d'apprentissage et de travail. Vos compétences de conscience spatiale et de langage sont particulièrement solides.",
-    "average": "Vous possédez un niveau d'intelligence moyen avec des capacités cognitives saines pour accomplir correctement la plupart des tâches. En vous concentrant sur des domaines spécifiques, vous pouvez développer une expertise.",
-    "below_average": "Vous pouvez améliorer vos capacités par l'effort. L'entraînement ciblé dans les domaines faibles entraînera des améliorations.",
-    "needs_improvement": "Vous bénéficierez d'une éducation spécialisée. Développer progressivement la réflexion logique et les compétences en résolution de problèmes est important."
   }
 }

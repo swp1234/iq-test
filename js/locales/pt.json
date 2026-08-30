@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "Teste Rápido de QI - Meça seu QI em 20 Perguntas",
-    "description": "Meça seu QI com 20 perguntas sobre reconhecimento de padrões, sequências e lógica. Jogo de teste de QI online gratuito! Salve e compartilhe seus resultados nas redes sociais.",
-    "keywords": "teste de QI, medição de QI, teste de QI grátis, teste de inteligência, jogo de lógica",
-    "og_title": "Teste Rápido de QI - Qual é seu QI?",
-    "og_description": "Meça seu QI com 20 perguntas de inteligência! Do reconhecimento de padrões à lógica. Teste de QI gratuito!",
-    "twitter_title": "Teste Rápido de QI - Quão inteligente você é?",
-    "twitter_description": "Faça o teste de QI de 20 perguntas e meça sua inteligência! Gratuito, rápido e divertido!"
+    "title": "Teste grátis de quebra-cabeças estilo QI - 20 questões",
+    "description": "Resolva 20 quebra-cabeças cronometrados de padrões, sequências, espaço, linguagem e lógica. Receba uma pontuação transparente; não é um teste de QI padronizado.",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "Teste grátis de quebra-cabeças estilo QI - 20 questões",
+    "og_description": "Resolva 20 quebra-cabeças cronometrados de padrões, sequências, espaço, linguagem e lógica. Receba uma pontuação transparente; não é um teste de QI padronizado.",
+    "twitter_title": "Teste grátis de quebra-cabeças estilo QI - 20 questões",
+    "twitter_description": "Resolva 20 quebra-cabeças cronometrados de padrões, sequências, espaço, linguagem e lógica. Receba uma pontuação transparente; não é um teste de QI padronizado."
   },
   "header": {
-    "subtitle": "Meça sua inteligência em 20 perguntas"
+    "subtitle": "Resolva 20 quebra-cabeças de lógica estilo QI"
   },
   "start": {
-    "title": "Comece seu Teste de QI",
-    "description": "Resolva 20 perguntas e meça seu QI.",
+    "title": "Iniciar o desafio de quebra-cabeças",
+    "description": "Responda a 20 questões e veja sua pontuação e o resultado por categoria.",
     "info1": "30 segundos por pergunta",
-    "info2": "Análise detalhada",
+    "info2": "Resultado por categoria",
     "info3": "Compartilhar resultados",
-    "disclaimer": "⚠️ Este teste é apenas para diversão e não é uma avaliação oficial de QI.",
+    "disclaimer": "⚠️ Apenas um jogo de entretenimento. A pontuação reflete esta sessão e não mede inteligência nem posição na população.",
     "button": "Iniciar Teste"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "Próximo"
   },
   "results": {
-    "iq": "QI",
     "analysis": "Análise por Categoria",
     "category_pattern": "Reconhecimento de Padrões",
     "category_sequence": "Lógica de Sequências",
@@ -35,18 +34,20 @@
     "category_spatial": "Percepção Espacial",
     "category_language": "Habilidade Linguística",
     "scores": "Análise de Pontuação",
-    "percentile": "Top {percentile}%",
     "close": "✕",
     "share_image": "📸 Compartilhar como Imagem",
     "share_web": "🔗 Compartilhar Link",
     "retry": "Tentar Novamente",
     "detail_notes": "Notas detalhadas da pontuação",
     "detail_hint": "Notas predefinidas de acordo com seu resultado",
-    "detail_title": "Notas detalhadas da pontuação"
+    "detail_title": "Notas detalhadas da pontuação",
+    "score_label": "Pontuação do jogo",
+    "session_summary": "Resumo da sessão",
+    "correct_count": "{correct} de {total} corretas",
+    "detail_body": "Veja as categorias para descobrir quais quebra-cabeças pareceram mais fáceis. Esta pontuação de 20 questões não mede inteligência nem posição na população."
   },
   "result": {
-    "moreTests": "Explorar mais",
-    "percentileStat": "Apenas <strong>{percent}%</strong> na sua faixa de QI"
+    "moreTests": "Explorar mais"
   },
   "related": {
     "brainType": "Tipo Cerebral",
@@ -54,42 +55,16 @@
     "eqTest": "Teste de QE",
     "reactionTest": "Teste de Reação"
   },
-  "grades": {
-    "genius": {
-      "title": "Gênio",
-      "description": "Top 2% - Inteligência Excepcional"
-    },
-    "superior": {
-      "title": "Superior",
-      "description": "Top 10% - Capacidades Excelentes"
-    },
-    "high_average": {
-      "title": "Acima da Média",
-      "description": "Top 25% - Capacidades Avançadas"
-    },
-    "average": {
-      "title": "Médio",
-      "description": "Capacidades de Nível Médio"
-    },
-    "below_average": {
-      "title": "Abaixo da Média",
-      "description": "Bottom 25% - Espaço para Melhoria"
-    },
-    "needs_improvement": {
-      "title": "Precisa de Melhoria",
-      "description": "Bottom 10% - Educação Especializada Necessária"
-    }
-  },
-  "canvas.title": "Resultado do Teste de QI",
+  "canvas.title": "Resultado do quebra-cabeça estilo QI",
   "canvas.breakdown": "Análise:",
   "canvas.pattern": "Reconhecimento de padrões",
   "canvas.sequence": "Lógica sequencial",
   "canvas.logic": "Raciocínio lógico",
   "canvas.spatial": "Percepção espacial",
   "canvas.language": "Habilidade linguística",
-  "canvas.footer": "Teste seu QI em dopabrain.com/iq-test",
-  "share.text": "Meu QI é {iq}! Qual é o seu?",
-  "share.title": "Teste de QI",
+  "canvas.footer": "Experimente o quiz em dopabrain.com/iq-test",
+  "share.text": "Fiz {score}/100 no quebra-cabeça estilo QI. Tente as mesmas 20 questões!",
+  "share.title": "Quebra-cabeça estilo QI",
   "share.copied": "Link copiado!",
   "error": {
     "storage": "Algumas funções podem ser limitadas no modo privado.",
@@ -98,13 +73,5 @@
     "audio": "Áudio indisponível. Você pode continuar.",
     "network": "Verifique sua conexão e tente novamente.",
     "general": "Algo deu errado. Atualize ou tente novamente."
-  },
-  "detail_notes": {
-    "genius": "Você é um gênio com capacidades cognitivas excepcionales e habilidades de resolução de problemas. Seu reconhecimento de padrões, raciocínio lógico e percepção espacial são notáveis.",
-    "superior": "Você possui inteligência superior com excelente pensamento lógico e habilidades de reconhecimento de padrões. Pode resolver problemas complexos sistematicamente e aprender novos conceitos rapidamente.",
-    "high_average": "Você possui capacidades avançadas que permitem alcançar excelentes resultados na maioria das situações. Suas habilidades de percepção espacial e linguagem são particularmente fortes.",
-    "average": "Você possui um nível de inteligência médio com capacidades cognitivas saudáveis para realizar a maioria das tarefas bem. Focando em áreas específicas, pode desenvolver especialização.",
-    "below_average": "Você pode melhorar suas habilidades através do esforço. Treinamento focado em áreas fracas levará a melhorias.",
-    "needs_improvement": "Você se beneficiará de educação especializada. Desenvolver gradualmente o pensamento lógico e habilidades de resolução de problemas é importante."
   }
 }

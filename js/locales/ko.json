@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "빠른 IQ 테스트 - 20문제로 당신의 IQ를 측정하세요",
-    "description": "20개의 패턴 인식, 수열, 논리 문제로 당신의 IQ를 측정하세요. 무료 온라인 IQ 테스트 게임! 결과를 이미지로 저장하고 SNS에 공유하세요.",
-    "keywords": "IQ 테스트, IQ 측정, 무료 IQ 테스트, 지능 테스트, 논리 게임, 패턴 인식",
-    "og_title": "빠른 IQ 테스트 - 당신의 IQ는 몇 점?",
-    "og_description": "20개의 지능 문제로 당신의 IQ를 측정하세요! 패턴 인식부터 논리까지. 무료 IQ 테스트!",
-    "twitter_title": "빠른 IQ 테스트 - 당신의 지능은?",
-    "twitter_description": "20문제 IQ 테스트로 당신의 지능을 측정하세요! 무료, 빠른, 재미있는!"
+    "title": "무료 IQ 스타일 퍼즐 테스트 - 논리 문제 20개",
+    "description": "패턴, 수열, 공간, 언어, 논리 퍼즐 20개를 제한 시간 안에 풀어보세요. 투명한 게임 점수와 영역별 결과를 제공하며 표준화 IQ 검사가 아닙니다.",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "무료 IQ 스타일 퍼즐 테스트 - 논리 문제 20개",
+    "og_description": "패턴, 수열, 공간, 언어, 논리 퍼즐 20개를 제한 시간 안에 풀어보세요. 투명한 게임 점수와 영역별 결과를 제공하며 표준화 IQ 검사가 아닙니다.",
+    "twitter_title": "무료 IQ 스타일 퍼즐 테스트 - 논리 문제 20개",
+    "twitter_description": "패턴, 수열, 공간, 언어, 논리 퍼즐 20개를 제한 시간 안에 풀어보세요. 투명한 게임 점수와 영역별 결과를 제공하며 표준화 IQ 검사가 아닙니다."
   },
   "header": {
-    "subtitle": "당신의 지능을 20문제로 측정하세요"
+    "subtitle": "시간 제한이 있는 IQ 스타일 논리 퍼즐 20개"
   },
   "start": {
-    "title": "IQ 테스트를 시작하세요",
-    "description": "20개의 문제를 풀고 당신의 IQ를 측정하세요.",
+    "title": "퍼즐 도전 시작하기",
+    "description": "20문제에 답하고 게임 점수와 영역별 정답 수를 확인하세요.",
     "info1": "문제당 30초",
-    "info2": "상세 분석",
+    "info2": "영역별 결과",
     "info3": "결과 공유",
-    "disclaimer": "⚠️ 이 테스트는 재미를 위한 것으로, 공식 IQ 검사가 아닙니다.",
+    "disclaimer": "⚠️ 재미를 위한 퍼즐입니다. 점수는 이번 세션만 반영하며 지능이나 인구 백분위를 측정하지 않습니다.",
     "button": "테스트 시작"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "다음"
   },
   "results": {
-    "iq": "IQ",
     "analysis": "영역별 분석",
     "category_pattern": "패턴 인식",
     "category_sequence": "수열 논리",
@@ -35,18 +34,20 @@
     "category_spatial": "공간 지각",
     "category_language": "언어 능력",
     "scores": "점수 분석",
-    "percentile": "상위 {percentile}%",
     "close": "✕",
     "share_image": "📸 이미지로 공유",
     "share_web": "🔗 링크 공유",
     "retry": "다시 도전하기",
     "detail_notes": "상세 점수 메모",
     "detail_hint": "결과 구간에 맞춘 참고 메모",
-    "detail_title": "상세 점수 메모"
+    "detail_title": "상세 점수 메모",
+    "score_label": "퍼즐 점수",
+    "session_summary": "세션 요약",
+    "correct_count": "{total}문제 중 {correct}문제 정답",
+    "detail_body": "영역별 막대를 보고 어떤 퍼즐 유형이 수월했는지 확인하세요. 이 20문제 게임 점수는 지능이나 인구 백분위를 측정하지 않습니다."
   },
   "result": {
-    "moreTests": "더 많은 테스트",
-    "percentileStat": "참가자의 <strong>{percent}%</strong>만이 당신과 같은 IQ 범위입니다"
+    "moreTests": "더 많은 테스트"
   },
   "related": {
     "brainType": "뇌 유형",
@@ -54,42 +55,16 @@
     "eqTest": "EQ 테스트",
     "reactionTest": "반응 속도"
   },
-  "grades": {
-    "genius": {
-      "title": "천재",
-      "description": "상위 2% - 매우 뛰어난 지능"
-    },
-    "superior": {
-      "title": "우수",
-      "description": "상위 10% - 뛰어난 능력"
-    },
-    "high_average": {
-      "title": "평균상",
-      "description": "상위 25% - 높은 수준의 능력"
-    },
-    "average": {
-      "title": "평균",
-      "description": "평균 수준의 능력"
-    },
-    "below_average": {
-      "title": "노력필요",
-      "description": "하위 25% - 노력이 필요"
-    },
-    "needs_improvement": {
-      "title": "특화교육필요",
-      "description": "하위 10% - 더 많은 학습 필요"
-    }
-  },
-  "canvas.title": "IQ 테스트 결과",
+  "canvas.title": "IQ 스타일 퍼즐 결과",
   "canvas.breakdown": "카테고리 분석:",
   "canvas.pattern": "패턴 인식",
   "canvas.sequence": "순서 논리",
   "canvas.logic": "논리적 추론",
   "canvas.spatial": "공간 인지",
   "canvas.language": "언어 능력",
-  "canvas.footer": "dopabrain.com/iq-test에서 IQ 테스트",
-  "share.text": "IQ 테스트에서 {iq}점! 당신의 IQ는?",
-  "share.title": "IQ 테스트",
+  "canvas.footer": "dopabrain.com/iq-test에서 퍼즐 도전하기",
+  "share.text": "IQ 스타일 퍼즐에서 {score}/100점을 받았어요. 같은 20문제에 도전해 보세요!",
+  "share.title": "IQ 스타일 퍼즐",
   "share.copied": "링크가 클립보드에 복사되었습니다!",
   "error": {
     "storage": "개인 정보 보호 모드에서는 일부 기능이 제한될 수 있습니다.",
@@ -98,13 +73,5 @@
     "audio": "음성 기능을 사용할 수 없습니다. 계속 진행하실 수 있습니다.",
     "network": "네트워크 연결을 확인해주세요.",
     "general": "문제가 발생했습니다. 새로고침하거나 다시 시도해주세요."
-  },
-  "detail_notes": {
-    "genius": "당신은 뛰어난 인지 능력과 문제 해결 능력을 가진 천재입니다. 패턴 인식, 논리 추론, 공간 지각 능력이 매우 우수합니다. 이러한 능력을 창의적인 분야나 과학 연구에 활용하면 탁월한 성과를 이룰 수 있습니다.",
-    "superior": "당신은 우수한 지능을 가지고 있습니다. 특히 논리적 사고와 패턴 인식 능력이 뛰어납니다. 복잡한 문제를 체계적으로 해결할 수 있으며, 새로운 개념을 빠르게 학습합니다. 리더십이나 전략적 역할에 적합합니다.",
-    "high_average": "당신은 높은 수준의 능력을 가지고 있습니다. 대부분의 학습과 일에서 우수한 성과를 낼 수 있으며, 특히 공간 지각과 언어 능력이 강합니다. 지속적인 학습으로 더욱 발전할 수 있습니다.",
-    "average": "당신은 평균적인 지능 수준을 가지고 있습니다. 건강한 인지 능력으로 대부분의 작업을 잘 수행할 수 있습니다. 특정 영역에 집중하면 전문성을 개발할 수 있으며, 꾸준한 노력이 성공의 열쇠입니다.",
-    "below_average": "당신은 노력을 통해 능력을 향상시킬 수 있습니다. 특정 약점 영역에 집중적으로 훈련하면 개선이 가능합니다. 논리 문제나 패턴 인식에 더 많은 시간을 투자하면 능력이 발전할 것입니다.",
-    "needs_improvement": "당신은 특화된 교육이 필요합니다. 기본적인 논리와 문제 해결 능력을 단계적으로 개발하는 것이 중요합니다. 정기적인 연습과 전문 교육을 통해 지속적으로 발전할 수 있습니다."
   }
 }

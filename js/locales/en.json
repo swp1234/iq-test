@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "Quick IQ Test - Measure Your IQ in 20 Questions",
-    "description": "Measure your IQ with 20 pattern recognition, sequence, and logic questions. Free online IQ test game! Save and share your results on social media.",
-    "keywords": "IQ test, IQ measurement, free IQ test, intelligence test, logic game, pattern recognition",
-    "og_title": "Quick IQ Test - What's Your IQ?",
-    "og_description": "Measure your IQ with 20 intelligence questions! From pattern recognition to logic. Free IQ test!",
-    "twitter_title": "Quick IQ Test - What's Your Intelligence?",
-    "twitter_description": "Take the 20-question IQ test and measure your intelligence! Free, fast, and fun!"
+    "title": "Free IQ-Style Puzzle Test - 20 Logic Questions",
+    "description": "Try 20 timed pattern, sequence, spatial, language, and logic puzzles. Get a transparent game score and category breakdown; not a standardized IQ test.",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "Free IQ-Style Puzzle Test - 20 Logic Questions",
+    "og_description": "Try 20 timed pattern, sequence, spatial, language, and logic puzzles. Get a transparent game score and category breakdown; not a standardized IQ test.",
+    "twitter_title": "Free IQ-Style Puzzle Test - 20 Logic Questions",
+    "twitter_description": "Try 20 timed pattern, sequence, spatial, language, and logic puzzles. Get a transparent game score and category breakdown; not a standardized IQ test."
   },
   "header": {
-    "subtitle": "Measure your intelligence in 20 questions"
+    "subtitle": "Solve 20 timed IQ-style logic puzzles"
   },
   "start": {
-    "title": "Start Your IQ Test",
-    "description": "Solve 20 questions and measure your IQ.",
+    "title": "Start the Puzzle Challenge",
+    "description": "Answer 20 questions and see your game score and category breakdown.",
     "info1": "30 seconds per question",
-    "info2": "Detailed analysis",
+    "info2": "Category breakdown",
     "info3": "Share results",
-    "disclaimer": "⚠️ This test is for entertainment purposes only and is not an official IQ assessment.",
+    "disclaimer": "⚠️ Entertainment puzzle only. The score reflects this session and does not measure intelligence or population rank.",
     "button": "Start Test"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "Next"
   },
   "results": {
-    "iq": "IQ",
     "analysis": "Category Analysis",
     "category_pattern": "Pattern Recognition",
     "category_sequence": "Sequence Logic",
@@ -35,18 +34,20 @@
     "category_spatial": "Spatial Awareness",
     "category_language": "Language Ability",
     "scores": "Score Analysis",
-    "percentile": "Top {percentile}%",
     "close": "✕",
     "share_image": "📸 Share as Image",
     "share_web": "🔗 Share Link",
     "retry": "Try Again",
     "detail_notes": "Detailed Score Notes",
     "detail_hint": "Prewritten notes matched to your result",
-    "detail_title": "Detailed Score Notes"
+    "detail_title": "Detailed Score Notes",
+    "score_label": "Puzzle Score",
+    "session_summary": "Session Summary",
+    "correct_count": "{correct} of {total} correct",
+    "detail_body": "Review the category bars to see which puzzle types felt easiest. This 20-question game score does not measure intelligence or population rank."
   },
   "result": {
-    "moreTests": "Explore More",
-    "percentileStat": "Only <strong>{percent}%</strong> scored in your IQ range"
+    "moreTests": "Explore More"
   },
   "related": {
     "brainType": "Brain Type",
@@ -54,42 +55,16 @@
     "eqTest": "EQ Test",
     "reactionTest": "Reaction Test"
   },
-  "grades": {
-    "genius": {
-      "title": "Genius",
-      "description": "Top 2% - Exceptional intelligence"
-    },
-    "superior": {
-      "title": "Superior",
-      "description": "Top 10% - Excellent abilities"
-    },
-    "high_average": {
-      "title": "High Average",
-      "description": "Top 25% - Advanced capabilities"
-    },
-    "average": {
-      "title": "Average",
-      "description": "Average level abilities"
-    },
-    "below_average": {
-      "title": "Below Average",
-      "description": "Bottom 25% - Room for improvement"
-    },
-    "needs_improvement": {
-      "title": "Needs Improvement",
-      "description": "Bottom 10% - Specialized learning needed"
-    }
-  },
-  "canvas.title": "Quick IQ Test Result",
+  "canvas.title": "IQ-Style Puzzle Result",
   "canvas.breakdown": "Category Breakdown:",
   "canvas.pattern": "Pattern Recognition",
   "canvas.sequence": "Sequence Logic",
   "canvas.logic": "Logical Reasoning",
   "canvas.spatial": "Spatial Awareness",
   "canvas.language": "Language Ability",
-  "canvas.footer": "Test your IQ at dopabrain.com/iq-test",
-  "share.text": "I scored {iq} IQ on the Quick IQ Test! What's your score?",
-  "share.title": "Quick IQ Test",
+  "canvas.footer": "Try the puzzle quiz at dopabrain.com/iq-test",
+  "share.text": "I scored {score}/100 on the IQ-style puzzle quiz. Try the same 20 questions!",
+  "share.title": "IQ-Style Puzzle Quiz",
   "share.copied": "Link copied to clipboard!",
   "error": {
     "storage": "Some features may be limited in private mode. You can continue.",
@@ -98,13 +73,5 @@
     "audio": "Audio unavailable. You can still continue.",
     "network": "Please check your connection and try again.",
     "general": "Something went wrong. Please refresh or try again."
-  },
-  "detail_notes": {
-    "genius": "You are a genius with exceptional cognitive abilities and problem-solving skills. Your pattern recognition, logical reasoning, and spatial awareness are outstanding. These abilities can lead to remarkable achievements in creative fields or scientific research.",
-    "superior": "You possess superior intelligence with excellent logical thinking and pattern recognition abilities. You can systematically solve complex problems and quickly learn new concepts. You are well-suited for leadership or strategic roles.",
-    "high_average": "You have advanced abilities that allow you to excel in most learning and work situations. Your spatial awareness and language skills are particularly strong. Continuous learning will help you develop further.",
-    "average": "You have average intelligence with healthy cognitive abilities to perform most tasks well. By focusing on specific areas, you can develop expertise. Consistent effort is the key to success.",
-    "below_average": "You can improve your abilities through effort. Focused training in your weak areas will lead to improvement. Investing more time in logic problems and pattern recognition will enhance your skills.",
-    "needs_improvement": "You would benefit from specialized education. Developing basic logic and problem-solving skills step by step is important. Regular practice and professional education will enable continuous progress."
   }
 }

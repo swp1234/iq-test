@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "快速智商测试 - 用20道题测量你的智商",
-    "description": "通过20道模式识别、数列和逻辑问题来测量您的智商。免费在线智商测试游戏!保存结果并在社交媒体上分享。",
-    "keywords": "智商测试、智商测量、免费智商测试、智力测试、逻辑游戏、模式识别",
-    "og_title": "快速智商测试 - 你的智商是多少?",
-    "og_description": "用20道智力题测量你的智商!从模式识别到逻辑推理。免费智商测试!",
-    "twitter_title": "快速智商测试 - 你有多聪明?",
-    "twitter_description": "用20道题的智商测试来测量你的智力!免费、快速、有趣!"
+    "title": "免费IQ风格益智测试 - 20道逻辑题",
+    "description": "挑战20道限时图形、数列、空间、语言和逻辑题，获得透明的游戏分数与分类结果；这不是标准化IQ测验。",
+    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
+    "og_title": "免费IQ风格益智测试 - 20道逻辑题",
+    "og_description": "挑战20道限时图形、数列、空间、语言和逻辑题，获得透明的游戏分数与分类结果；这不是标准化IQ测验。",
+    "twitter_title": "免费IQ风格益智测试 - 20道逻辑题",
+    "twitter_description": "挑战20道限时图形、数列、空间、语言和逻辑题，获得透明的游戏分数与分类结果；这不是标准化IQ测验。"
   },
   "header": {
-    "subtitle": "用20道题测量你的智力"
+    "subtitle": "完成20道限时IQ风格逻辑题"
   },
   "start": {
-    "title": "开始你的智商测试",
-    "description": "解答20道题并测量你的智商。",
+    "title": "开始益智挑战",
+    "description": "回答20道题，查看游戏分数和分类结果。",
     "info1": "每题30秒",
-    "info2": "详细分析",
+    "info2": "分类结果",
     "info3": "分享结果",
-    "disclaimer": "⚠️ 此测试仅供娱乐目的，不是官方智商评估。",
+    "disclaimer": "⚠️ 仅供娱乐。分数只反映本次答题表现，不衡量智力或人群排名。",
     "button": "开始测试"
   },
   "test": {
@@ -27,7 +27,6 @@
     "next": "下一题"
   },
   "results": {
-    "iq": "智商",
     "analysis": "类别分析",
     "category_pattern": "模式识别",
     "category_sequence": "数列逻辑",
@@ -35,18 +34,20 @@
     "category_spatial": "空间感知",
     "category_language": "语言能力",
     "scores": "分数分析",
-    "percentile": "前 {percentile}%",
     "close": "✕",
     "share_image": "📸 分享为图像",
     "share_web": "🔗 分享链接",
     "retry": "再试一次",
     "detail_notes": "详细分数说明",
     "detail_hint": "根据结果匹配的预设参考说明",
-    "detail_title": "详细分数说明"
+    "detail_title": "详细分数说明",
+    "score_label": "益智分数",
+    "session_summary": "本次结果",
+    "correct_count": "答对{correct}题，共{total}题",
+    "detail_body": "查看分类条，了解哪些题型更容易。这份20题游戏分数不衡量智力或人群排名。"
   },
   "result": {
-    "moreTests": "探索更多",
-    "percentileStat": "仅 <strong>{percent}%</strong> 处于你的IQ范围"
+    "moreTests": "探索更多"
   },
   "related": {
     "brainType": "大脑类型",
@@ -54,42 +55,16 @@
     "eqTest": "情商测试",
     "reactionTest": "反应测试"
   },
-  "grades": {
-    "genius": {
-      "title": "天才",
-      "description": "前2% - 非常卓越的智力"
-    },
-    "superior": {
-      "title": "优秀",
-      "description": "前10% - 杰出的能力"
-    },
-    "high_average": {
-      "title": "高于平均",
-      "description": "前25% - 先进的能力"
-    },
-    "average": {
-      "title": "平均",
-      "description": "平均水平的能力"
-    },
-    "below_average": {
-      "title": "低于平均",
-      "description": "后25% - 有改进空间"
-    },
-    "needs_improvement": {
-      "title": "需要改进",
-      "description": "后10% - 需要专业学习"
-    }
-  },
-  "canvas.title": "IQ测试结果",
+  "canvas.title": "IQ风格益智结果",
   "canvas.breakdown": "类别分析：",
   "canvas.pattern": "模式识别",
   "canvas.sequence": "序列逻辑",
   "canvas.logic": "逻辑推理",
   "canvas.spatial": "空间感知",
   "canvas.language": "语言能力",
-  "canvas.footer": "在dopabrain.com/iq-test测试IQ",
-  "share.text": "我的IQ得分{iq}！你的呢？",
-  "share.title": "IQ测试",
+  "canvas.footer": "前往 dopabrain.com/iq-test 挑战益智题",
+  "share.text": "我在IQ风格益智题中得到{score}/100分。来挑战相同的20道题吧！",
+  "share.title": "IQ风格益智题",
   "share.copied": "链接已复制！",
   "error": {
     "storage": "隐私模式下部分功能可能受限。",
@@ -98,13 +73,5 @@
     "audio": "音频不可用，可继续使用。",
     "network": "请检查网络连接后重试。",
     "general": "出现问题，请刷新或重试。"
-  },
-  "detail_notes": {
-    "genius": "你是拥有杰出认知能力和解决问题能力的天才。你的模式识别、逻辑推理和空间感知能力非常出众。这些能力可以在创意领域或科学研究中取得显著成就。",
-    "superior": "你拥有卓越的智力。特别是你的逻辑思维和模式识别能力非常出色。你能够系统地解决复杂问题，并快速学习新概念。你适合担任领导力或战略性角色。",
-    "high_average": "你拥有先进的能力，可以在大多数学习和工作中取得优异成绩。你的空间感知和语言技能尤其强大。持续学习将帮助你进一步发展。",
-    "average": "你拥有平均水平的智力，具有健全的认知能力，可以很好地完成大多数任务。通过专注于特定领域，你可以开发专业知识。持之以恒是成功的关键。",
-    "below_average": "你可以通过努力来提高你的能力。集中训练你的薄弱领域可以改进。在逻辑问题和模式识别上投入更多时间将增强你的技能。",
-    "needs_improvement": "你将从专业教育中受益。逐步开发基础逻辑和解决问题的能力很重要。通过定期练习和专业教育，你可以实现持续进步。"
   }
 }
