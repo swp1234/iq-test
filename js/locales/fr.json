@@ -40,9 +40,9 @@
     "share_image": "📸 Partager Comme Image",
     "share_web": "🔗 Partager le Lien",
     "retry": "Réessayer",
-    "detail_notes": "Notes d?taill?es du score",
-    "detail_hint": "Notes pr?-r?dig?es correspondant ? votre r?sultat",
-    "detail_title": "Notes d?taill?es du score"
+    "detail_notes": "Notes détaillées du score",
+    "detail_hint": "Notes pré-rédigées correspondant à votre résultat",
+    "detail_title": "Notes détaillées du score"
   },
   "result": {
     "moreTests": "Explorer plus",

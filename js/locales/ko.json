@@ -40,9 +40,9 @@
     "share_image": "📸 이미지로 공유",
     "share_web": "🔗 링크 공유",
     "retry": "다시 도전하기",
-    "detail_notes": "?? ?? ??",
-    "detail_hint": "?? ??? ?? ?? ??",
-    "detail_title": "?? ?? ??"
+    "detail_notes": "상세 점수 메모",
+    "detail_hint": "결과 구간에 맞춘 참고 메모",
+    "detail_title": "상세 점수 메모"
   },
   "result": {
     "moreTests": "더 많은 테스트",

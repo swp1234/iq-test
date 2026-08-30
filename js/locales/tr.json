@@ -40,9 +40,9 @@
     "share_image": "📸 Görüntü Olarak Paylaş",
     "share_web": "🔗 Bağlantı Paylaş",
     "retry": "Tekrar Dene",
-    "detail_notes": "Ayr?nt?l? puan notlar?",
-    "detail_hint": "Sonucunuza g?re e?le?tirilen haz?r notlar",
-    "detail_title": "Ayr?nt?l? puan notlar?"
+    "detail_notes": "Ayrıntılı puan notları",
+    "detail_hint": "Sonucunuza göre eşleştirilen hazır notlar",
+    "detail_title": "Ayrıntılı puan notları"
   },
   "result": {
     "moreTests": "Daha fazla keşfet",

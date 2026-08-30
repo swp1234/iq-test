@@ -40,9 +40,9 @@
     "share_image": "📸 分享为图像",
     "share_web": "🔗 分享链接",
     "retry": "再试一次",
-    "detail_notes": "??????",
-    "detail_hint": "?????????????",
-    "detail_title": "??????"
+    "detail_notes": "详细分数说明",
+    "detail_hint": "根据结果匹配的预设参考说明",
+    "detail_title": "详细分数说明"
   },
   "result": {
     "moreTests": "探索更多",

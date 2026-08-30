@@ -40,9 +40,9 @@
     "share_image": "📸 画像として共有",
     "share_web": "🔗 リンク共有",
     "retry": "もう一度試す",
-    "detail_notes": "????????",
-    "detail_hint": "????????????????",
-    "detail_title": "????????"
+    "detail_notes": "詳細なスコアメモ",
+    "detail_hint": "結果に合わせた事前作成の参考メモ",
+    "detail_title": "詳細なスコアメモ"
   },
   "result": {
     "moreTests": "もっと見る",
