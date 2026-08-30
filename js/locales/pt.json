@@ -36,13 +36,13 @@
     "category_language": "Habilidade Linguística",
     "scores": "Análise de Pontuação",
     "percentile": "Top {percentile}%",
-    "ai_analysis": "🤖 Ver Análise de IA",
-    "ai_hint": "Disponível após assistir a um anúncio",
-    "ai_title": "Análise de IA",
     "close": "✕",
     "share_image": "📸 Compartilhar como Imagem",
     "share_web": "🔗 Compartilhar Link",
-    "retry": "Tentar Novamente"
+    "retry": "Tentar Novamente",
+    "detail_notes": "Notas detalhadas da pontua??o",
+    "detail_hint": "Notas predefinidas de acordo com seu resultado",
+    "detail_title": "Notas detalhadas da pontua??o"
   },
   "result": {
     "moreTests": "Explorar mais",
@@ -80,14 +80,6 @@
       "description": "Bottom 10% - Educação Especializada Necessária"
     }
   },
-  "ai_insights": {
-    "genius": "Você é um gênio com capacidades cognitivas excepcionales e habilidades de resolução de problemas. Seu reconhecimento de padrões, raciocínio lógico e percepção espacial são notáveis.",
-    "superior": "Você possui inteligência superior com excelente pensamento lógico e habilidades de reconhecimento de padrões. Pode resolver problemas complexos sistematicamente e aprender novos conceitos rapidamente.",
-    "high_average": "Você possui capacidades avançadas que permitem alcançar excelentes resultados na maioria das situações. Suas habilidades de percepção espacial e linguagem são particularmente fortes.",
-    "average": "Você possui um nível de inteligência médio com capacidades cognitivas saudáveis para realizar a maioria das tarefas bem. Focando em áreas específicas, pode desenvolver especialização.",
-    "below_average": "Você pode melhorar suas habilidades através do esforço. Treinamento focado em áreas fracas levará a melhorias.",
-    "needs_improvement": "Você se beneficiará de educação especializada. Desenvolver gradualmente o pensamento lógico e habilidades de resolução de problemas é importante."
-  },
   "canvas.title": "Resultado do Teste de QI",
   "canvas.breakdown": "Análise:",
   "canvas.pattern": "Reconhecimento de padrões",
@@ -106,5 +98,13 @@
     "audio": "Áudio indisponível. Você pode continuar.",
     "network": "Verifique sua conexão e tente novamente.",
     "general": "Algo deu errado. Atualize ou tente novamente."
+  },
+  "detail_notes": {
+    "genius": "Você é um gênio com capacidades cognitivas excepcionales e habilidades de resolução de problemas. Seu reconhecimento de padrões, raciocínio lógico e percepção espacial são notáveis.",
+    "superior": "Você possui inteligência superior com excelente pensamento lógico e habilidades de reconhecimento de padrões. Pode resolver problemas complexos sistematicamente e aprender novos conceitos rapidamente.",
+    "high_average": "Você possui capacidades avançadas que permitem alcançar excelentes resultados na maioria das situações. Suas habilidades de percepção espacial e linguagem são particularmente fortes.",
+    "average": "Você possui um nível de inteligência médio com capacidades cognitivas saudáveis para realizar a maioria das tarefas bem. Focando em áreas específicas, pode desenvolver especialização.",
+    "below_average": "Você pode melhorar suas habilidades através do esforço. Treinamento focado em áreas fracas levará a melhorias.",
+    "needs_improvement": "Você se beneficiará de educação especializada. Desenvolver gradualmente o pensamento lógico e habilidades de resolução de problemas é importante."
   }
 }

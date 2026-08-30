@@ -36,13 +36,13 @@
     "category_language": "Language Ability",
     "scores": "Score Analysis",
     "percentile": "Top {percentile}%",
-    "ai_analysis": "🤖 View AI Brain Analysis",
-    "ai_hint": "Available after watching an ad",
-    "ai_title": "AI Brain Analysis",
     "close": "✕",
     "share_image": "📸 Share as Image",
     "share_web": "🔗 Share Link",
-    "retry": "Try Again"
+    "retry": "Try Again",
+    "detail_notes": "Detailed Score Notes",
+    "detail_hint": "Prewritten notes matched to your result",
+    "detail_title": "Detailed Score Notes"
   },
   "result": {
     "moreTests": "Explore More",
@@ -80,14 +80,6 @@
       "description": "Bottom 10% - Specialized learning needed"
     }
   },
-  "ai_insights": {
-    "genius": "You are a genius with exceptional cognitive abilities and problem-solving skills. Your pattern recognition, logical reasoning, and spatial awareness are outstanding. These abilities can lead to remarkable achievements in creative fields or scientific research.",
-    "superior": "You possess superior intelligence with excellent logical thinking and pattern recognition abilities. You can systematically solve complex problems and quickly learn new concepts. You are well-suited for leadership or strategic roles.",
-    "high_average": "You have advanced abilities that allow you to excel in most learning and work situations. Your spatial awareness and language skills are particularly strong. Continuous learning will help you develop further.",
-    "average": "You have average intelligence with healthy cognitive abilities to perform most tasks well. By focusing on specific areas, you can develop expertise. Consistent effort is the key to success.",
-    "below_average": "You can improve your abilities through effort. Focused training in your weak areas will lead to improvement. Investing more time in logic problems and pattern recognition will enhance your skills.",
-    "needs_improvement": "You would benefit from specialized education. Developing basic logic and problem-solving skills step by step is important. Regular practice and professional education will enable continuous progress."
-  },
   "canvas.title": "Quick IQ Test Result",
   "canvas.breakdown": "Category Breakdown:",
   "canvas.pattern": "Pattern Recognition",
@@ -106,5 +98,13 @@
     "audio": "Audio unavailable. You can still continue.",
     "network": "Please check your connection and try again.",
     "general": "Something went wrong. Please refresh or try again."
+  },
+  "detail_notes": {
+    "genius": "You are a genius with exceptional cognitive abilities and problem-solving skills. Your pattern recognition, logical reasoning, and spatial awareness are outstanding. These abilities can lead to remarkable achievements in creative fields or scientific research.",
+    "superior": "You possess superior intelligence with excellent logical thinking and pattern recognition abilities. You can systematically solve complex problems and quickly learn new concepts. You are well-suited for leadership or strategic roles.",
+    "high_average": "You have advanced abilities that allow you to excel in most learning and work situations. Your spatial awareness and language skills are particularly strong. Continuous learning will help you develop further.",
+    "average": "You have average intelligence with healthy cognitive abilities to perform most tasks well. By focusing on specific areas, you can develop expertise. Consistent effort is the key to success.",
+    "below_average": "You can improve your abilities through effort. Focused training in your weak areas will lead to improvement. Investing more time in logic problems and pattern recognition will enhance your skills.",
+    "needs_improvement": "You would benefit from specialized education. Developing basic logic and problem-solving skills step by step is important. Regular practice and professional education will enable continuous progress."
   }
 }

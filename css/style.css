@@ -852,7 +852,7 @@ body {
     color: var(--text-primary);
 }
 
-.ai-analysis-text {
+.detail-notes-text {
     color: var(--text-secondary);
     line-height: 1.8;
     white-space: pre-wrap;

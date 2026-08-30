@@ -57,15 +57,15 @@ class IQTestApp {
         document.getElementById('btn-next').addEventListener('click', () => this.nextQuestion());
 
         // Results actions
-        document.getElementById('btn-ai-analysis').addEventListener('click', () => this.showAIAnalysis());
+        document.getElementById('btn-detail-notes').addEventListener('click', () => this.showDetailNotes());
         document.getElementById('btn-share-image').addEventListener('click', () => this.shareAsImage());
         document.getElementById('btn-share-web').addEventListener('click', () => this.shareWeb());
         document.getElementById('btn-retry').addEventListener('click', () => this.retryTest());
 
         // Modal close
-        document.querySelector('.modal-close').addEventListener('click', () => this.closeAIAnalysis());
-        document.getElementById('ai-modal').addEventListener('click', (e) => {
-            if (e.target.id === 'ai-modal') this.closeAIAnalysis();
+        document.querySelector('.modal-close').addEventListener('click', () => this.closeDetailNotes());
+        document.getElementById('detail-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'detail-modal') this.closeDetailNotes();
         });
     }
 
@@ -216,11 +216,9 @@ class IQTestApp {
             'value': index
         });
 
-        // Auto advance after 0.3s
+        // Advance after 0.3s; nextQuestion() completes the test on the last item.
         setTimeout(() => {
-            if (this.currentQuestion < this.questions.length - 1) {
-                this.nextQuestion();
-            }
+            this.nextQuestion();
         }, 300);
     }
 
@@ -503,28 +501,26 @@ class IQTestApp {
         });
     }
 
-    // Show AI Analysis (requires ad)
-    showAIAnalysis() {
-        // In production, show ad here
-        // For now, show analysis directly
-        const gradeKey = this.results.gradeInfo.grade.toLowerCase();
-        const aiText = this.i18n_t(
-            `ai_insights_${gradeKey}`,
-            'AI Analysis not available'
+    // Show the prewritten note that corresponds to the calculated grade.
+    showDetailNotes() {
+        const gradeKey = this.results.gradeInfo.label.toLowerCase().replace(/\s+/g, '_');
+        const detailText = this.i18n_t(
+            `detail_notes.${gradeKey}`,
+            'Detailed score notes are not available.'
         );
 
-        document.getElementById('ai-analysis-text').textContent = aiText;
-        document.getElementById('ai-modal').classList.remove('hidden');
+        document.getElementById('detail-notes-text').textContent = detailText;
+        document.getElementById('detail-modal').classList.remove('hidden');
 
-        gtag('event', 'ai_analysis_view', {
+        gtag('event', 'iq_detail_notes_view', {
             'event_category': 'engagement',
             'event_label': `grade_${gradeKey}`
         });
     }
 
-    // Close AI Analysis
-    closeAIAnalysis() {
-        document.getElementById('ai-modal').classList.add('hidden');
+    // Close detailed score notes
+    closeDetailNotes() {
+        document.getElementById('detail-modal').classList.add('hidden');
     }
 
     // Share as Image

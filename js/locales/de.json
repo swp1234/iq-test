@@ -36,13 +36,13 @@
     "category_language": "Sprachfähigkeit",
     "scores": "Punkteanalyse",
     "percentile": "Top {percentile}%",
-    "ai_analysis": "🤖 KI-Analyse anzeigen",
-    "ai_hint": "Verfügbar nach dem Anschauen einer Anzeige",
-    "ai_title": "KI-Analyse",
     "close": "✕",
     "share_image": "📸 Als Bild teilen",
     "share_web": "🔗 Link teilen",
-    "retry": "Erneut versuchen"
+    "retry": "Erneut versuchen",
+    "detail_notes": "Detaillierte Ergebnisnotizen",
+    "detail_hint": "Vorformulierte Hinweise passend zu Ihrem Ergebnis",
+    "detail_title": "Detaillierte Ergebnisnotizen"
   },
   "result": {
     "moreTests": "Mehr entdecken",
@@ -80,14 +80,6 @@
       "description": "Bottom 10% - Spezialausbildung erforderlich"
     }
   },
-  "ai_insights": {
-    "genius": "Sie sind ein Genie mit außergewöhnlichen kognitiven Fähigkeiten und Problemlösungskompetenzen. Ihre Mustererkennung, Ihr logisches Denken und Ihr räumliches Bewusstsein sind außerordentlich.",
-    "superior": "Sie verfügen über überlegene Intelligenz mit ausgezeichnetem logischem Denken und Mustererkennungsfähigkeiten. Sie können komplexe Probleme systematisch lösen und neue Konzepte schnell erlernen.",
-    "high_average": "Sie verfügen über fortgeschrittene Fähigkeiten, mit denen Sie in den meisten Lern- und Arbeitssituationen hervorragende Ergebnisse erzielen können. Ihre räumliche Wahrnehmung und Sprachfähigkeiten sind besonders stark.",
-    "average": "Sie verfügen über ein durchschnittliches Intelligenzniveau mit gesunden kognitiven Fähigkeiten, um die meisten Aufgaben gut zu bewältigen. Durch Konzentration auf spezifische Bereiche können Sie Fachkompetenz entwickeln.",
-    "below_average": "Sie können Ihre Fähigkeiten durch Anstrengung verbessern. Fokussiertes Training in schwachen Bereichen führt zu Verbesserungen.",
-    "needs_improvement": "Sie werden von spezialisierter Ausbildung profitieren. Die schrittweise Entwicklung von logischem Denken und Problemlösungsfähigkeiten ist wichtig."
-  },
   "canvas.title": "IQ-Test Ergebnis",
   "canvas.breakdown": "Kategorieanalyse:",
   "canvas.pattern": "Mustererkennung",
@@ -106,5 +98,13 @@
     "audio": "Audio nicht verfügbar. Sie können fortfahren.",
     "network": "Bitte Verbindung prüfen und erneut versuchen.",
     "general": "Etwas ist schiefgelaufen. Bitte aktualisieren oder erneut versuchen."
+  },
+  "detail_notes": {
+    "genius": "Sie sind ein Genie mit außergewöhnlichen kognitiven Fähigkeiten und Problemlösungskompetenzen. Ihre Mustererkennung, Ihr logisches Denken und Ihr räumliches Bewusstsein sind außerordentlich.",
+    "superior": "Sie verfügen über überlegene Intelligenz mit ausgezeichnetem logischem Denken und Mustererkennungsfähigkeiten. Sie können komplexe Probleme systematisch lösen und neue Konzepte schnell erlernen.",
+    "high_average": "Sie verfügen über fortgeschrittene Fähigkeiten, mit denen Sie in den meisten Lern- und Arbeitssituationen hervorragende Ergebnisse erzielen können. Ihre räumliche Wahrnehmung und Sprachfähigkeiten sind besonders stark.",
+    "average": "Sie verfügen über ein durchschnittliches Intelligenzniveau mit gesunden kognitiven Fähigkeiten, um die meisten Aufgaben gut zu bewältigen. Durch Konzentration auf spezifische Bereiche können Sie Fachkompetenz entwickeln.",
+    "below_average": "Sie können Ihre Fähigkeiten durch Anstrengung verbessern. Fokussiertes Training in schwachen Bereichen führt zu Verbesserungen.",
+    "needs_improvement": "Sie werden von spezialisierter Ausbildung profitieren. Die schrittweise Entwicklung von logischem Denken und Problemlösungsfähigkeiten ist wichtig."
   }
 }

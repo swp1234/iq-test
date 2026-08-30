@@ -2,7 +2,7 @@
    Service Worker - Offline Support & Caching
    ================================================================= */
 
-const CACHE_NAME = 'iq-test-v2';
+const CACHE_NAME = 'iq-test-v3';
 const ASSETS_TO_CACHE = [
     '/iq-test/',
     '/iq-test/index.html',

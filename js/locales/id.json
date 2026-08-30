@@ -36,13 +36,13 @@
     "category_language": "Kemampuan Bahasa",
     "scores": "Analisis Skor",
     "percentile": "Top {percentile}%",
-    "ai_analysis": "🤖 Lihat Analisis AI",
-    "ai_hint": "Tersedia setelah menonton iklan",
-    "ai_title": "Analisis AI",
     "close": "✕",
     "share_image": "📸 Bagikan sebagai Gambar",
     "share_web": "🔗 Bagikan Tautan",
-    "retry": "Coba Lagi"
+    "retry": "Coba Lagi",
+    "detail_notes": "Catatan skor terperinci",
+    "detail_hint": "Catatan siap pakai yang disesuaikan dengan hasil Anda",
+    "detail_title": "Catatan skor terperinci"
   },
   "result": {
     "moreTests": "Jelajahi lagi",
@@ -80,14 +80,6 @@
       "description": "Bottom 10% - Pendidikan Khusus Diperlukan"
     }
   },
-  "ai_insights": {
-    "genius": "Anda adalah jenius dengan kemampuan kognitif luar biasa dan keterampilan pemecahan masalah. Pengenalan pola, penalaran logis, dan kesadaran spasial Anda sangat menonjol.",
-    "superior": "Anda memiliki kecerdasan superior dengan pemikiran logis dan keterampilan pengenalan pola yang sangat baik. Anda dapat menyelesaikan masalah kompleks secara sistematis dan belajar konsep baru dengan cepat.",
-    "high_average": "Anda memiliki kemampuan canggih yang memungkinkan Anda mencapai hasil luar biasa dalam situasi apa pun. Kemampuan kesadaran spasial dan bahasa Anda sangat kuat.",
-    "average": "Anda memiliki tingkat kecerdasan rata-rata dengan kemampuan kognitif yang sehat untuk melakukan sebagian besar tugas dengan baik. Dengan fokus pada area tertentu, Anda dapat mengembangkan keahlian.",
-    "below_average": "Anda dapat meningkatkan kemampuan Anda melalui upaya. Pelatihan yang terfokus pada area lemah akan menghasilkan perbaikan.",
-    "needs_improvement": "Anda akan mendapat manfaat dari pendidikan khusus. Mengembangkan pemikiran logis dan keterampilan pemecahan masalah secara bertahap sangat penting."
-  },
   "canvas.title": "Hasil Tes IQ",
   "canvas.breakdown": "Analisis Kategori:",
   "canvas.pattern": "Pengenalan Pola",
@@ -106,5 +98,13 @@
     "audio": "Audio tidak tersedia. Anda dapat melanjutkan.",
     "network": "Periksa koneksi Anda dan coba lagi.",
     "general": "Terjadi kesalahan. Muat ulang atau coba lagi."
+  },
+  "detail_notes": {
+    "genius": "Anda adalah jenius dengan kemampuan kognitif luar biasa dan keterampilan pemecahan masalah. Pengenalan pola, penalaran logis, dan kesadaran spasial Anda sangat menonjol.",
+    "superior": "Anda memiliki kecerdasan superior dengan pemikiran logis dan keterampilan pengenalan pola yang sangat baik. Anda dapat menyelesaikan masalah kompleks secara sistematis dan belajar konsep baru dengan cepat.",
+    "high_average": "Anda memiliki kemampuan canggih yang memungkinkan Anda mencapai hasil luar biasa dalam situasi apa pun. Kemampuan kesadaran spasial dan bahasa Anda sangat kuat.",
+    "average": "Anda memiliki tingkat kecerdasan rata-rata dengan kemampuan kognitif yang sehat untuk melakukan sebagian besar tugas dengan baik. Dengan fokus pada area tertentu, Anda dapat mengembangkan keahlian.",
+    "below_average": "Anda dapat meningkatkan kemampuan Anda melalui upaya. Pelatihan yang terfokus pada area lemah akan menghasilkan perbaikan.",
+    "needs_improvement": "Anda akan mendapat manfaat dari pendidikan khusus. Mengembangkan pemikiran logis dan keterampilan pemecahan masalah secara bertahap sangat penting."
   }
 }

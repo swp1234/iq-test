@@ -36,13 +36,13 @@
     "category_language": "Capacité Linguistique",
     "scores": "Analyse du Score",
     "percentile": "Top {percentile}%",
-    "ai_analysis": "🤖 Afficher l'Analyse IA",
-    "ai_hint": "Disponible après avoir regardé une publicité",
-    "ai_title": "Analyse IA",
     "close": "✕",
     "share_image": "📸 Partager Comme Image",
     "share_web": "🔗 Partager le Lien",
-    "retry": "Réessayer"
+    "retry": "Réessayer",
+    "detail_notes": "Notes d?taill?es du score",
+    "detail_hint": "Notes pr?-r?dig?es correspondant ? votre r?sultat",
+    "detail_title": "Notes d?taill?es du score"
   },
   "result": {
     "moreTests": "Explorer plus",
@@ -80,14 +80,6 @@
       "description": "Bottom 10% - Éducation Spécialisée Nécessaire"
     }
   },
-  "ai_insights": {
-    "genius": "Vous êtes un génie doté de capacités cognitives exceptionnelles et de compétences exceptionnelles en résolution de problèmes. Votre reconnaissance de modèles, votre raisonnement logique et votre conscience spatiale sont remarquables.",
-    "superior": "Vous possédez une intelligence supérieure avec une excellente réflexion logique et des compétences de reconnaissance de modèles. Vous pouvez résoudre systématiquement des problèmes complexes et apprendre rapidement de nouveaux concepts.",
-    "high_average": "Vous possédez des capacités avancées qui vous permettent d'obtenir d'excellents résultats dans la plupart des situations d'apprentissage et de travail. Vos compétences de conscience spatiale et de langage sont particulièrement solides.",
-    "average": "Vous possédez un niveau d'intelligence moyen avec des capacités cognitives saines pour accomplir correctement la plupart des tâches. En vous concentrant sur des domaines spécifiques, vous pouvez développer une expertise.",
-    "below_average": "Vous pouvez améliorer vos capacités par l'effort. L'entraînement ciblé dans les domaines faibles entraînera des améliorations.",
-    "needs_improvement": "Vous bénéficierez d'une éducation spécialisée. Développer progressivement la réflexion logique et les compétences en résolution de problèmes est important."
-  },
   "canvas.title": "Résultat du Test de QI",
   "canvas.breakdown": "Analyse :",
   "canvas.pattern": "Reconnaissance de motifs",
@@ -106,5 +98,13 @@
     "audio": "Audio indisponible. Vous pouvez continuer.",
     "network": "Vérifiez votre connexion et réessayez.",
     "general": "Un problème est survenu. Rafraîchissez ou réessayez."
+  },
+  "detail_notes": {
+    "genius": "Vous êtes un génie doté de capacités cognitives exceptionnelles et de compétences exceptionnelles en résolution de problèmes. Votre reconnaissance de modèles, votre raisonnement logique et votre conscience spatiale sont remarquables.",
+    "superior": "Vous possédez une intelligence supérieure avec une excellente réflexion logique et des compétences de reconnaissance de modèles. Vous pouvez résoudre systématiquement des problèmes complexes et apprendre rapidement de nouveaux concepts.",
+    "high_average": "Vous possédez des capacités avancées qui vous permettent d'obtenir d'excellents résultats dans la plupart des situations d'apprentissage et de travail. Vos compétences de conscience spatiale et de langage sont particulièrement solides.",
+    "average": "Vous possédez un niveau d'intelligence moyen avec des capacités cognitives saines pour accomplir correctement la plupart des tâches. En vous concentrant sur des domaines spécifiques, vous pouvez développer une expertise.",
+    "below_average": "Vous pouvez améliorer vos capacités par l'effort. L'entraînement ciblé dans les domaines faibles entraînera des améliorations.",
+    "needs_improvement": "Vous bénéficierez d'une éducation spécialisée. Développer progressivement la réflexion logique et les compétences en résolution de problèmes est important."
   }
 }
