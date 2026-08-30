@@ -1,77 +1,49 @@
 {
   "app": {
-    "title": "Ücretsiz IQ tarzı bulmaca testi - 20 mantık sorusu",
-    "description": "Desen, dizi, uzamsal, dil ve mantık alanlarında süreli 20 bulmaca çözün. Şeffaf oyun puanı alın; bu standartlaştırılmış bir IQ testi değildir.",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "Ücretsiz IQ tarzı bulmaca testi - 20 mantık sorusu",
-    "og_description": "Desen, dizi, uzamsal, dil ve mantık alanlarında süreli 20 bulmaca çözün. Şeffaf oyun puanı alın; bu standartlaştırılmış bir IQ testi değildir.",
-    "twitter_title": "Ücretsiz IQ tarzı bulmaca testi - 20 mantık sorusu",
-    "twitter_description": "Desen, dizi, uzamsal, dil ve mantık alanlarında süreli 20 bulmaca çözün. Şeffaf oyun puanı alın; bu standartlaştırılmış bir IQ testi değildir."
+    "title": "10 dil bağımsız IQ tarzı bulmaca | DopaBrain",
+    "description": "Yaklaşık iki dakikada sayılar ve sembollerden oluşan on dil bağımsız bulmacayı çözün. Puan yalnızca bu oyundaki doğruları gösterir; standart bir IQ testi değildir.",
+    "og_title": "10 dil bağımsız bulmaca",
+    "og_description": "On sayı ve sembol bulmacasını çözün, doğru sayınızı görün."
   },
   "header": {
-    "subtitle": "Süreli 20 IQ tarzı mantık bulmacası çözün"
+    "subtitle": "Yalnızca sayı ve sembollerle iki dakikalık bulmaca"
   },
   "start": {
-    "title": "Bulmaca yarışmasını başlat",
-    "description": "20 soruyu yanıtlayın, oyun puanınızı ve kategori dökümünü görün.",
-    "info1": "Soru başına 30 saniye",
-    "info2": "Kategori dökümü",
-    "info3": "Sonuçları paylaşın",
-    "disclaimer": "⚠️ Yalnızca eğlence amaçlı bir bulmacadır. Puan bu oturumu yansıtır; zekâyı veya nüfus sıralamasını ölçmez.",
-    "button": "Testi Başlat"
+    "title": "10 bulmacayı başlat",
+    "description": "On bulmacayı çözün ve kategoriye göre doğruları görün.",
+    "info1": "Yaklaşık 2 dakika",
+    "info2": "Süre sınırı yok",
+    "info3": "Giriş yok",
+    "disclaimer": "Puan yalnızca bu on bulmacadaki doğru oranıdır. Zekâ, tanı veya nüfus yüzdeliği ölçmez.",
+    "button": "Başla"
   },
-  "test": {
-    "question": "Soru",
-    "seconds": "saniye",
-    "previous": "Önceki",
-    "next": "Sonraki"
+  "test": { "question": "Soru" },
+  "puzzle": {
+    "choose_next": "Sıradaki öğeyi seçin.",
+    "find_missing": "Eksik değeri bulun.",
+    "apply_rule": "Aynı kuralı uygulayın."
   },
   "results": {
-    "analysis": "Kategori Analizi",
-    "category_pattern": "Desen Tanıma",
-    "category_sequence": "Dizi Mantığı",
-    "category_logic": "Mantıksal Akıl Yürütme",
-    "category_spatial": "Mekansal Farkındalık",
-    "category_language": "Dil Yeteneği",
-    "scores": "Skor Analizi",
-    "close": "✕",
-    "share_image": "📸 Görüntü Olarak Paylaş",
-    "share_web": "🔗 Bağlantı Paylaş",
-    "retry": "Tekrar Dene",
-    "detail_notes": "Ayrıntılı puan notları",
-    "detail_hint": "Sonucunuza göre eşleştirilen hazır notlar",
-    "detail_title": "Ayrıntılı puan notları",
     "score_label": "Bulmaca puanı",
     "session_summary": "Oturum özeti",
-    "correct_count": "{total} sorudan {correct} doğru",
-    "detail_body": "Hangi bulmaca türlerinin daha kolay geldiğini kategori çubuklarından inceleyin. Bu 20 soruluk oyun puanı zekâyı veya nüfus sıralamasını ölçmez."
+    "correct_count": "{total} soruda {correct} doğru",
+    "scores": "Kategori sonuçları",
+    "category_pattern": "Örüntü",
+    "category_sequence": "Dizi",
+    "category_logic": "Mantık",
+    "category_spatial": "Uzamsal",
+    "boundary": "Kategori değerleri yalnızca bu oturumdaki doğrulardır; tanı veya başkalarıyla sıralama değildir.",
+    "detail_notes": "Puan sınırlarını gör",
+    "detail_hint": "Puan sınırlarını gör",
+    "detail_title": "Puan sınırları",
+    "detail_body": "Bu puan yalnızca bu on bulmacayı özetler; zekâ veya nüfus sırası ölçmez.",
+    "share_web": "Sonucu paylaş",
+    "retry": "Tekrar dene"
   },
-  "result": {
-    "moreTests": "Daha fazla keşfet"
+  "share": {
+    "text": "10 bulmaca görevini tamamladım: {score}/100.",
+    "title": "10 Bulmaca Görevi",
+    "copied": "Paylaşıldı."
   },
-  "related": {
-    "brainType": "Beyin Tipi",
-    "mentalAge": "Zihinsel Yaş",
-    "eqTest": "EQ Testi",
-    "reactionTest": "Reaksiyon Testi"
-  },
-  "canvas.title": "IQ tarzı bulmaca sonucu",
-  "canvas.breakdown": "Kategori Analizi:",
-  "canvas.pattern": "Örüntü Tanıma",
-  "canvas.sequence": "Sıra Mantığı",
-  "canvas.logic": "Mantıksal Akıl Yürütme",
-  "canvas.spatial": "Uzamsal Farkındalık",
-  "canvas.language": "Dil Yeteneği",
-  "canvas.footer": "dopabrain.com/iq-test adresinde bulmacayı deneyin",
-  "share.text": "IQ tarzı bulmacada {score}/100 aldım. Aynı 20 soruyu sen de dene!",
-  "share.title": "IQ tarzı bulmaca",
-  "share.copied": "Bağlantı kopyalandı!",
-  "error": {
-    "storage": "Gizli modda bazı özellikler sınırlı olabilir.",
-    "data": "Veri yükleme hatası. Lütfen sayfayı yenileyin.",
-    "canvas": "Grafik oluşturma sorunu. Lütfen tekrar deneyin.",
-    "audio": "Ses kullanılamıyor. Devam edebilirsiniz.",
-    "network": "Bağlantınızı kontrol edip tekrar deneyin.",
-    "general": "Bir şeyler ters gitti. Yenileyip tekrar deneyin."
-  }
+  "accessibility": { "skipToMain": "Ana içeriğe geç" }
 }

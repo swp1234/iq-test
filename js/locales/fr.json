@@ -1,77 +1,47 @@
 {
   "app": {
-    "title": "Test gratuit de puzzles façon QI - 20 questions de logique",
-    "description": "Résolvez 20 puzzles chronométrés de motifs, suites, espace, langage et logique. Obtenez un score de jeu transparent ; ce n’est pas un test de QI standardisé.",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "Test gratuit de puzzles façon QI - 20 questions de logique",
-    "og_description": "Résolvez 20 puzzles chronométrés de motifs, suites, espace, langage et logique. Obtenez un score de jeu transparent ; ce n’est pas un test de QI standardisé.",
-    "twitter_title": "Test gratuit de puzzles façon QI - 20 questions de logique",
-    "twitter_description": "Résolvez 20 puzzles chronométrés de motifs, suites, espace, langage et logique. Obtenez un score de jeu transparent ; ce n’est pas un test de QI standardisé."
+    "title": "Défi de 10 énigmes façon QI | DopaBrain",
+    "description": "Résolvez dix énigmes neutres de nombres et symboles en environ deux minutes. Le score indique seulement les bonnes réponses de cette partie; ce n’est pas un test de QI standardisé.",
+    "og_title": "Défi de 10 énigmes",
+    "og_description": "Résolvez dix énigmes de nombres et symboles et voyez vos bonnes réponses."
   },
-  "header": {
-    "subtitle": "Résolvez 20 puzzles de logique façon QI"
-  },
+  "header": { "subtitle": "Deux minutes d’énigmes avec nombres et symboles" },
   "start": {
-    "title": "Commencer le défi de puzzles",
-    "description": "Répondez à 20 questions et consultez votre score et le détail par catégorie.",
-    "info1": "30 secondes par question",
-    "info2": "Détail par catégorie",
-    "info3": "Partagez les résultats",
-    "disclaimer": "⚠️ Puzzle de divertissement uniquement. Le score concerne cette session et ne mesure ni l’intelligence ni un rang dans la population.",
-    "button": "Commencer le test"
+    "title": "Commencer les 10 énigmes",
+    "description": "Résolvez dix énigmes et consultez les bonnes réponses par catégorie.",
+    "info1": "Environ 2 minutes",
+    "info2": "Sans limite de temps",
+    "info3": "Sans connexion",
+    "disclaimer": "Le score est seulement le taux de bonnes réponses à ces dix énigmes. Il ne mesure ni intelligence, ni diagnostic, ni percentile.",
+    "button": "Commencer"
   },
-  "test": {
-    "question": "Question",
-    "seconds": "secondes",
-    "previous": "Précédent",
-    "next": "Suivant"
+  "test": { "question": "Question" },
+  "puzzle": {
+    "choose_next": "Choisissez l’élément suivant.",
+    "find_missing": "Trouvez la valeur manquante.",
+    "apply_rule": "Appliquez la même règle."
   },
   "results": {
-    "analysis": "Analyse par Catégorie",
-    "category_pattern": "Reconnaissance de Modèles",
-    "category_sequence": "Logique de Séquence",
-    "category_logic": "Raisonnement Logique",
-    "category_spatial": "Conscience Spatiale",
-    "category_language": "Capacité Linguistique",
-    "scores": "Analyse du Score",
-    "close": "✕",
-    "share_image": "📸 Partager Comme Image",
-    "share_web": "🔗 Partager le Lien",
-    "retry": "Réessayer",
-    "detail_notes": "Notes détaillées du score",
-    "detail_hint": "Notes pré-rédigées correspondant à votre résultat",
-    "detail_title": "Notes détaillées du score",
-    "score_label": "Score du puzzle",
+    "score_label": "Score de jeu",
     "session_summary": "Résumé de la session",
-    "correct_count": "{correct} bonnes réponses sur {total}",
-    "detail_body": "Consultez les catégories pour voir quels puzzles ont semblé les plus faciles. Ce score sur 20 questions ne mesure ni l’intelligence ni un rang dans la population."
+    "correct_count": "{correct} sur {total} correctes",
+    "scores": "Résultats par catégorie",
+    "category_pattern": "Motifs",
+    "category_sequence": "Suites",
+    "category_logic": "Logique",
+    "category_spatial": "Espace",
+    "boundary": "Les valeurs par catégorie sont les bonnes réponses de cette session, pas un diagnostic ni un classement.",
+    "detail_notes": "Voir les limites du score",
+    "detail_hint": "Voir les limites du score",
+    "detail_title": "Limites du score",
+    "detail_body": "Ce score résume uniquement ces dix énigmes et ne mesure ni intelligence ni rang dans la population.",
+    "share_web": "Partager",
+    "retry": "Recommencer"
   },
-  "result": {
-    "moreTests": "Explorer plus"
+  "share": {
+    "text": "J’ai terminé le défi de 10 énigmes : {score}/100.",
+    "title": "Défi de 10 énigmes",
+    "copied": "Partagé."
   },
-  "related": {
-    "brainType": "Type de Cerveau",
-    "mentalAge": "Âge Mental",
-    "eqTest": "Test QE",
-    "reactionTest": "Test de Réaction"
-  },
-  "canvas.title": "Résultat du puzzle façon QI",
-  "canvas.breakdown": "Analyse :",
-  "canvas.pattern": "Reconnaissance de motifs",
-  "canvas.sequence": "Logique séquentielle",
-  "canvas.logic": "Raisonnement logique",
-  "canvas.spatial": "Perception spatiale",
-  "canvas.language": "Capacité linguistique",
-  "canvas.footer": "Essayez le quiz sur dopabrain.com/iq-test",
-  "share.text": "J’ai obtenu {score}/100 au puzzle façon QI. Essayez les mêmes 20 questions !",
-  "share.title": "Puzzle façon QI",
-  "share.copied": "Lien copié !",
-  "error": {
-    "storage": "Certaines fonctions peuvent être limitées en mode privé.",
-    "data": "Erreur de chargement. Veuillez rafraîchir la page.",
-    "canvas": "Problème de rendu graphique. Veuillez réessayer.",
-    "audio": "Audio indisponible. Vous pouvez continuer.",
-    "network": "Vérifiez votre connexion et réessayez.",
-    "general": "Un problème est survenu. Rafraîchissez ou réessayez."
-  }
+  "accessibility": { "skipToMain": "Aller au contenu principal" }
 }

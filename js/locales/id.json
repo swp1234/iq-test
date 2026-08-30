@@ -1,77 +1,47 @@
 {
   "app": {
-    "title": "Tes teka-teki gaya IQ gratis - 20 soal logika",
-    "description": "Selesaikan 20 teka-teki berpola, urutan, ruang, bahasa, dan logika dengan batas waktu. Dapatkan skor permainan transparan; bukan tes IQ standar.",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "Tes teka-teki gaya IQ gratis - 20 soal logika",
-    "og_description": "Selesaikan 20 teka-teki berpola, urutan, ruang, bahasa, dan logika dengan batas waktu. Dapatkan skor permainan transparan; bukan tes IQ standar.",
-    "twitter_title": "Tes teka-teki gaya IQ gratis - 20 soal logika",
-    "twitter_description": "Selesaikan 20 teka-teki berpola, urutan, ruang, bahasa, dan logika dengan batas waktu. Dapatkan skor permainan transparan; bukan tes IQ standar."
+    "title": "Tantangan 10 teka-teki gaya IQ | DopaBrain",
+    "description": "Selesaikan sepuluh teka-teki netral berupa angka dan simbol dalam sekitar dua menit. Skor hanya menunjukkan jawaban benar pada permainan ini, bukan tes IQ standar.",
+    "og_title": "Tantangan 10 teka-teki",
+    "og_description": "Selesaikan sepuluh teka-teki angka dan simbol lalu lihat jawaban benar Anda."
   },
-  "header": {
-    "subtitle": "Selesaikan 20 teka-teki logika bergaya IQ"
-  },
+  "header": { "subtitle": "Teka-teki dua menit hanya dengan angka dan simbol" },
   "start": {
-    "title": "Mulai tantangan teka-teki",
-    "description": "Jawab 20 soal dan lihat skor permainan serta rincian kategori.",
-    "info1": "30 detik per pertanyaan",
-    "info2": "Rincian kategori",
-    "info3": "Bagikan hasil",
-    "disclaimer": "⚠️ Hanya teka-teki hiburan. Skor mencerminkan sesi ini dan tidak mengukur kecerdasan atau peringkat populasi.",
-    "button": "Mulai Tes"
+    "title": "Mulai 10 teka-teki",
+    "description": "Selesaikan sepuluh teka-teki dan lihat jawaban benar per kategori.",
+    "info1": "Sekitar 2 menit",
+    "info2": "Tanpa batas waktu",
+    "info3": "Tanpa login",
+    "disclaimer": "Skor hanya persentase jawaban benar untuk sepuluh teka-teki ini. Ini tidak mengukur kecerdasan, diagnosis, atau persentil populasi.",
+    "button": "Mulai"
   },
-  "test": {
-    "question": "Pertanyaan",
-    "seconds": "detik",
-    "previous": "Sebelumnya",
-    "next": "Berikutnya"
+  "test": { "question": "Soal" },
+  "puzzle": {
+    "choose_next": "Pilih item berikutnya.",
+    "find_missing": "Temukan nilai yang hilang.",
+    "apply_rule": "Terapkan aturan yang sama."
   },
   "results": {
-    "analysis": "Analisis Kategori",
-    "category_pattern": "Pengenalan Pola",
-    "category_sequence": "Logika Urutan",
-    "category_logic": "Penalaran Logis",
-    "category_spatial": "Kesadaran Spasial",
-    "category_language": "Kemampuan Bahasa",
-    "scores": "Analisis Skor",
-    "close": "✕",
-    "share_image": "📸 Bagikan sebagai Gambar",
-    "share_web": "🔗 Bagikan Tautan",
-    "retry": "Coba Lagi",
-    "detail_notes": "Catatan skor terperinci",
-    "detail_hint": "Catatan siap pakai yang disesuaikan dengan hasil Anda",
-    "detail_title": "Catatan skor terperinci",
     "score_label": "Skor teka-teki",
     "session_summary": "Ringkasan sesi",
     "correct_count": "{correct} dari {total} benar",
-    "detail_body": "Tinjau bilah kategori untuk melihat jenis teka-teki yang terasa paling mudah. Skor 20 soal ini tidak mengukur kecerdasan atau peringkat populasi."
+    "scores": "Hasil per kategori",
+    "category_pattern": "Pola",
+    "category_sequence": "Urutan",
+    "category_logic": "Logika",
+    "category_spatial": "Ruang",
+    "boundary": "Nilai kategori hanyalah jawaban benar sesi ini, bukan diagnosis atau peringkat dibanding orang lain.",
+    "detail_notes": "Lihat batas skor",
+    "detail_hint": "Lihat batas skor",
+    "detail_title": "Batas skor",
+    "detail_body": "Skor ini hanya merangkum sepuluh teka-teki ini dan tidak mengukur kecerdasan atau peringkat populasi.",
+    "share_web": "Bagikan hasil",
+    "retry": "Coba lagi"
   },
-  "result": {
-    "moreTests": "Jelajahi lagi"
+  "share": {
+    "text": "Saya menyelesaikan tantangan 10 teka-teki: {score}/100.",
+    "title": "Tantangan 10 teka-teki",
+    "copied": "Dibagikan."
   },
-  "related": {
-    "brainType": "Tipe Otak",
-    "mentalAge": "Usia Mental",
-    "eqTest": "Tes EQ",
-    "reactionTest": "Tes Reaksi"
-  },
-  "canvas.title": "Hasil teka-teki gaya IQ",
-  "canvas.breakdown": "Analisis Kategori:",
-  "canvas.pattern": "Pengenalan Pola",
-  "canvas.sequence": "Logika Urutan",
-  "canvas.logic": "Penalaran Logis",
-  "canvas.spatial": "Kesadaran Spasial",
-  "canvas.language": "Kemampuan Bahasa",
-  "canvas.footer": "Coba kuis di dopabrain.com/iq-test",
-  "share.text": "Saya mendapat {score}/100 pada teka-teki gaya IQ. Coba 20 soal yang sama!",
-  "share.title": "Teka-teki gaya IQ",
-  "share.copied": "Tautan disalin!",
-  "error": {
-    "storage": "Beberapa fitur mungkin terbatas dalam mode privat.",
-    "data": "Kesalahan memuat data. Silakan muat ulang.",
-    "canvas": "Masalah rendering grafis. Silakan coba lagi.",
-    "audio": "Audio tidak tersedia. Anda dapat melanjutkan.",
-    "network": "Periksa koneksi Anda dan coba lagi.",
-    "general": "Terjadi kesalahan. Muat ulang atau coba lagi."
-  }
+  "accessibility": { "skipToMain": "Lewati ke konten utama" }
 }

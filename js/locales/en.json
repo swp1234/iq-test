@@ -1,77 +1,49 @@
 {
   "app": {
-    "title": "Free IQ-Style Puzzle Test - 20 Logic Questions",
-    "description": "Try 20 timed pattern, sequence, spatial, language, and logic puzzles. Get a transparent game score and category breakdown; not a standardized IQ test.",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "Free IQ-Style Puzzle Test - 20 Logic Questions",
-    "og_description": "Try 20 timed pattern, sequence, spatial, language, and logic puzzles. Get a transparent game score and category breakdown; not a standardized IQ test.",
-    "twitter_title": "Free IQ-Style Puzzle Test - 20 Logic Questions",
-    "twitter_description": "Try 20 timed pattern, sequence, spatial, language, and logic puzzles. Get a transparent game score and category breakdown; not a standardized IQ test."
+    "title": "10-Puzzle IQ-Style Challenge | DopaBrain",
+    "description": "Solve ten language-neutral number and symbol puzzles in about two minutes. The score is only the correct-answer rate for this game, not a standardized IQ test.",
+    "og_title": "10-Puzzle IQ-Style Challenge",
+    "og_description": "Solve ten number and symbol puzzles and see your correct-answer count."
   },
   "header": {
-    "subtitle": "Solve 20 timed IQ-style logic puzzles"
+    "subtitle": "A two-minute puzzle using only numbers and symbols"
   },
   "start": {
-    "title": "Start the Puzzle Challenge",
-    "description": "Answer 20 questions and see your game score and category breakdown.",
-    "info1": "30 seconds per question",
-    "info2": "Category breakdown",
-    "info3": "Share results",
-    "disclaimer": "⚠️ Entertainment puzzle only. The score reflects this session and does not measure intelligence or population rank.",
-    "button": "Start Test"
+    "title": "Start the 10-puzzle challenge",
+    "description": "Solve ten number and symbol puzzles and review your category counts.",
+    "info1": "About 2 minutes",
+    "info2": "No time limit",
+    "info3": "No login",
+    "disclaimer": "This score is only the correct-answer rate for these ten puzzles. It does not measure intelligence, diagnosis, or population percentile.",
+    "button": "Start puzzles"
   },
-  "test": {
-    "question": "Question",
-    "seconds": "seconds",
-    "previous": "Previous",
-    "next": "Next"
+  "test": { "question": "Question" },
+  "puzzle": {
+    "choose_next": "Choose what comes next.",
+    "find_missing": "Find the missing value.",
+    "apply_rule": "Apply the same rule."
   },
   "results": {
-    "analysis": "Category Analysis",
-    "category_pattern": "Pattern Recognition",
-    "category_sequence": "Sequence Logic",
-    "category_logic": "Logical Reasoning",
-    "category_spatial": "Spatial Awareness",
-    "category_language": "Language Ability",
-    "scores": "Score Analysis",
-    "close": "✕",
-    "share_image": "📸 Share as Image",
-    "share_web": "🔗 Share Link",
-    "retry": "Try Again",
-    "detail_notes": "Detailed Score Notes",
-    "detail_hint": "Prewritten notes matched to your result",
-    "detail_title": "Detailed Score Notes",
-    "score_label": "Puzzle Score",
-    "session_summary": "Session Summary",
+    "score_label": "Puzzle score",
+    "session_summary": "Session summary",
     "correct_count": "{correct} of {total} correct",
-    "detail_body": "Review the category bars to see which puzzle types felt easiest. This 20-question game score does not measure intelligence or population rank."
+    "scores": "Category results",
+    "category_pattern": "Pattern",
+    "category_sequence": "Sequence",
+    "category_logic": "Logic",
+    "category_spatial": "Spatial",
+    "boundary": "Category counts are correct answers from this session, not an ability diagnosis or comparison with other people.",
+    "detail_notes": "View score limits",
+    "detail_hint": "View score limits",
+    "detail_title": "Score limits",
+    "detail_body": "This score summarizes only these ten puzzles and does not measure intelligence or population rank.",
+    "share_web": "Share result",
+    "retry": "Try again"
   },
-  "result": {
-    "moreTests": "Explore More"
+  "share": {
+    "text": "I completed the 10-puzzle challenge: {score}/100.",
+    "title": "10-Puzzle Challenge",
+    "copied": "Shared."
   },
-  "related": {
-    "brainType": "Brain Type",
-    "mentalAge": "Mental Age",
-    "eqTest": "EQ Test",
-    "reactionTest": "Reaction Test"
-  },
-  "canvas.title": "IQ-Style Puzzle Result",
-  "canvas.breakdown": "Category Breakdown:",
-  "canvas.pattern": "Pattern Recognition",
-  "canvas.sequence": "Sequence Logic",
-  "canvas.logic": "Logical Reasoning",
-  "canvas.spatial": "Spatial Awareness",
-  "canvas.language": "Language Ability",
-  "canvas.footer": "Try the puzzle quiz at dopabrain.com/iq-test",
-  "share.text": "I scored {score}/100 on the IQ-style puzzle quiz. Try the same 20 questions!",
-  "share.title": "IQ-Style Puzzle Quiz",
-  "share.copied": "Link copied to clipboard!",
-  "error": {
-    "storage": "Some features may be limited in private mode. You can continue.",
-    "data": "Data loading error. Please refresh the page.",
-    "canvas": "Graphics rendering issue. Please try again.",
-    "audio": "Audio unavailable. You can still continue.",
-    "network": "Please check your connection and try again.",
-    "general": "Something went wrong. Please refresh or try again."
-  }
+  "accessibility": { "skipToMain": "Skip to main content" }
 }

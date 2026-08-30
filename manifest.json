@@ -1,7 +1,7 @@
 {
-  "name": "IQ-Style Puzzle Test",
-  "short_name": "Puzzle Test",
-  "description": "Try 20 timed IQ-style puzzles and get a transparent game score with a category breakdown. Entertainment only, not a standardized IQ assessment.",
+  "name": "10-Puzzle IQ-Style Challenge",
+  "short_name": "10 Puzzles",
+  "description": "Ten language-neutral number and symbol puzzles with a transparent correct-answer score; not a standardized IQ test.",
   "start_url": "/iq-test/",
   "scope": "/iq-test/",
   "display": "standalone",
@@ -51,10 +51,10 @@
   "categories": ["education", "productivity"],
   "shortcuts": [
     {
-      "name": "Start IQ Test",
-      "short_name": "Start Test",
-      "description": "Begin the quick IQ test immediately",
-      "url": "/iq-test/?action=start",
+      "name": "Start 10 Puzzles",
+      "short_name": "Start Puzzles",
+      "description": "Begin the ten-puzzle challenge",
+      "url": "/iq-test/?start=1",
       "icons": [
         {
           "src": "/iq-test/icon-192.svg",

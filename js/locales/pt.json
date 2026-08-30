@@ -1,77 +1,47 @@
 {
   "app": {
-    "title": "Teste grátis de quebra-cabeças estilo QI - 20 questões",
-    "description": "Resolva 20 quebra-cabeças cronometrados de padrões, sequências, espaço, linguagem e lógica. Receba uma pontuação transparente; não é um teste de QI padronizado.",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "Teste grátis de quebra-cabeças estilo QI - 20 questões",
-    "og_description": "Resolva 20 quebra-cabeças cronometrados de padrões, sequências, espaço, linguagem e lógica. Receba uma pontuação transparente; não é um teste de QI padronizado.",
-    "twitter_title": "Teste grátis de quebra-cabeças estilo QI - 20 questões",
-    "twitter_description": "Resolva 20 quebra-cabeças cronometrados de padrões, sequências, espaço, linguagem e lógica. Receba uma pontuação transparente; não é um teste de QI padronizado."
+    "title": "Desafio de 10 quebra-cabeças estilo QI | DopaBrain",
+    "description": "Resolva dez quebra-cabeças neutros de números e símbolos em cerca de dois minutos. A pontuação mostra apenas os acertos desta rodada; não é um teste de QI padronizado.",
+    "og_title": "Desafio de 10 quebra-cabeças",
+    "og_description": "Resolva dez desafios de números e símbolos e veja seus acertos."
   },
-  "header": {
-    "subtitle": "Resolva 20 quebra-cabeças de lógica estilo QI"
-  },
+  "header": { "subtitle": "Dois minutos de desafios com números e símbolos" },
   "start": {
-    "title": "Iniciar o desafio de quebra-cabeças",
-    "description": "Responda a 20 questões e veja sua pontuação e o resultado por categoria.",
-    "info1": "30 segundos por pergunta",
-    "info2": "Resultado por categoria",
-    "info3": "Compartilhar resultados",
-    "disclaimer": "⚠️ Apenas um jogo de entretenimento. A pontuação reflete esta sessão e não mede inteligência nem posição na população.",
-    "button": "Iniciar Teste"
+    "title": "Iniciar os 10 desafios",
+    "description": "Resolva dez desafios e veja os acertos por categoria.",
+    "info1": "Cerca de 2 minutos",
+    "info2": "Sem limite de tempo",
+    "info3": "Sem login",
+    "disclaimer": "A pontuação é apenas a taxa de acertos destes dez desafios. Não mede inteligência, diagnóstico ou percentil populacional.",
+    "button": "Começar"
   },
-  "test": {
-    "question": "Pergunta",
-    "seconds": "segundos",
-    "previous": "Anterior",
-    "next": "Próximo"
+  "test": { "question": "Pergunta" },
+  "puzzle": {
+    "choose_next": "Escolha o próximo item.",
+    "find_missing": "Encontre o valor que falta.",
+    "apply_rule": "Aplique a mesma regra."
   },
   "results": {
-    "analysis": "Análise por Categoria",
-    "category_pattern": "Reconhecimento de Padrões",
-    "category_sequence": "Lógica de Sequências",
-    "category_logic": "Raciocínio Lógico",
-    "category_spatial": "Percepção Espacial",
-    "category_language": "Habilidade Linguística",
-    "scores": "Análise de Pontuação",
-    "close": "✕",
-    "share_image": "📸 Compartilhar como Imagem",
-    "share_web": "🔗 Compartilhar Link",
-    "retry": "Tentar Novamente",
-    "detail_notes": "Notas detalhadas da pontuação",
-    "detail_hint": "Notas predefinidas de acordo com seu resultado",
-    "detail_title": "Notas detalhadas da pontuação",
-    "score_label": "Pontuação do jogo",
+    "score_label": "Pontuação",
     "session_summary": "Resumo da sessão",
     "correct_count": "{correct} de {total} corretas",
-    "detail_body": "Veja as categorias para descobrir quais quebra-cabeças pareceram mais fáceis. Esta pontuação de 20 questões não mede inteligência nem posição na população."
+    "scores": "Acertos por categoria",
+    "category_pattern": "Padrões",
+    "category_sequence": "Sequências",
+    "category_logic": "Lógica",
+    "category_spatial": "Espaço",
+    "boundary": "Os valores por categoria são acertos desta sessão, não um diagnóstico ou comparação com outras pessoas.",
+    "detail_notes": "Ver limites da pontuação",
+    "detail_hint": "Ver limites da pontuação",
+    "detail_title": "Limites da pontuação",
+    "detail_body": "Esta pontuação resume apenas estes dez desafios e não mede inteligência ou posição populacional.",
+    "share_web": "Compartilhar",
+    "retry": "Tentar novamente"
   },
-  "result": {
-    "moreTests": "Explorar mais"
+  "share": {
+    "text": "Completei o desafio de 10 perguntas: {score}/100.",
+    "title": "Desafio de 10 perguntas",
+    "copied": "Compartilhado."
   },
-  "related": {
-    "brainType": "Tipo Cerebral",
-    "mentalAge": "Idade Mental",
-    "eqTest": "Teste de QE",
-    "reactionTest": "Teste de Reação"
-  },
-  "canvas.title": "Resultado do quebra-cabeça estilo QI",
-  "canvas.breakdown": "Análise:",
-  "canvas.pattern": "Reconhecimento de padrões",
-  "canvas.sequence": "Lógica sequencial",
-  "canvas.logic": "Raciocínio lógico",
-  "canvas.spatial": "Percepção espacial",
-  "canvas.language": "Habilidade linguística",
-  "canvas.footer": "Experimente o quiz em dopabrain.com/iq-test",
-  "share.text": "Fiz {score}/100 no quebra-cabeça estilo QI. Tente as mesmas 20 questões!",
-  "share.title": "Quebra-cabeça estilo QI",
-  "share.copied": "Link copiado!",
-  "error": {
-    "storage": "Algumas funções podem ser limitadas no modo privado.",
-    "data": "Erro ao carregar dados. Atualize a página.",
-    "canvas": "Problema de renderização. Tente novamente.",
-    "audio": "Áudio indisponível. Você pode continuar.",
-    "network": "Verifique sua conexão e tente novamente.",
-    "general": "Algo deu errado. Atualize ou tente novamente."
-  }
+  "accessibility": { "skipToMain": "Ir para o conteúdo principal" }
 }

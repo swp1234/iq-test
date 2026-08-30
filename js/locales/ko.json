@@ -1,77 +1,47 @@
 {
   "app": {
-    "title": "무료 IQ 스타일 퍼즐 테스트 - 논리 문제 20개",
-    "description": "패턴, 수열, 공간, 언어, 논리 퍼즐 20개를 제한 시간 안에 풀어보세요. 투명한 게임 점수와 영역별 결과를 제공하며 표준화 IQ 검사가 아닙니다.",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "무료 IQ 스타일 퍼즐 테스트 - 논리 문제 20개",
-    "og_description": "패턴, 수열, 공간, 언어, 논리 퍼즐 20개를 제한 시간 안에 풀어보세요. 투명한 게임 점수와 영역별 결과를 제공하며 표준화 IQ 검사가 아닙니다.",
-    "twitter_title": "무료 IQ 스타일 퍼즐 테스트 - 논리 문제 20개",
-    "twitter_description": "패턴, 수열, 공간, 언어, 논리 퍼즐 20개를 제한 시간 안에 풀어보세요. 투명한 게임 점수와 영역별 결과를 제공하며 표준화 IQ 검사가 아닙니다."
+    "title": "IQ 스타일 퍼즐 - 언어중립 10문제 | DopaBrain",
+    "description": "숫자와 기호로 구성된 언어중립 퍼즐 10개를 약 2분 안에 풀어보세요. 점수는 이번 게임의 정답 비율만 나타내며 표준화 IQ 검사가 아닙니다.",
+    "og_title": "IQ 스타일 퍼즐 - 언어중립 10문제",
+    "og_description": "숫자와 기호 퍼즐 10개를 풀고 이번 게임의 정답 수를 확인하세요."
   },
-  "header": {
-    "subtitle": "시간 제한이 있는 IQ 스타일 논리 퍼즐 20개"
-  },
+  "header": { "subtitle": "숫자와 기호만 사용하는 약 2분 퍼즐" },
   "start": {
-    "title": "퍼즐 도전 시작하기",
-    "description": "20문제에 답하고 게임 점수와 영역별 정답 수를 확인하세요.",
-    "info1": "문제당 30초",
-    "info2": "영역별 결과",
-    "info3": "결과 공유",
-    "disclaimer": "⚠️ 재미를 위한 퍼즐입니다. 점수는 이번 세션만 반영하며 지능이나 인구 백분위를 측정하지 않습니다.",
-    "button": "테스트 시작"
+    "title": "10문제 퍼즐 시작하기",
+    "description": "숫자와 기호 퍼즐 10개를 풀고 영역별 정답 수를 확인하세요.",
+    "info1": "약 2분",
+    "info2": "시간 제한 없음",
+    "info3": "로그인 없음",
+    "disclaimer": "이 점수는 이번 10문제의 정답 비율일 뿐, 지능·진단·인구 백분위를 측정하지 않습니다.",
+    "button": "퍼즐 시작"
   },
-  "test": {
-    "question": "문제",
-    "seconds": "초",
-    "previous": "이전",
-    "next": "다음"
+  "test": { "question": "문제" },
+  "puzzle": {
+    "choose_next": "다음에 올 항목을 고르세요.",
+    "find_missing": "빈칸에 들어갈 값을 고르세요.",
+    "apply_rule": "같은 규칙을 적용하세요."
   },
   "results": {
-    "analysis": "영역별 분석",
-    "category_pattern": "패턴 인식",
-    "category_sequence": "수열 논리",
-    "category_logic": "논리 추론",
-    "category_spatial": "공간 지각",
-    "category_language": "언어 능력",
-    "scores": "점수 분석",
-    "close": "✕",
-    "share_image": "📸 이미지로 공유",
-    "share_web": "🔗 링크 공유",
-    "retry": "다시 도전하기",
-    "detail_notes": "상세 점수 메모",
-    "detail_hint": "결과 구간에 맞춘 참고 메모",
-    "detail_title": "상세 점수 메모",
     "score_label": "퍼즐 점수",
     "session_summary": "세션 요약",
     "correct_count": "{total}문제 중 {correct}문제 정답",
-    "detail_body": "영역별 막대를 보고 어떤 퍼즐 유형이 수월했는지 확인하세요. 이 20문제 게임 점수는 지능이나 인구 백분위를 측정하지 않습니다."
+    "scores": "영역별 정답",
+    "category_pattern": "패턴",
+    "category_sequence": "수열",
+    "category_logic": "논리",
+    "category_spatial": "공간",
+    "boundary": "영역별 수치는 이번 세션의 정답 수이며 능력 진단이나 다른 사람과의 순위가 아닙니다.",
+    "detail_notes": "점수 해석 범위 보기",
+    "detail_hint": "점수 해석 범위 보기",
+    "detail_title": "점수 해석 범위",
+    "detail_body": "이 점수는 이번 10문제만 요약하며 지능이나 인구 순위를 측정하지 않습니다.",
+    "share_web": "결과 공유",
+    "retry": "다시 풀기"
   },
-  "result": {
-    "moreTests": "더 많은 테스트"
+  "share": {
+    "text": "10문제 퍼즐에서 {score}/100점을 받았어요.",
+    "title": "10문제 퍼즐",
+    "copied": "공유했습니다."
   },
-  "related": {
-    "brainType": "뇌 유형",
-    "mentalAge": "정신 연령",
-    "eqTest": "EQ 테스트",
-    "reactionTest": "반응 속도"
-  },
-  "canvas.title": "IQ 스타일 퍼즐 결과",
-  "canvas.breakdown": "카테고리 분석:",
-  "canvas.pattern": "패턴 인식",
-  "canvas.sequence": "순서 논리",
-  "canvas.logic": "논리적 추론",
-  "canvas.spatial": "공간 인지",
-  "canvas.language": "언어 능력",
-  "canvas.footer": "dopabrain.com/iq-test에서 퍼즐 도전하기",
-  "share.text": "IQ 스타일 퍼즐에서 {score}/100점을 받았어요. 같은 20문제에 도전해 보세요!",
-  "share.title": "IQ 스타일 퍼즐",
-  "share.copied": "링크가 클립보드에 복사되었습니다!",
-  "error": {
-    "storage": "개인 정보 보호 모드에서는 일부 기능이 제한될 수 있습니다.",
-    "data": "데이터 로드 중 문제가 발생했습니다. 새로고침해주세요.",
-    "canvas": "그래픽 렌더링 중 문제가 발생했습니다. 다시 시도해주세요.",
-    "audio": "음성 기능을 사용할 수 없습니다. 계속 진행하실 수 있습니다.",
-    "network": "네트워크 연결을 확인해주세요.",
-    "general": "문제가 발생했습니다. 새로고침하거나 다시 시도해주세요."
-  }
+  "accessibility": { "skipToMain": "본문으로 건너뛰기" }
 }

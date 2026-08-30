@@ -1,77 +1,47 @@
 {
   "app": {
-    "title": "Kostenloser IQ-ähnlicher Rätseltest – 20 Logikfragen",
-    "description": "Löse 20 zeitbegrenzte Muster-, Reihen-, Raum-, Sprach- und Logikrätsel. Du erhältst einen transparenten Spielwert; kein standardisierter IQ-Test.",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "Kostenloser IQ-ähnlicher Rätseltest – 20 Logikfragen",
-    "og_description": "Löse 20 zeitbegrenzte Muster-, Reihen-, Raum-, Sprach- und Logikrätsel. Du erhältst einen transparenten Spielwert; kein standardisierter IQ-Test.",
-    "twitter_title": "Kostenloser IQ-ähnlicher Rätseltest – 20 Logikfragen",
-    "twitter_description": "Löse 20 zeitbegrenzte Muster-, Reihen-, Raum-, Sprach- und Logikrätsel. Du erhältst einen transparenten Spielwert; kein standardisierter IQ-Test."
+    "title": "10 sprachneutrale IQ-Stil-Rätsel | DopaBrain",
+    "description": "Löse zehn sprachneutrale Zahlen- und Symbolrätsel in etwa zwei Minuten. Der Wert zeigt nur richtige Antworten dieses Spiels und ist kein standardisierter IQ-Test.",
+    "og_title": "10 sprachneutrale Rätsel",
+    "og_description": "Löse zehn Zahlen- und Symbolrätsel und sieh deine richtigen Antworten."
   },
-  "header": {
-    "subtitle": "Löse 20 zeitbegrenzte Rätsel im IQ-Stil"
-  },
+  "header": { "subtitle": "Zwei Minuten Rätsel nur mit Zahlen und Symbolen" },
   "start": {
-    "title": "Rätsel-Challenge starten",
-    "description": "Beantworte 20 Fragen und sieh deinen Spielwert und die Kategorien.",
-    "info1": "30 Sekunden pro Frage",
-    "info2": "Kategorienübersicht",
-    "info3": "Ergebnisse teilen",
-    "disclaimer": "⚠️ Nur ein Unterhaltungspuzzle. Der Wert gilt nur für diese Runde und misst weder Intelligenz noch Bevölkerungsrang.",
-    "button": "Test starten"
+    "title": "10 Rätsel starten",
+    "description": "Löse zehn Rätsel und prüfe die richtigen Antworten je Kategorie.",
+    "info1": "Etwa 2 Minuten",
+    "info2": "Kein Zeitlimit",
+    "info3": "Keine Anmeldung",
+    "disclaimer": "Der Wert ist nur die Trefferquote dieser zehn Rätsel. Er misst weder Intelligenz noch Diagnose oder Bevölkerungsrang.",
+    "button": "Starten"
   },
-  "test": {
-    "question": "Frage",
-    "seconds": "Sekunden",
-    "previous": "Zurück",
-    "next": "Weiter"
+  "test": { "question": "Frage" },
+  "puzzle": {
+    "choose_next": "Wähle das nächste Element.",
+    "find_missing": "Finde den fehlenden Wert.",
+    "apply_rule": "Wende dieselbe Regel an."
   },
   "results": {
-    "analysis": "Kategorieanalyse",
-    "category_pattern": "Mustererkennung",
-    "category_sequence": "Sequenzlogik",
-    "category_logic": "Logisches Denken",
-    "category_spatial": "Räumliches Bewusstsein",
-    "category_language": "Sprachfähigkeit",
-    "scores": "Punkteanalyse",
-    "close": "✕",
-    "share_image": "📸 Als Bild teilen",
-    "share_web": "🔗 Link teilen",
-    "retry": "Erneut versuchen",
-    "detail_notes": "Detaillierte Ergebnisnotizen",
-    "detail_hint": "Vorformulierte Hinweise passend zu Ihrem Ergebnis",
-    "detail_title": "Detaillierte Ergebnisnotizen",
     "score_label": "Rätselwert",
-    "session_summary": "Rundenübersicht",
+    "session_summary": "Sitzungsübersicht",
     "correct_count": "{correct} von {total} richtig",
-    "detail_body": "Sieh dir die Kategorien an, um leichte und schwierige Rätseltypen zu erkennen. Dieser Wert aus 20 Fragen misst weder Intelligenz noch Bevölkerungsrang."
+    "scores": "Ergebnisse nach Kategorie",
+    "category_pattern": "Muster",
+    "category_sequence": "Folgen",
+    "category_logic": "Logik",
+    "category_spatial": "Raum",
+    "boundary": "Die Kategorien zeigen nur richtige Antworten dieser Sitzung, keine Diagnose oder Rangliste.",
+    "detail_notes": "Grenzen des Werts ansehen",
+    "detail_hint": "Grenzen des Werts ansehen",
+    "detail_title": "Grenzen des Werts",
+    "detail_body": "Dieser Wert fasst nur diese zehn Rätsel zusammen und misst weder Intelligenz noch Bevölkerungsrang.",
+    "share_web": "Ergebnis teilen",
+    "retry": "Erneut versuchen"
   },
-  "result": {
-    "moreTests": "Mehr entdecken"
+  "share": {
+    "text": "Ich habe die 10 Rätsel abgeschlossen: {score}/100.",
+    "title": "10-Rätsel-Challenge",
+    "copied": "Geteilt."
   },
-  "related": {
-    "brainType": "Gehirntyp",
-    "mentalAge": "Mentales Alter",
-    "eqTest": "EQ-Test",
-    "reactionTest": "Reaktionstest"
-  },
-  "canvas.title": "Ergebnis des IQ-ähnlichen Rätsels",
-  "canvas.breakdown": "Kategorieanalyse:",
-  "canvas.pattern": "Mustererkennung",
-  "canvas.sequence": "Sequenzlogik",
-  "canvas.logic": "Logisches Denken",
-  "canvas.spatial": "Raumwahrnehmung",
-  "canvas.language": "Sprachfähigkeit",
-  "canvas.footer": "Rätselquiz auf dopabrain.com/iq-test ausprobieren",
-  "share.text": "Ich habe {score}/100 im IQ-ähnlichen Rätselquiz erreicht. Probiere dieselben 20 Fragen!",
-  "share.title": "IQ-ähnliches Rätselquiz",
-  "share.copied": "Link kopiert!",
-  "error": {
-    "storage": "Einige Funktionen sind im privaten Modus eingeschränkt.",
-    "data": "Fehler beim Laden. Bitte Seite aktualisieren.",
-    "canvas": "Grafikfehler. Bitte erneut versuchen.",
-    "audio": "Audio nicht verfügbar. Sie können fortfahren.",
-    "network": "Bitte Verbindung prüfen und erneut versuchen.",
-    "general": "Etwas ist schiefgelaufen. Bitte aktualisieren oder erneut versuchen."
-  }
+  "accessibility": { "skipToMain": "Zum Hauptinhalt springen" }
 }

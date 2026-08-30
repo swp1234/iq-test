@@ -1,241 +1,118 @@
-/* =================================================================
-   I18n - Internationalization Module
-   Supports 12 languages: ko, en, ja, zh, hi, ru, es, pt, id, tr, de, fr
-   ================================================================= */
-
 class I18n {
-    constructor() {
-        this.translations = {};
-        this.supportedLanguages = ['ko', 'en', 'ja', 'zh', 'hi', 'ru', 'es', 'pt', 'id', 'tr', 'de', 'fr'];
-        this.currentLang = this.detectLanguage();
-        document.documentElement.lang = this.currentLang;
-        this.initialized = false;
+  constructor() {
+    this.supportedLanguages = [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "hi",
+      "ru",
+      "es",
+      "pt",
+      "id",
+      "tr",
+      "de",
+      "fr",
+    ];
+    this.translations = {};
+    this.currentLang = this.detectLanguage();
+    this.fallbackTranslations = {};
+    this.ready = null;
+    document.documentElement.lang = this.currentLang;
+  }
+
+  detectLanguage() {
+    const queryLanguage = new URLSearchParams(location.search).get("lang");
+    if (this.supportedLanguages.includes(queryLanguage)) return queryLanguage;
+    const savedLanguage = localStorage.getItem("appLanguage");
+    if (this.supportedLanguages.includes(savedLanguage)) return savedLanguage;
+    const browserLanguage = (navigator.language || "").split("-")[0];
+    return this.supportedLanguages.includes(browserLanguage)
+      ? browserLanguage
+      : "en";
+  }
+
+  initialize() {
+    if (!this.ready) this.ready = this.loadInitialTranslations();
+    return this.ready;
+  }
+
+  async loadInitialTranslations() {
+    await this.loadTranslations(this.currentLang);
+    if (this.currentLang !== "en")
+      this.fallbackTranslations = await this.loadTranslations("en");
+    else this.fallbackTranslations = this.translations.en;
+    this.updateUI();
+  }
+
+  async loadTranslations(language) {
+    if (this.translations[language]) return this.translations[language];
+    try {
+      const response = await fetch(`./js/locales/${language}.json`);
+      if (!response.ok)
+        throw new Error(`Locale ${language} failed: ${response.status}`);
+      this.translations[language] = await response.json();
+    } catch (error) {
+      this.translations[language] = {};
     }
+    return this.translations[language];
+  }
 
-    // Detect user language preference
-    detectLanguage() {
-        try {
-            const params = new URLSearchParams(window.location.search || '');
-            const urlLang = params.get('lang');
-            if (urlLang && this.supportedLanguages.includes(urlLang)) {
-                return urlLang;
-            }
-        } catch (error) {}
+  t(key, fallback = key) {
+    const read = (source) =>
+      key.split(".").reduce((value, part) => value && value[part], source);
+    return (
+      read(this.translations[this.currentLang]) ??
+      read(this.fallbackTranslations) ??
+      fallback
+    );
+  }
 
-        // 1. Check localStorage for saved preference
-        const saved = localStorage.getItem('appLanguage');
-        if (saved && this.supportedLanguages.includes(saved)) {
-            return saved;
-        }
+  async setLanguage(language) {
+    if (!this.supportedLanguages.includes(language)) return false;
+    await this.loadTranslations(language);
+    this.currentLang = language;
+    localStorage.setItem("appLanguage", language);
+    document.documentElement.lang = language;
+    this.updateUI();
+    window.dispatchEvent(
+      new CustomEvent("languageChanged", { detail: { language } }),
+    );
+    return true;
+  }
 
-        // 2. Check browser language
-        const browserLang = navigator.language.split('-')[0];
-        if (this.supportedLanguages.includes(browserLang)) {
-            return browserLang;
-        }
+  updateUI() {
+    document.querySelectorAll("[data-i18n]").forEach((element) => {
+      const value = this.t(element.dataset.i18n, element.textContent.trim());
+      if (element.matches("meta")) element.setAttribute("content", value);
+      else element.textContent = value;
+    });
+    document.querySelectorAll(".lang-option").forEach((button) => {
+      button.classList.toggle(
+        "active",
+        button.dataset.lang === this.currentLang,
+      );
+    });
+    document.title = this.t("app.title", document.title);
+  }
 
-        // 3. Default to English
-        return 'en';
-    }
-
-    // Load all translations
-    async initialize() {
-        try {
-            // Load primary language
-            await this.loadTranslations(this.currentLang);
-
-            // Load English as fallback
-            if (this.currentLang !== 'en') {
-                const enTranslations = await this.loadTranslations('en');
-                this.fallbackTranslations = enTranslations;
-            }
-
-            this.initialized = true;
-            this.updateUI();
-            return true;
-        } catch (error) {
-            console.error('i18n initialization failed:', error);
-            return false;
-        }
-    }
-
-    // Load translation file
-    async loadTranslations(lang) {
-        if (this.translations[lang]) {
-            return this.translations[lang];
-        }
-
-        try {
-            const response = await fetch(`js/locales/${lang}.json`);
-            if (!response.ok) throw new Error(`Failed to load ${lang}.json`);
-
-            const translations = await response.json();
-            this.translations[lang] = translations;
-            return translations;
-        } catch (error) {
-            console.error(`Failed to load language ${lang}:`, error);
-            return {};
-        }
-    }
-
-    // Get translated string with dot notation support
-    t(key, defaultValue = key) {
-        const keys = key.split('.');
-        let value = this.translations[this.currentLang];
-
-        for (const k of keys) {
-            if (value && typeof value === 'object' && k in value) {
-                value = value[k];
-            } else {
-                // Fallback to English
-                value = this.fallbackTranslations;
-                for (const fk of keys) {
-                    if (value && typeof value === 'object' && fk in value) {
-                        value = value[fk];
-                    } else {
-                        return defaultValue;
-                    }
-                }
-                return value;
-            }
-        }
-
-        return value || defaultValue;
-    }
-
-    // Set language
-    async setLanguage(lang) {
-        if (!this.supportedLanguages.includes(lang)) {
-            console.warn(`Language ${lang} not supported`);
-            return false;
-        }
-
-        await this.loadTranslations(lang);
-        this.currentLang = lang;
-        localStorage.setItem('appLanguage', lang);
-
-        // Update UI
-        this.updateUI();
-
-        // Update page language attribute
-        document.documentElement.lang = lang;
-
-        return true;
-    }
-
-    // Update all elements with data-i18n attribute
-    updateUI() {
-        // Update text content
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-            const key = element.getAttribute('data-i18n');
-            const text = this.t(key);
-
-            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                if (element.placeholder !== '') {
-                    element.placeholder = text;
-                }
-            } else {
-                element.textContent = text;
-            }
-        });
-
-        // Update page title
-        const titleElement = document.querySelector('title[data-i18n]');
-        if (titleElement) {
-            const titleKey = titleElement.getAttribute('data-i18n');
-            document.title = this.t(titleKey);
-        }
-
-        // Update meta descriptions
-        document.querySelectorAll('meta[data-i18n]').forEach(element => {
-            const key = element.getAttribute('data-i18n');
-            const name = element.getAttribute('name') || element.getAttribute('property');
-            const text = this.t(key);
-
-            if (name === 'description') {
-                element.setAttribute('content', text);
-            } else if (name && name.startsWith('og:')) {
-                element.setAttribute('content', text);
-            }
-        });
-
-        // Update language selector active state
-        document.querySelectorAll('.lang-option').forEach(btn => {
-            if (btn.getAttribute('data-lang') === this.currentLang) {
-                btn.classList.add('active');
-            } else {
-                btn.classList.remove('active');
-            }
-        });
-
-        // Dispatch custom event
-        window.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang: this.currentLang } }));
-    }
-
-    // Get current language
-    getCurrentLanguage() {
-        return this.currentLang;
-    }
-
-    // Get language name
-    getLanguageName(lang) {
-        const names = {
-            'ko': '한국어',
-            'en': 'English',
-            'ja': '日本語',
-            'zh': '中文',
-            'hi': 'हिन्दी',
-            'ru': 'Русский',
-            'es': 'Español',
-            'pt': 'Português',
-            'id': 'Bahasa Indonesia',
-            'tr': 'Türkçe',
-            'de': 'Deutsch',
-            'fr': 'Français'
-        };
-        return names[lang] || lang;
-    }
-
-    // Get all supported languages
-    getSupportedLanguages() {
-        return this.supportedLanguages;
-    }
+  bindControls() {
+    const toggle = document.getElementById("lang-toggle");
+    const menu = document.getElementById("lang-menu");
+    toggle?.addEventListener("click", (event) => {
+      event.stopPropagation();
+      menu?.classList.toggle("hidden");
+    });
+    document.querySelectorAll(".lang-option").forEach((button) => {
+      button.addEventListener("click", async (event) => {
+        event.stopPropagation();
+        await this.setLanguage(button.dataset.lang);
+        menu?.classList.add("hidden");
+      });
+    });
+    document.addEventListener("click", () => menu?.classList.add("hidden"));
+  }
 }
 
-// Global instance
 const i18n = new I18n();
-
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', async () => {
-    try {
-        await i18n.initialize();
-    } catch (e) {
-        console.warn('i18n init failed:', e);
-    }
-
-    // Setup language selector
-    const langToggle = document.getElementById('lang-toggle');
-    const langMenu = document.getElementById('lang-menu');
-
-    if (langToggle) {
-        langToggle.addEventListener('click', (e) => {
-            e.stopPropagation();
-            langMenu.classList.toggle('hidden');
-        });
-    }
-
-    // Language options
-    document.querySelectorAll('.lang-option').forEach(btn => {
-        btn.addEventListener('click', async (e) => {
-            e.stopPropagation();
-            const lang = btn.getAttribute('data-lang');
-            await i18n.setLanguage(lang);
-            langMenu.classList.add('hidden');
-        });
-    });
-
-    // Close language menu when clicking outside
-    document.addEventListener('click', () => {
-        if (langMenu) langMenu.classList.add('hidden');
-    });
-});
+window.i18n = i18n;

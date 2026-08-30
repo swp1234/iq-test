@@ -1,77 +1,47 @@
 {
   "app": {
-    "title": "無料IQスタイル・パズルテスト - 論理問題20問",
-    "description": "パターン、数列、空間、言語、論理の制限時間付きパズル20問に挑戦。透明なゲームスコアを表示します。標準化IQ検査ではありません。",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "無料IQスタイル・パズルテスト - 論理問題20問",
-    "og_description": "パターン、数列、空間、言語、論理の制限時間付きパズル20問に挑戦。透明なゲームスコアを表示します。標準化IQ検査ではありません。",
-    "twitter_title": "無料IQスタイル・パズルテスト - 論理問題20問",
-    "twitter_description": "パターン、数列、空間、言語、論理の制限時間付きパズル20問に挑戦。透明なゲームスコアを表示します。標準化IQ検査ではありません。"
+    "title": "言語に依存しない10問IQスタイルパズル | DopaBrain",
+    "description": "数字と記号だけの10問を約2分で解きます。得点はこのゲームの正答率であり、標準化されたIQ検査ではありません。",
+    "og_title": "言語に依存しない10問パズル",
+    "og_description": "数字と記号の10問を解いて正答数を確認します。"
   },
-  "header": {
-    "subtitle": "制限時間付きIQスタイル論理パズル20問"
-  },
+  "header": { "subtitle": "数字と記号だけを使う約2分のパズル" },
   "start": {
-    "title": "パズルチャレンジを始める",
-    "description": "20問に答えて、ゲームスコアとカテゴリ別結果を確認します。",
-    "info1": "質問ごとに 30 秒",
-    "info2": "カテゴリ別結果",
-    "info3": "結果を共有",
-    "disclaimer": "⚠️ 娯楽用パズルです。スコアは今回の結果だけを示し、知能や人口順位を測るものではありません。",
-    "button": "テスト開始"
+    "title": "10問パズルを始める",
+    "description": "数字と記号の10問を解き、分野別の正答数を確認します。",
+    "info1": "約2分",
+    "info2": "制限時間なし",
+    "info3": "ログイン不要",
+    "disclaimer": "得点はこの10問の正答率だけを示します。知能、診断、人口順位は測定しません。",
+    "button": "パズル開始"
   },
-  "test": {
-    "question": "質問",
-    "seconds": "秒",
-    "previous": "前へ",
-    "next": "次へ"
+  "test": { "question": "問題" },
+  "puzzle": {
+    "choose_next": "次に来るものを選んでください。",
+    "find_missing": "空欄に入る値を選んでください。",
+    "apply_rule": "同じ規則を適用してください。"
   },
   "results": {
-    "analysis": "カテゴリ別分析",
-    "category_pattern": "パターン認識",
-    "category_sequence": "数列論理",
-    "category_logic": "論理推論",
-    "category_spatial": "空間認識",
-    "category_language": "言語能力",
-    "scores": "スコア分析",
-    "close": "✕",
-    "share_image": "📸 画像として共有",
-    "share_web": "🔗 リンク共有",
-    "retry": "もう一度試す",
-    "detail_notes": "詳細なスコアメモ",
-    "detail_hint": "結果に合わせた事前作成の参考メモ",
-    "detail_title": "詳細なスコアメモ",
-    "score_label": "パズルスコア",
-    "session_summary": "今回の結果",
+    "score_label": "パズル得点",
+    "session_summary": "今回のまとめ",
     "correct_count": "{total}問中{correct}問正解",
-    "detail_body": "カテゴリの棒グラフで、取り組みやすかった問題タイプを確認できます。この20問のゲームスコアは知能や人口順位を測りません。"
+    "scores": "分野別の正答",
+    "category_pattern": "パターン",
+    "category_sequence": "数列",
+    "category_logic": "論理",
+    "category_spatial": "空間",
+    "boundary": "分野別の数値は今回の正答数であり、能力診断や他者との順位ではありません。",
+    "detail_notes": "得点の範囲を見る",
+    "detail_hint": "得点の範囲を見る",
+    "detail_title": "得点の範囲",
+    "detail_body": "この得点は今回の10問だけをまとめたもので、知能や人口順位を測定しません。",
+    "share_web": "結果を共有",
+    "retry": "もう一度"
   },
-  "result": {
-    "moreTests": "もっと見る"
+  "share": {
+    "text": "10問パズルを完了しました：{score}/100。",
+    "title": "10問パズル",
+    "copied": "共有しました。"
   },
-  "related": {
-    "brainType": "脳タイプ",
-    "mentalAge": "精神年齢",
-    "eqTest": "EQテスト",
-    "reactionTest": "反応テスト"
-  },
-  "canvas.title": "IQスタイル・パズル結果",
-  "canvas.breakdown": "カテゴリー分析：",
-  "canvas.pattern": "パターン認識",
-  "canvas.sequence": "論理的順序",
-  "canvas.logic": "論理的推理",
-  "canvas.spatial": "空間認知",
-  "canvas.language": "言語能力",
-  "canvas.footer": "dopabrain.com/iq-test でパズルに挑戦",
-  "share.text": "IQスタイル・パズルで{score}/100点でした。同じ20問に挑戦してみてください！",
-  "share.title": "IQスタイル・パズル",
-  "share.copied": "リンクがコピーされました！",
-  "error": {
-    "storage": "プライベートモードでは一部機能が制限されます。",
-    "data": "データ読み込みエラー。ページを更新してください。",
-    "canvas": "グラフィック描画の問題。もう一度お試しください。",
-    "audio": "音声が利用できません。続行できます。",
-    "network": "接続を確認して再試行してください。",
-    "general": "問題が発生しました。更新するか再試行してください。"
-  }
+  "accessibility": { "skipToMain": "本文へ移動" }
 }

@@ -1,77 +1,49 @@
 {
   "app": {
-    "title": "Test gratuito de rompecabezas estilo IQ - 20 preguntas de lógica",
-    "description": "Resuelve 20 rompecabezas cronometrados de patrones, secuencias, espacio, lenguaje y lógica. Obtén una puntuación de juego; no es un test de IQ estandarizado.",
-    "keywords": "IQ-style puzzle, logic game, pattern recognition, sequence puzzle",
-    "og_title": "Test gratuito de rompecabezas estilo IQ - 20 preguntas de lógica",
-    "og_description": "Resuelve 20 rompecabezas cronometrados de patrones, secuencias, espacio, lenguaje y lógica. Obtén una puntuación de juego; no es un test de IQ estandarizado.",
-    "twitter_title": "Test gratuito de rompecabezas estilo IQ - 20 preguntas de lógica",
-    "twitter_description": "Resuelve 20 rompecabezas cronometrados de patrones, secuencias, espacio, lenguaje y lógica. Obtén una puntuación de juego; no es un test de IQ estandarizado."
+    "title": "Desafío de 10 acertijos estilo IQ | DopaBrain",
+    "description": "Resuelve diez acertijos neutrales de números y símbolos en unos dos minutos. La puntuación solo refleja los aciertos de esta partida; no es una prueba de IQ estandarizada.",
+    "og_title": "Desafío de 10 acertijos",
+    "og_description": "Resuelve diez acertijos de números y símbolos y revisa tus aciertos."
   },
   "header": {
-    "subtitle": "Resuelve 20 rompecabezas de lógica estilo IQ"
+    "subtitle": "Un reto de dos minutos solo con números y símbolos"
   },
   "start": {
-    "title": "Iniciar el reto de rompecabezas",
-    "description": "Responde 20 preguntas y consulta tu puntuación y el desglose por categorías.",
-    "info1": "30 segundos por pregunta",
-    "info2": "Desglose por categorías",
-    "info3": "Compartir resultados",
-    "disclaimer": "⚠️ Es solo un juego de entretenimiento. La puntuación refleja esta sesión y no mide la inteligencia ni el rango poblacional.",
-    "button": "Iniciar Prueba"
+    "title": "Iniciar los 10 acertijos",
+    "description": "Resuelve diez acertijos y revisa los aciertos por categoría.",
+    "info1": "Unos 2 minutos",
+    "info2": "Sin límite de tiempo",
+    "info3": "Sin registro",
+    "disclaimer": "La puntuación es solo el porcentaje de aciertos de estos diez acertijos. No mide inteligencia, diagnóstico ni percentil poblacional.",
+    "button": "Empezar"
   },
-  "test": {
-    "question": "Pregunta",
-    "seconds": "segundos",
-    "previous": "Anterior",
-    "next": "Siguiente"
+  "test": { "question": "Pregunta" },
+  "puzzle": {
+    "choose_next": "Elige lo que sigue.",
+    "find_missing": "Encuentra el valor que falta.",
+    "apply_rule": "Aplica la misma regla."
   },
   "results": {
-    "analysis": "Análisis por Categoría",
-    "category_pattern": "Reconocimiento de Patrones",
-    "category_sequence": "Lógica de Secuencias",
-    "category_logic": "Razonamiento Lógico",
-    "category_spatial": "Percepción Espacial",
-    "category_language": "Habilidad Lingüística",
-    "scores": "Análisis de Puntuación",
-    "close": "✕",
-    "share_image": "📸 Compartir como Imagen",
-    "share_web": "🔗 Compartir Enlace",
-    "retry": "Intentar de Nuevo",
-    "detail_notes": "Notas detalladas de la puntuación",
-    "detail_hint": "Notas predefinidas según tu resultado",
-    "detail_title": "Notas detalladas de la puntuación",
-    "score_label": "Puntuación del juego",
+    "score_label": "Puntuación",
     "session_summary": "Resumen de la sesión",
     "correct_count": "{correct} de {total} correctas",
-    "detail_body": "Revisa las barras de categorías para ver qué tipos de rompecabezas resultaron más fáciles. Esta puntuación de 20 preguntas no mide la inteligencia ni el rango poblacional."
+    "scores": "Aciertos por categoría",
+    "category_pattern": "Patrones",
+    "category_sequence": "Secuencias",
+    "category_logic": "Lógica",
+    "category_spatial": "Espacio",
+    "boundary": "Los valores por categoría son aciertos de esta sesión, no un diagnóstico ni una comparación con otras personas.",
+    "detail_notes": "Ver límites de la puntuación",
+    "detail_hint": "Ver límites de la puntuación",
+    "detail_title": "Límites de la puntuación",
+    "detail_body": "Esta puntuación resume solo estos diez acertijos y no mide inteligencia ni rango poblacional.",
+    "share_web": "Compartir resultado",
+    "retry": "Intentar de nuevo"
   },
-  "result": {
-    "moreTests": "Explorar más"
+  "share": {
+    "text": "Completé el reto de 10 acertijos: {score}/100.",
+    "title": "Reto de 10 acertijos",
+    "copied": "Compartido."
   },
-  "related": {
-    "brainType": "Tipo de Cerebro",
-    "mentalAge": "Edad Mental",
-    "eqTest": "Test de EQ",
-    "reactionTest": "Test de Reacción"
-  },
-  "canvas.title": "Resultado del rompecabezas estilo IQ",
-  "canvas.breakdown": "Desglose:",
-  "canvas.pattern": "Reconocimiento de patrones",
-  "canvas.sequence": "Lógica secuencial",
-  "canvas.logic": "Razonamiento lógico",
-  "canvas.spatial": "Percepción espacial",
-  "canvas.language": "Habilidad lingüística",
-  "canvas.footer": "Prueba el reto en dopabrain.com/iq-test",
-  "share.text": "Obtuve {score}/100 en el rompecabezas estilo IQ. ¡Prueba las mismas 20 preguntas!",
-  "share.title": "Rompecabezas estilo IQ",
-  "share.copied": "¡Enlace copiado!",
-  "error": {
-    "storage": "Algunas funciones pueden estar limitadas en modo privado.",
-    "data": "Error al cargar datos. Actualice la página.",
-    "canvas": "Problema de renderizado. Inténtelo de nuevo.",
-    "audio": "Audio no disponible. Puede continuar.",
-    "network": "Verifique su conexión e inténtelo de nuevo.",
-    "general": "Algo salió mal. Actualice o inténtelo de nuevo."
-  }
+  "accessibility": { "skipToMain": "Saltar al contenido principal" }
 }
