@@ -16,11 +16,11 @@ class IQPuzzleApp {
     return /^[a-z0-9_]{1,48}$/.test(value) ? value : "direct";
   }
 
-  track(name) {
+  track(name, params = {}) {
     if (this.sent.has(name)) return;
     this.sent.add(name);
     if (typeof gtag === "function")
-      gtag("event", name, { entry_surface: this.surface });
+      gtag("event", name, { entry_surface: this.surface, ...params });
   }
 
   async init() {
@@ -69,6 +69,15 @@ class IQPuzzleApp {
     document
       .getElementById("btn-share")
       ?.addEventListener("click", () => this.shareResult());
+    document.querySelectorAll("[data-related-route]").forEach((link) => {
+      link.addEventListener("click", () => {
+        const targetSlug = link.dataset.relatedRoute
+          .replace(/^\//, "")
+          .replace(/\/$/, "")
+          .replace(/[^a-z0-9/-]/gi, "-");
+        this.track("iq_puzzle_related_click", { target_slug: targetSlug });
+      });
+    });
   }
 
   updateThemeButton() {
