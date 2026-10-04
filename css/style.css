@@ -370,6 +370,105 @@ button {
   font-size: 1.6rem;
   cursor: pointer;
 }
+
+/* Educational & trust section */
+.about-test-section {
+  width: 100%;
+  margin: 20px 0 0;
+  padding: 0;
+  background: var(--card-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  text-align: left;
+  overflow: hidden;
+}
+.about-test-section summary {
+  cursor: pointer;
+  padding: 14px 16px;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 700;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.about-test-section summary:hover {
+  color: var(--primary);
+}
+.about-test-body {
+  padding: 0 16px 16px;
+}
+.about-test-body p {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+.about-test-body .about-test-note {
+  font-size: 0.82rem;
+  line-height: 1.55;
+  margin-bottom: 0;
+  opacity: 0.85;
+}
+.about-section-heading {
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  border-left: 3px solid var(--primary);
+  padding-left: 8px;
+}
+.about-guide-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+.about-guide-list li {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 8px;
+  padding-left: 12px;
+  position: relative;
+}
+.about-guide-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}
+.about-guide-list li strong {
+  color: var(--text);
+}
+.about-faq-item {
+  background: color-mix(in srgb, var(--card) 60%, transparent);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+.about-faq-q {
+  display: block;
+  color: var(--text);
+  font-size: 0.86rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.about-faq-a {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  margin: 0 !important;
+}
+.about-review-meta {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-align: center;
+}
+
 @media (max-width: 520px) {
   .shell {
     width: min(100% - 20px, 720px);

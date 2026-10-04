@@ -17,7 +17,9 @@
     "disclaimer": "This score is only the correct-answer rate for these ten puzzles. It does not measure intelligence, diagnosis, or population percentile.",
     "button": "Start puzzles"
   },
-  "test": { "question": "Question" },
+  "test": {
+    "question": "Question"
+  },
   "puzzle": {
     "choose_next": "Choose what comes next.",
     "find_missing": "Find the missing value.",
@@ -45,5 +47,41 @@
     "title": "10-Puzzle Challenge",
     "copied": "Shared."
   },
-  "accessibility": { "skipToMain": "Skip to main content" }
+  "accessibility": {
+    "skipToMain": "Skip to main content"
+  },
+  "guide": {
+    "summaryTitle": "About this puzzle: domains, methodology & FAQ",
+    "frameworkRule": "This puzzle evaluates abstract pattern recognition, sequence deduction, logic, and matrix reasoning using ten language-neutral questions. The final score is the count of correct answers out of ten and is not a clinical or standardized test.",
+    "frameworkBoundary": "Standardized clinical assessments require comprehensive multi-factor subtests and supervised psychometric administration. This tool is designed purely for cognitive practice and intellectual enjoyment.",
+    "domainsTitle": "Cognitive Reasoning Domains",
+    "domainPatternTitle": "Pattern Recognition:",
+    "domainPatternDesc": "Identifying invariant structural rules and transformations across abstract geometric shapes.",
+    "domainSequenceTitle": "Sequence Induction:",
+    "domainSequenceDesc": "Inferring progressive arithmetic steps, alternating intervals, and numeric series logic.",
+    "domainLogicTitle": "Deductive Logic:",
+    "domainLogicDesc": "Evaluating relational rules to eliminate inconsistent possibilities and reach valid conclusions.",
+    "domainSpatialTitle": "Spatial Organization:",
+    "domainSpatialDesc": "Analyzing positional rotation, symmetry, and matrix placement of elements.",
+    "scoringTitle": "Score Interpretation & Transparency",
+    "scoreHighTitle": "High Accuracy (8–10 Correct):",
+    "scoreHighDesc": "Strong fluid pattern synthesis and inductive rule deduction across varied problem types.",
+    "scoreModerateTitle": "Moderate Accuracy (5–7 Correct):",
+    "scoreModerateDesc": "Solid conceptual grasp of direct sequences and basic symbol symmetries with minor oversights on complex shifts.",
+    "scoreFoundationTitle": "Developing Accuracy (0–4 Correct):",
+    "scoreFoundationDesc": "An opportunity to practice non-verbal problem solving, deliberate rule elimination, and systematic scanning.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "Q: Is this an official score?",
+    "faq1A": "A: No. Standardized testing requires extensive clinical batteries with calibrated demographic cohorts. This is a lightweight educational puzzle measuring accuracy on ten abstract items.",
+    "faq2Q": "Q: Why are the questions language-neutral?",
+    "faq2A": "A: By using only abstract geometric shapes, matrices, and numbers, the puzzles minimize linguistic and cultural biases, focusing on fluid reasoning across all 12 supported languages.",
+    "faq3Q": "Q: What cognitive skills are involved?",
+    "faq3A": "A: The tasks tap into fluid reasoning, working memory strategies, pattern completion, and deductive elimination.",
+    "faq4Q": "Q: Can puzzle performance improve with practice?",
+    "faq4A": "A: Yes. Regular engagement with abstract logic puzzles trains working memory strategies, structured hypothesis testing, and attention to subtle visual transformations.",
+    "faq5Q": "Q: Are my test responses private?",
+    "faq5A": "A: Completely private. All calculations run client-side in your web browser. Individual answers and scores are never transmitted or stored on external servers.",
+    "referencesTitle": "References & Empirical Frameworks",
+    "reviewMeta": "Content reviewed for cognitive educational accuracy • Updated October 2026"
+  }
 }

@@ -5,7 +5,9 @@
     "og_title": "Desafio de 10 quebra-cabeças",
     "og_description": "Resolva dez desafios de números e símbolos e veja seus acertos."
   },
-  "header": { "subtitle": "Dois minutos de desafios com números e símbolos" },
+  "header": {
+    "subtitle": "Dois minutos de desafios com números e símbolos"
+  },
   "start": {
     "title": "Iniciar os 10 desafios",
     "description": "Resolva dez desafios e veja os acertos por categoria.",
@@ -15,7 +17,9 @@
     "disclaimer": "A pontuação é apenas a taxa de acertos destes dez desafios. Não mede inteligência, diagnóstico ou percentil populacional.",
     "button": "Começar"
   },
-  "test": { "question": "Pergunta" },
+  "test": {
+    "question": "Pergunta"
+  },
   "puzzle": {
     "choose_next": "Escolha o próximo item.",
     "find_missing": "Encontre o valor que falta.",
@@ -43,5 +47,41 @@
     "title": "Desafio de 10 perguntas",
     "copied": "Compartilhado."
   },
-  "accessibility": { "skipToMain": "Ir para o conteúdo principal" }
+  "accessibility": {
+    "skipToMain": "Ir para o conteúdo principal"
+  },
+  "guide": {
+    "summaryTitle": "Sobre este desafio: domínios, metodologia e perguntas frequentes",
+    "frameworkRule": "Este desafio avalia o reconhecimento de padrões, dedução de sequências, lógica e organização espacial através de dez questões sem barreira de idioma. A pontuação reflete apenas o número de acertos em dez.",
+    "frameworkBoundary": "Avaliações clínicas formais exigem baterias multifatoriais e supervisão psicométrica. Esta ferramenta foi desenvolvida para treino cognitivo e entretenimento intelectual.",
+    "domainsTitle": "Quatro Domínios de Raciocínio",
+    "domainPatternTitle": "Reconhecimento de Padrões:",
+    "domainPatternDesc": "Identificação de invariantes estruturais e transformações em figuras geométricas.",
+    "domainSequenceTitle": "Indução de Sequências:",
+    "domainSequenceDesc": "Dedução de intervalos aritméticos, progressões e séries numéricas alternadas.",
+    "domainLogicTitle": "Lógica Dedutiva:",
+    "domainLogicDesc": "Avaliação de relações lógicas para descartar alternativas contraditórias.",
+    "domainSpatialTitle": "Organização Espacial:",
+    "domainSpatialDesc": "Análise de rotação, simetria e distribuição de elementos em matriz.",
+    "scoringTitle": "Interpretação e Transparência",
+    "scoreHighTitle": "Alta Precisão (8–10 acertos):",
+    "scoreHighDesc": "Excelente capacidade de síntese fluida e dedução indutiva perante regras multifacetadas.",
+    "scoreModerateTitle": "Precisão Moderada (5–7 acertos):",
+    "scoreModerateDesc": "Compreensão clara de séries diretas e simetrias simples, com potencial para refinar regras combinadas.",
+    "scoreFoundationTitle": "Desenvolvimento Inicial (0–4 acertos):",
+    "scoreFoundationDesc": "Excelente oportunidade para praticar resolução não verbal por exclusão metódica.",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faq1Q": "Q: Esta pontuação é oficial?",
+    "faq1A": "A: Não. Testes estandardizados exigem instrumentos clínicos e amostras calibradas. Este é um jogo educativo que indica o acerto em dez problemas.",
+    "faq2Q": "Q: Por que o formato é neutro em idioma?",
+    "faq2A": "A: Ao utilizar somente números e formas geométricas, elimina-se o viés linguístico e cultural entre os participantes.",
+    "faq3Q": "Q: Quais funções cognitivas são exercitadas?",
+    "faq3A": "A: Exercita o raciocínio fluido, estratégias de memória operacional e capacidade visuoespacial.",
+    "faq4Q": "Q: O raciocínio pode ser aprimorado com a prática?",
+    "faq4A": "A: Sim. A prática frequente com jogos de lógica, xadrez e desafios numéricos estimula o teste estruturado de hipóteses.",
+    "faq5Q": "Q: As minhas respostas são transmitidas para algum lugar?",
+    "faq5A": "A: Não. Toda a lógica roda 100% no seu navegador local de forma privada.",
+    "referencesTitle": "Referências e Fundamentação Científica",
+    "reviewMeta": "Revisado para precisão educativa • Atualizado em outubro de 2026"
+  }
 }

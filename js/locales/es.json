@@ -17,7 +17,9 @@
     "disclaimer": "La puntuación es solo el porcentaje de aciertos de estos diez acertijos. No mide inteligencia, diagnóstico ni percentil poblacional.",
     "button": "Empezar"
   },
-  "test": { "question": "Pregunta" },
+  "test": {
+    "question": "Pregunta"
+  },
   "puzzle": {
     "choose_next": "Elige lo que sigue.",
     "find_missing": "Encuentra el valor que falta.",
@@ -45,5 +47,41 @@
     "title": "Reto de 10 acertijos",
     "copied": "Compartido."
   },
-  "accessibility": { "skipToMain": "Saltar al contenido principal" }
+  "accessibility": {
+    "skipToMain": "Saltar al contenido principal"
+  },
+  "guide": {
+    "summaryTitle": "Acerca de este desafío: dominios, método y preguntas frecuentes",
+    "frameworkRule": "Este desafío evalúa el reconocimiento de patrones abstractos, deducción de secuencias, lógica y relaciones espaciales mediante diez preguntas sin barrera lingüística. La puntuación refleja el total de aciertos de diez y no constituye una prueba clínica estandarizada.",
+    "frameworkBoundary": "Las evaluaciones clínicas formales requieren extensas baterías multifactoriales y supervisión psicométrica. Esta herramienta ha sido concebida para el entrenamiento cognitivo y el disfrute intelectual.",
+    "domainsTitle": "Cuatro Dominios de Razonamiento",
+    "domainPatternTitle": "Reconocimiento de Patrones:",
+    "domainPatternDesc": "Identificación de reglas estructurales invariantes y transformaciones en figuras geométricas.",
+    "domainSequenceTitle": "Inducción de Secuencias:",
+    "domainSequenceDesc": "Deducción de intervalos aritméticos, progresiones y alternancias numéricas.",
+    "domainLogicTitle": "Lógica Deductiva:",
+    "domainLogicDesc": "Evaluación de relaciones para descartar posibilidades contradictorias y llegar a conclusiones válidas.",
+    "domainSpatialTitle": "Organización Espacial:",
+    "domainSpatialDesc": "Análisis de rotaciones posicionales, simetrías y matrices de elementos.",
+    "scoringTitle": "Interpretación de Puntuaciones y Transparencia",
+    "scoreHighTitle": "Alta Precisión (8–10 aciertos):",
+    "scoreHighDesc": "Excelente capacidad de síntesis fluida y deducción inductiva ante transformaciones complejas.",
+    "scoreModerateTitle": "Precisión Moderada (5–7 aciertos):",
+    "scoreModerateDesc": "Comprensión sólida de secuencias directas y simetrías básicas, con margen para perfeccionar reglas combinadas.",
+    "scoreFoundationTitle": "Fase Inicial (0–4 aciertos):",
+    "scoreFoundationDesc": "Oportunidad ideal para practicar la resolución no verbal mediante descarte sistemático y escaneo ordenado.",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "Q: ¿Es esta una puntuación oficial?",
+    "faq1A": "A: No. La medición estandarizada exige baterías clínicas bajo supervisión profesional. Este es un juego formativo que muestra el acierto exacto en diez problemas.",
+    "faq2Q": "Q: ¿Por qué no utiliza palabras en las preguntas?",
+    "faq2A": "A: Al emplear solo símbolos geométricos y cifras, se neutralizan las diferencias lingüísticas y culturales, permitiendo comparar el razonamiento puro.",
+    "faq3Q": "Q: ¿Qué facultades mentales se ejercitan?",
+    "faq3A": "A: Estimula el razonamiento fluido, la memoria de trabajo y la estructuración visoespacial.",
+    "faq4Q": "Q: ¿Se puede mejorar el desempeño con la práctica?",
+    "faq4A": "A: Sí. Resolver rompecabezas de lógica, ajedrez o pasatiempos numéricos fortalece la formulación de hipótesis y el filtrado metódico.",
+    "faq5Q": "Q: ¿Se guardan o transmiten mis respuestas?",
+    "faq5A": "A: En absoluto. Todo el procesamiento se realiza de manera 100% local en su navegador web.",
+    "referencesTitle": "Referencias y Fundamentos Teóricos",
+    "reviewMeta": "Revisado para rigor educativo cognitivo • Actualizado en octubre de 2026"
+  }
 }

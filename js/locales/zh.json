@@ -5,7 +5,9 @@
     "og_title": "10题语言中立谜题",
     "og_description": "完成10道数字和符号谜题并查看答对数量。"
   },
-  "header": { "subtitle": "只使用数字和符号的两分钟谜题" },
+  "header": {
+    "subtitle": "只使用数字和符号的两分钟谜题"
+  },
   "start": {
     "title": "开始10题挑战",
     "description": "完成10道数字和符号谜题，查看各类答对数量。",
@@ -15,7 +17,9 @@
     "disclaimer": "分数只代表这10题的正确率，不衡量智力、诊断或人群百分位。",
     "button": "开始答题"
   },
-  "test": { "question": "题目" },
+  "test": {
+    "question": "题目"
+  },
   "puzzle": {
     "choose_next": "选择下一项。",
     "find_missing": "选择空缺的数值。",
@@ -43,5 +47,41 @@
     "title": "10题挑战",
     "copied": "已分享。"
   },
-  "accessibility": { "skipToMain": "跳到主要内容" }
+  "accessibility": {
+    "skipToMain": "跳到主要内容"
+  },
+  "guide": {
+    "summaryTitle": "拼图结构、认知领域与常见问题解答",
+    "frameworkRule": "本益智测验通过由数字和符号组成的10道非语言题目，考查模式识别、数列推导、演绎逻辑和空间矩阵理解。最终得分仅代表10题中的答对数量，并非标准化的临床测验。",
+    "frameworkBoundary": "正规专业测验需要多项子量表和规范的统计标准化程序。本工具旨在打破语言和文化隔阂，提供纯粹的抽象逻辑思维体验。",
+    "domainsTitle": "考查的四大认知领域",
+    "domainPatternTitle": "模式识别 (Pattern):",
+    "domainPatternDesc": "捕捉几何图形与符号的变换规律和结构不变性。",
+    "domainSequenceTitle": "数列推导 (Sequence):",
+    "domainSequenceDesc": "推导数值间隔、等差规律和交替演进法则。",
+    "domainLogicTitle": "演绎逻辑 (Logic):",
+    "domainLogicDesc": "排除与已知前提相矛盾的选项，推导出唯一的有效结论。",
+    "domainSpatialTitle": "空间组织 (Spatial):",
+    "domainSpatialDesc": "分析矩阵中元素的旋转、对称及空间排布关系。",
+    "scoringTitle": "得分区间解析与透明度",
+    "scoreHighTitle": "高准确度 (答对8–10题):",
+    "scoreHighDesc": "展现出极强的流体综合思维与归纳推导能力。",
+    "scoreModerateTitle": "稳定推导 (答对5–7题):",
+    "scoreModerateDesc": "对基础序列与图形对称理解清晰，可在复合多级转换中进一步练习。",
+    "scoreFoundationTitle": "基础探索 (答对0–4题):",
+    "scoreFoundationDesc": "可通过系统化排除法与图例对比练习，提升非语言问题的求解速度。",
+    "faqTitle": "常见问题解答 (FAQ)",
+    "faq1Q": "Q: 这是官方认证的测验结果吗？",
+    "faq1A": "A: 不是。标准化测验需要在专业评估师指导下进行复杂的多维度评估。本工具仅透明显示这10题的完成情况。",
+    "faq2Q": "Q: 为什么采用非语言无字形式？",
+    "faq2A": "A: 采用纯数字与抽象几何符号可以消除语言背景与文化差异对作答的干扰。",
+    "faq3Q": "Q: 测验主要涉及哪些思维能力？",
+    "faq3A": "A: 主要涉及流体推理、工作记忆策略以及视觉空间信息处理。",
+    "faq4Q": "Q: 逻辑推理能力可以通过练习提升吗？",
+    "faq4A": "A: 可以。定期进行逻辑谜题、数独与棋类训练，有助于强化假设验证与排除错误的能力。",
+    "faq5Q": "Q: 答案和测试数据会被保存或上传吗？",
+    "faq5A": "A: 完全不会。所有计算均在您的本地浏览器中完成，不会向服务器上传任何作答记录。",
+    "referencesTitle": "学术背景与理论参考文献",
+    "reviewMeta": "认知教育准确性已审阅 • 2026年10月更新"
+  }
 }

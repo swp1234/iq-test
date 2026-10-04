@@ -17,7 +17,9 @@
     "disclaimer": "Puan yalnızca bu on bulmacadaki doğru oranıdır. Zekâ, tanı veya nüfus yüzdeliği ölçmez.",
     "button": "Başla"
   },
-  "test": { "question": "Soru" },
+  "test": {
+    "question": "Soru"
+  },
   "puzzle": {
     "choose_next": "Sıradaki öğeyi seçin.",
     "find_missing": "Eksik değeri bulun.",
@@ -45,5 +47,41 @@
     "title": "10 Bulmaca Görevi",
     "copied": "Paylaşıldı."
   },
-  "accessibility": { "skipToMain": "Ana içeriğe geç" }
+  "accessibility": {
+    "skipToMain": "Ana içeriğe geç"
+  },
+  "guide": {
+    "summaryTitle": "Bulmaca hakkında: bilişsel alanlar, yöntem ve SSS",
+    "frameworkRule": "Bu zeka bulmacası, on adet dilden bağımsız soru aracılığıyla soyut örüntü tanıma, dizi tümevarımı, mantık ve uzamsal matris becerilerini inceler. Nihai skor on soru içindeki doğru sayısını belirtir.",
+    "frameworkBoundary": "Standart klinik testler çok yönlü ölçekler ve uzman gözetimi gerektirir. Bu araç, zihinsel egzersiz ve mantık yürütme keyfi için hazırlanmış eğitici bir bulmacadır.",
+    "domainsTitle": "İncelenen Dört Muhakeme Alanı",
+    "domainPatternTitle": "Örüntü Tanıma:",
+    "domainPatternDesc": "Geometrik şekiller ve sembollerdeki değişmeyen yapısal kuralları yakalama.",
+    "domainSequenceTitle": "Dizi Mantığı:",
+    "domainSequenceDesc": "Sayısal farkları, artış düzenlerini ve ardışık serileri kavrama.",
+    "domainLogicTitle": "Tümdengelem Mantığı:",
+    "domainLogicDesc": "Çelişkili seçenekleri eleyerek tek tutarlı sonuca ulaşma.",
+    "domainSpatialTitle": "Uzamsal Düzen:",
+    "domainSpatialDesc": "Matris üzerindeki elemanların konum dönüşümlerini ve simetrilerini analiz etme.",
+    "scoringTitle": "Puan Aralıkları ve Şeffaflık",
+    "scoreHighTitle": "Yüksek Doğruluk (8–10 doğru):",
+    "scoreHighDesc": "Farklı kural türlerinde güçlü akıcı sentez ve tümevarımsal çıkarım yeteneği.",
+    "scoreModerateTitle": "Dengeli Muhakeme (5–7 doğru):",
+    "scoreModerateDesc": "Temel seriler ve simetrilerde sağlam kavrayış, çok aşamalı kurallarda gelişime açık potansiyel.",
+    "scoreFoundationTitle": "Gelişim Aşaması (0–4 doğru):",
+    "scoreFoundationDesc": "Sistematik eleme yöntemleriyle sözel olmayan problem çözme pratiği kazanma fırsatı.",
+    "faqTitle": "Sıkça Sorulan Sorular (SSS)",
+    "faq1Q": "Q: Bu sonuç resmi bir zeka derecesi midir?",
+    "faq1A": "A: Hayır. Resmi ölçümler kapsamlı test bataryaları gerektirir. Bu uygulama on soruluk şeffaf bir zihin egzersizidir.",
+    "faq2Q": "Q: Neden sorular metin içermiyor?",
+    "faq2A": "A: Yalnızca semboller ve sayılar kullanarak dil ve kültür farklılıklarından doğabilecek dezavantajlar ortadan kaldırılmıştır.",
+    "faq3Q": "Q: Hangi zihinsel beceriler kullanılır?",
+    "faq3A": "A: Akıcı zeka, çalışma belleği stratejileri ve görsel-uzamsal analiz süreçleri aktifleşir.",
+    "faq4Q": "Q: Mantık yürütme becerisi pratikle gelişir mi?",
+    "faq4A": "A: Evet. Mantık bulmacaları, satranç ve sayı dizileri çözmek hipotez kurma ve hata eleme refleksini güçlendirir.",
+    "faq5Q": "Q: Yanıtlarım bir sunucuya kaydediliyor mu?",
+    "faq5A": "A: Kesinlikle hayır. Tüm hesaplamalar tamamen tarayıcınızda yerel olarak gerçekleşir.",
+    "referencesTitle": "Akademik Temeller ve Kaynakça",
+    "reviewMeta": "Bilişsel eğitim doğruluğu incelendi • Ekim 2026 güncellemesi"
+  }
 }

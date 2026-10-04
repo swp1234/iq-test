@@ -5,7 +5,9 @@
     "og_title": "Tantangan 10 teka-teki",
     "og_description": "Selesaikan sepuluh teka-teki angka dan simbol lalu lihat jawaban benar Anda."
   },
-  "header": { "subtitle": "Teka-teki dua menit hanya dengan angka dan simbol" },
+  "header": {
+    "subtitle": "Teka-teki dua menit hanya dengan angka dan simbol"
+  },
   "start": {
     "title": "Mulai 10 teka-teki",
     "description": "Selesaikan sepuluh teka-teki dan lihat jawaban benar per kategori.",
@@ -15,7 +17,9 @@
     "disclaimer": "Skor hanya persentase jawaban benar untuk sepuluh teka-teki ini. Ini tidak mengukur kecerdasan, diagnosis, atau persentil populasi.",
     "button": "Mulai"
   },
-  "test": { "question": "Soal" },
+  "test": {
+    "question": "Soal"
+  },
   "puzzle": {
     "choose_next": "Pilih item berikutnya.",
     "find_missing": "Temukan nilai yang hilang.",
@@ -43,5 +47,41 @@
     "title": "Tantangan 10 teka-teki",
     "copied": "Dibagikan."
   },
-  "accessibility": { "skipToMain": "Lewati ke konten utama" }
+  "accessibility": {
+    "skipToMain": "Lewati ke konten utama"
+  },
+  "guide": {
+    "summaryTitle": "Tentang teka-teki: domain kognitif, metode & FAQ",
+    "frameworkRule": "Tantangan ini mengukur pengenalan pola abstrak, deduksi deret angka, logika, dan matriks spasial melalui sepuluh soal netral bahasa. Skor akhir adalah jumlah jawaban benar dari sepuluh soal.",
+    "frameworkBoundary": "Penilaian klinis formal memerlukan instrumen multi-skala dan prosedur baku. Alat ini dirancang untuk latihan kognitif serta kesenangan mengasah logika berpikir.",
+    "domainsTitle": "Empat Domain Penalaran Utama",
+    "domainPatternTitle": "Pengenalan Pola:",
+    "domainPatternDesc": "Menemukan aturan bentuk geometris dan transformasi simbol yang konsisten.",
+    "domainSequenceTitle": "Penalaran Deret:",
+    "domainSequenceDesc": "Menyimpulkan interval angka, penambahan bertahap, dan keteraturan barisan nilai.",
+    "domainLogicTitle": "Logika Deduktif:",
+    "domainLogicDesc": "Mengeliminasi pilihan yang bertentangan untuk menemukan kesimpulan yang sah.",
+    "domainSpatialTitle": "Susunan Spasial:",
+    "domainSpatialDesc": "Menganalisis rotasi posisi, simetri, dan penempatan elemen dalam matriks.",
+    "scoringTitle": "Penjelasan Skor dan Transparansi",
+    "scoreHighTitle": "Akurasi Tinggi (8–10 benar):",
+    "scoreHighDesc": "Kemampuan sintesis fleksibel dan deduksi induktif yang sangat tajam dalam menghadapi berbagai aturan.",
+    "scoreModerateTitle": "Akurasi Sedang (5–7 benar):",
+    "scoreModerateDesc": "Pemahaman yang baik terhadap pola langsung dengan ruang peningkatan pada aturan bertingkat.",
+    "scoreFoundationTitle": "Tahap Latihan (0–4 benar):",
+    "scoreFoundationDesc": "Kesempatan ideal untuk melatih penyelesaian masalah non-verbal melalui teknik eliminasi teratur.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "faq1Q": "Q: Apakah ini skor kecerdasan resmi?",
+    "faq1A": "A: Bukan. Tes baku memerlukan pengawasan profesional dan norma populasi yang terkalibrasi. Ini adalah teka-teki edukatif sepuluh soal.",
+    "faq2Q": "Q: Mengapa soal dibuat tanpa kata-kata?",
+    "faq2A": "A: Dengan simbol visual dan angka, tes ini meminimalkan bias bahasa dan budaya sehingga dapat diikuti secara adil.",
+    "faq3Q": "Q: Keterampilan mental apa yang dilatih?",
+    "faq3A": "A: Penalaran lentur (fluid reasoning), strategi memori kerja, dan persepsi ruang visual.",
+    "faq4Q": "Q: Bisakah kemampuan logika ditingkatkan?",
+    "faq4A": "A: Tentu. Menyelesaikan teka-teki logika, catur, dan deret angka secara rutin memperkuat ketajaman hipotesis.",
+    "faq5Q": "Q: Apakah jawaban saya dikirim ke server?",
+    "faq5A": "A: Tidak sama sekali. Seluruh proses berjalan di peramban lokal Anda secara aman.",
+    "referencesTitle": "Referensi & Landasan Teoretis",
+    "reviewMeta": "Telah ditinjau untuk ketepatan edukasi kognitif • Diperbarui Oktober 2026"
+  }
 }

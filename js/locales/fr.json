@@ -5,7 +5,9 @@
     "og_title": "Défi de 10 énigmes",
     "og_description": "Résolvez dix énigmes de nombres et symboles et voyez vos bonnes réponses."
   },
-  "header": { "subtitle": "Deux minutes d’énigmes avec nombres et symboles" },
+  "header": {
+    "subtitle": "Deux minutes d’énigmes avec nombres et symboles"
+  },
   "start": {
     "title": "Commencer les 10 énigmes",
     "description": "Résolvez dix énigmes et consultez les bonnes réponses par catégorie.",
@@ -15,7 +17,9 @@
     "disclaimer": "Le score est seulement le taux de bonnes réponses à ces dix énigmes. Il ne mesure ni intelligence, ni diagnostic, ni percentile.",
     "button": "Commencer"
   },
-  "test": { "question": "Question" },
+  "test": {
+    "question": "Question"
+  },
   "puzzle": {
     "choose_next": "Choisissez l’élément suivant.",
     "find_missing": "Trouvez la valeur manquante.",
@@ -43,5 +47,41 @@
     "title": "Défi de 10 énigmes",
     "copied": "Partagé."
   },
-  "accessibility": { "skipToMain": "Aller au contenu principal" }
+  "accessibility": {
+    "skipToMain": "Aller au contenu principal"
+  },
+  "guide": {
+    "summaryTitle": "À propos de ce défi : domaines, méthode et FAQ",
+    "frameworkRule": "Ce jeu d’énigmes évalue la reconnaissance de motifs, la déduction de séquences, la logique et les relations matricielles à travers dix questions sans composante linguistique. Le score correspond uniquement au nombre de bonnes réponses sur dix.",
+    "frameworkBoundary": "Les bilans cliniques officiels exigent des batteries standardisées et une administration psychométrique supervisée. Cet outil est destiné à la stimulation cognitive et au plaisir de la réflexion.",
+    "domainsTitle": "Quatre Domaines de Raisonnement",
+    "domainPatternTitle": "Reconnaissance de motifs :",
+    "domainPatternDesc": "Repérage des règles structurelles invariantes et des transformations de formes géométriques.",
+    "domainSequenceTitle": "Induction séquentielle :",
+    "domainSequenceDesc": "Compréhension des intervalles arithmétiques et des progressions logiques chiffrées.",
+    "domainLogicTitle": "Logique déductive :",
+    "domainLogicDesc": "Élimination des hypothèses contradictoires pour identifier la seule conclusion cohérente.",
+    "domainSpatialTitle": "Organisation spatiale :",
+    "domainSpatialDesc": "Analyse des rotations d’éléments, des symétries et de l’agencement matriciel.",
+    "scoringTitle": "Interprétation des Scores et Transparence",
+    "scoreHighTitle": "Haute Précision (8–10 réussites) :",
+    "scoreHighDesc": "Excellente capacité de synthèse fluide et d’induction logique face à des règles variées.",
+    "scoreModerateTitle": "Précision Modérée (5–7 réussites) :",
+    "scoreModerateDesc": "Maîtrise solide des séries directes et des symétries de base, avec marge de progression sur les suites complexes.",
+    "scoreFoundationTitle": "Exploration des Bases (0–4 réussites) :",
+    "scoreFoundationDesc": "Une opportunité idéale d’entraîner la résolution non verbale par élimination méthodique.",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Q: Ce score a-t-il une valeur officielle ?",
+    "faq1A": "A: Non. Une mesure standardisée exige des protocoles approfondis et des étalonnages rigoureux. Ce défi propose un entraînement transparent sur dix énigmes.",
+    "faq2Q": "Q: Pourquoi le test est-il sans texte verbeux ?",
+    "faq2A": "A: L’utilisation exclusive de symboles et de nombres limite les biais culturels et linguistiques pour tous les participants.",
+    "faq3Q": "Q: Quelles facultés cognitives sont sollicitées ?",
+    "faq3A": "A: Le raisonnement fluide, la mémoire de travail et le traitement visuo-spatial sont au cœur de chaque épreuve.",
+    "faq4Q": "Q: Peut-on progresser par la pratique ?",
+    "faq4A": "A: Tout à fait. Pratiquer des casse-têtes logiques, des échecs ou des suites numériques renforce la formulation d’hypothèses.",
+    "faq5Q": "Q: Mes réponses sont-elles enregistrées ?",
+    "faq5A": "A: Absolument pas. Tout fonctionne exclusivement dans votre navigateur local sans transmission de données.",
+    "referencesTitle": "Cadres Théoriques et Références",
+    "reviewMeta": "Revu pour sa rigueur pédagogique • Mis à jour en octobre 2026"
+  }
 }

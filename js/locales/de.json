@@ -5,7 +5,9 @@
     "og_title": "10 sprachneutrale Rätsel",
     "og_description": "Löse zehn Zahlen- und Symbolrätsel und sieh deine richtigen Antworten."
   },
-  "header": { "subtitle": "Zwei Minuten Rätsel nur mit Zahlen und Symbolen" },
+  "header": {
+    "subtitle": "Zwei Minuten Rätsel nur mit Zahlen und Symbolen"
+  },
   "start": {
     "title": "10 Rätsel starten",
     "description": "Löse zehn Rätsel und prüfe die richtigen Antworten je Kategorie.",
@@ -15,7 +17,9 @@
     "disclaimer": "Der Wert ist nur die Trefferquote dieser zehn Rätsel. Er misst weder Intelligenz noch Diagnose oder Bevölkerungsrang.",
     "button": "Starten"
   },
-  "test": { "question": "Frage" },
+  "test": {
+    "question": "Frage"
+  },
   "puzzle": {
     "choose_next": "Wähle das nächste Element.",
     "find_missing": "Finde den fehlenden Wert.",
@@ -43,5 +47,41 @@
     "title": "10-Rätsel-Challenge",
     "copied": "Geteilt."
   },
-  "accessibility": { "skipToMain": "Zum Hauptinhalt springen" }
+  "accessibility": {
+    "skipToMain": "Zum Hauptinhalt springen"
+  },
+  "guide": {
+    "summaryTitle": "Über dieses Rätsel: Domänen, Methodik & FAQ",
+    "frameworkRule": "Dieses Denkrätsel erfasst abstraktes Mustererkennen, Sequenzinduktion, Logik und räumliche Anordnung anhand von zehn sprachneutralen Aufgaben. Das Ergebnis zeigt die Anzahl richtiger Antworten von zehn und ist kein klinisch standardisierter Test.",
+    "frameworkBoundary": "Standardisierte psychologische Diagnostiken erfordern umfangreiche Testbatterien unter fachlicher Aufsicht. Dieses Tool dient dem kognitiven Training und der Freude am logischen Denken.",
+    "domainsTitle": "Vier Kognitive Denkdomänen",
+    "domainPatternTitle": "Mustererkennung (Pattern):",
+    "domainPatternDesc": "Erfassen invarianter Strukturregeln und geometrischer Transformationen.",
+    "domainSequenceTitle": "Sequenzinduktion (Sequence):",
+    "domainSequenceDesc": "Ableiten arithmetischer Abstände, Schrittweiten und alternierender Zahlenreihen.",
+    "domainLogicTitle": "Deduktive Logik (Logic):",
+    "domainLogicDesc": "Ausschließen widersprüchlicher Möglichkeiten und Finden folgerichtiger Schlüsse.",
+    "domainSpatialTitle": "Räumliche Struktur (Spatial):",
+    "domainSpatialDesc": "Analysieren von Drehungen, Achsenspiegelungen und Matrizenanordnungen.",
+    "scoringTitle": "Ergebnisinterpretation & Transparenz",
+    "scoreHighTitle": "Hohe Trefferquote (8–10 richtig):",
+    "scoreHighDesc": "Hervorragende fluide Synthesefähigkeit und sichere Induktion vielschichtiger Regeln.",
+    "scoreModerateTitle": "Solide Logik (5–7 richtig):",
+    "scoreModerateDesc": "Gutes Gespür für direkte Zahlenreihen und Symmetrien mit Entwicklungspotenzial bei mehrstufigen Verschiebungen.",
+    "scoreFoundationTitle": "Grundlagenaufbau (0–4 richtig):",
+    "scoreFoundationDesc": "Gute Gelegenheit, nonverbale Problemlösestrategien und systematisches Ausschlussverfahren zu schulen.",
+    "faqTitle": "Häufig Gestellte Fragen (FAQ)",
+    "faq1Q": "Q: Handelt es sich um ein offizielles Testergebnis?",
+    "faq1A": "A: Nein. Standardisierte Verfahren erfordern genormte Vergleichsgruppen und klinische Begleitung. Hier handelt es sich um ein transparentes kognitives Übungsrätsel.",
+    "faq2Q": "Q: Warum werden keine sprachlichen Aufgaben verwendet?",
+    "faq2A": "A: Zahlen und geometrische Formen minimieren sprachliche und kulturelle Verzerrungen und schaffen gleiche Bedingungen für alle Sprachen.",
+    "faq3Q": "Q: Welche Fähigkeiten werden beansprucht?",
+    "faq3A": "A: Vor allem fluide Denkprozesse, Arbeitsgedächtnis und visuell-räumliche Orientierung.",
+    "faq4Q": "Q: Lässt sich logisches Kombinieren trainieren?",
+    "faq4A": "A: Ja. Regelmäßiges Lösen von Zahlenrätseln, Schach oder logischen Denkspielen verbessert systematische Lösungsstrategien.",
+    "faq5Q": "Q: Werden Antworten oder Testergebnisse gespeichert?",
+    "faq5A": "A: Nein. Sämtliche Berechnungen laufen ausschließlich lokal im Browser ab. Keine Daten werden an externe Server übertragen.",
+    "referencesTitle": "Wissenschaftliche Grundlagen & Referenzen",
+    "reviewMeta": "Auf kognitiv-pädagogische Genauigkeit geprüft • Aktualisiert Oktober 2026"
+  }
 }
