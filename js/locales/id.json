@@ -83,5 +83,25 @@
     "faq5A": "A: Tidak sama sekali. Seluruh proses berjalan di peramban lokal Anda secara aman.",
     "referencesTitle": "Referensi & Landasan Teoretis",
     "reviewMeta": "Telah ditinjau untuk ketepatan edukasi kognitif • Diperbarui Oktober 2026"
+  },
+  "related": {
+    "coach": "Pelatih 2048",
+    "stressCheck": "Tes Stres",
+    "futureSelf": "Diri Masa Depan",
+    "hspTest": "Tes HSP"
+  },
+  "nextStep": {
+    "highLabel": "Langkah selanjutnya yang disarankan",
+    "highTitle": "Asah pengambilan keputusan taktis",
+    "highDesc": "Uji logika pola Anda dengan panduan langkah real-time di Pelatih 2048.",
+    "highCta": "Buka Pelatih 2048 →",
+    "midLabel": "Langkah selanjutnya yang disarankan",
+    "midTitle": "Pahami gaya berpikir kognitif Anda",
+    "midDesc": "Ketahui apakah otak Anda condong pada logika, intuisi, atau strategi di Brain Type.",
+    "midCta": "Mulai Tes Brain Type →",
+    "lowLabel": "Langkah selanjutnya yang disarankan",
+    "lowTitle": "Periksa kelelahan mental & stres",
+    "lowDesc": "Penurunan fokus sering kali menandakan stres saraf. Periksa di Tes Stres.",
+    "lowCta": "Mulai Tes Stres →"
   }
 }

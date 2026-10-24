@@ -83,5 +83,25 @@
     "faq5A": "A: Absolument pas. Tout fonctionne exclusivement dans votre navigateur local sans transmission de données.",
     "referencesTitle": "Cadres Théoriques et Références",
     "reviewMeta": "Revu pour sa rigueur pédagogique • Mis à jour en octobre 2026"
+  },
+  "related": {
+    "coach": "Coach 2048",
+    "stressCheck": "Test de Stress",
+    "futureSelf": "Moi Futur",
+    "hspTest": "Test HSP"
+  },
+  "nextStep": {
+    "highLabel": "Étape suivante recommandée",
+    "highTitle": "Maîtrisez la décision tactique",
+    "highDesc": "Mettez votre logique à profit avec une analyse de coups en temps réel dans Coach 2048.",
+    "highCta": "Ouvrir Coach 2048 →",
+    "midLabel": "Étape suivante recommandée",
+    "midTitle": "Explorez votre style cognitif",
+    "midDesc": "Découvrez si votre cerveau privilégie l’analyse, l’intuition ou la stratégie.",
+    "midCta": "Faire le test Brain Type →",
+    "lowLabel": "Étape suivante recommandée",
+    "lowTitle": "Évaluez la fatigue mentale et le stress",
+    "lowDesc": "Une baisse de concentration signale souvent une surcharge. Testez votre stress.",
+    "lowCta": "Tester mon niveau de stress →"
   }
 }

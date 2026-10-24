@@ -83,5 +83,24 @@
     "faq5A": "A: Completely private. All calculations run client-side in your web browser. Individual answers and scores are never transmitted or stored on external servers.",
     "referencesTitle": "References & Empirical Frameworks",
     "reviewMeta": "Content reviewed for cognitive educational accuracy • Updated October 2026"
+  },
+  "related": {
+    "coach": "2048 Coach",
+    "stressCheck": "Stress Check",
+    "futureSelf": "Future Self",
+    "hspTest": "HSP Test"
+  },
+  "nextStep": {
+    "highLabel": "Recommended Next Step",
+    "highTitle": "Master Tactical Decision-Making",
+    "highDesc": "Put your pattern recognition to work with real-time heuristic coaching in 2048 Coach.",
+    "highCta": "Open 2048 Coach →",
+    "midLabel": "Recommended Next Step",
+    "midTitle": "Check for Cognitive & Mental Fatigue",
+    "midDesc": "Discover whether your brain leans toward creation, analysis, strategy, or empathy in Brain Type.",
+    "midCta": "Take Brain Type Test →",
+    "lowLabel": "Recommended Next Step",
+    "lowDesc": "Low focus often reflects nervous system strain. Assess somatic tension in Stress Check.",
+    "lowCta": "Check Stress Levels →"
   }
 }

@@ -83,5 +83,25 @@
     "faq5A": "A: Não. Toda a lógica roda 100% no seu navegador local de forma privada.",
     "referencesTitle": "Referências e Fundamentação Científica",
     "reviewMeta": "Revisado para precisão educativa • Atualizado em outubro de 2026"
+  },
+  "related": {
+    "coach": "Coach 2048",
+    "stressCheck": "Teste de Estresse",
+    "futureSelf": "Meu Eu Futuro",
+    "hspTest": "Teste PAS (HSP)"
+  },
+  "nextStep": {
+    "highLabel": "Próximo passo recomendado",
+    "highTitle": "Aprimore decisões táticas e estratégia",
+    "highDesc": "Teste seu raciocínio lógico com análise heurística em tempo real no Coach 2048.",
+    "highCta": "Abrir Coach 2048 →",
+    "midLabel": "Próximo passo recomendado",
+    "midTitle": "Descubra seu estilo de pensamento",
+    "midDesc": "Veja se seu cérebro prioriza lógica, intuição ou estratégia no Brain Type.",
+    "midCta": "Fazer teste Brain Type →",
+    "lowLabel": "Próximo passo recomendado",
+    "lowTitle": "Verifique fadiga mental e estresse",
+    "lowDesc": "Dificuldade de concentração pode ser estresse acumulado. Avalie no Teste de Estresse.",
+    "lowCta": "Fazer teste de estresse →"
   }
 }

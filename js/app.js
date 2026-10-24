@@ -75,7 +75,10 @@ class IQPuzzleApp {
           .replace(/^\//, "")
           .replace(/\/$/, "")
           .replace(/[^a-z0-9/-]/gi, "-");
-        this.track("iq_puzzle_related_click", { target_slug: targetSlug });
+        this.track("iq_puzzle_related_click", {
+          target_slug: targetSlug,
+          is_hero: link.id === "next-step-cta"
+        });
       });
     });
   }
@@ -93,6 +96,7 @@ class IQPuzzleApp {
       url.searchParams.set("lang", i18n.currentLang);
       link.href = `${url.pathname}${url.search}`;
     });
+    if (this.screen === "results") this.renderNextStep();
   }
 
   startTest() {
@@ -216,6 +220,53 @@ class IQPuzzleApp {
       row.append(label, track, value);
       container.appendChild(row);
     });
+    this.renderNextStep();
+  }
+
+  renderNextStep() {
+    const card = document.getElementById("next-step-card");
+    const label = document.getElementById("next-step-label");
+    const title = document.getElementById("next-step-title");
+    const desc = document.getElementById("next-step-desc");
+    const cta = document.getElementById("next-step-cta");
+    if (!card || !label || !title || !desc || !cta) return;
+
+    const correct = this.results?.correct ?? 0;
+    const lang = i18n.currentLang || "en";
+
+    let rec;
+    if (correct >= 7) {
+      rec = {
+        route: "/puzzle-2048/coach.html",
+        label: i18n.t("nextStep.highLabel", "Recommended Next Step"),
+        title: i18n.t("nextStep.highTitle", "Master Tactical Decision-Making"),
+        desc: i18n.t("nextStep.highDesc", "Put your pattern recognition to work with real-time heuristic coaching in 2048 Coach."),
+        cta: i18n.t("nextStep.highCta", "Open 2048 Coach →")
+      };
+    } else if (correct >= 4) {
+      rec = {
+        route: "/brain-type/",
+        label: i18n.t("nextStep.midLabel", "Recommended Next Step"),
+        title: i18n.t("nextStep.midTitle", "Explore Your Cognitive Thinking Style"),
+        desc: i18n.t("nextStep.midDesc", "Discover whether your brain leans toward creation, analysis, strategy, or empathy in Brain Type."),
+        cta: i18n.t("nextStep.midCta", "Take Brain Type Test →")
+      };
+    } else {
+      rec = {
+        route: "/stress-check/",
+        label: i18n.t("nextStep.lowLabel", "Recommended Next Step"),
+        title: i18n.t("nextStep.lowTitle", "Check for Cognitive & Mental Fatigue"),
+        desc: i18n.t("nextStep.lowDesc", "Low focus often reflects nervous system strain. Assess somatic tension in Stress Check."),
+        cta: i18n.t("nextStep.lowCta", "Check Stress Levels →")
+      };
+    }
+
+    label.textContent = rec.label;
+    title.textContent = rec.title;
+    desc.textContent = rec.desc;
+    cta.textContent = rec.cta;
+    cta.dataset.relatedRoute = rec.route;
+    cta.href = `${rec.route}?lang=${encodeURIComponent(lang)}`;
   }
 
   openNotes() {

@@ -83,5 +83,25 @@
     "faq5A": "A: En absoluto. Todo el procesamiento se realiza de manera 100% local en su navegador web.",
     "referencesTitle": "Referencias y Fundamentos Teóricos",
     "reviewMeta": "Revisado para rigor educativo cognitivo • Actualizado en octubre de 2026"
+  },
+  "related": {
+    "coach": "Coach 2048",
+    "stressCheck": "Test de Estrés",
+    "futureSelf": "Mi Yo Futuro",
+    "hspTest": "Test PAS (HSP)"
+  },
+  "nextStep": {
+    "highLabel": "Siguiente paso recomendado",
+    "highTitle": "Domina la toma de decisiones tácticas",
+    "highDesc": "Pon a prueba tu agilidad mental con análisis heurístico en tiempo real en Coach 2048.",
+    "highCta": "Abrir Coach 2048 →",
+    "midLabel": "Siguiente paso recomendado",
+    "midTitle": "Explora tu estilo cognitivo",
+    "midDesc": "Descubre si tu cerebro se inclina hacia la lógica, intuición o empatía en Brain Type.",
+    "midCta": "Hacer test Brain Type →",
+    "lowLabel": "Siguiente paso recomendado",
+    "lowTitle": "Evalúa la fatiga cognitiva y el estrés",
+    "lowDesc": "La falta de enfoque suele reflejar sobrecarga nerviosa. Evalúa tu tensión en Test de Estrés.",
+    "lowCta": "Evaluar mi estrés →"
   }
 }

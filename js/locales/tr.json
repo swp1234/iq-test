@@ -83,5 +83,25 @@
     "faq5A": "A: Kesinlikle hayır. Tüm hesaplamalar tamamen tarayıcınızda yerel olarak gerçekleşir.",
     "referencesTitle": "Akademik Temeller ve Kaynakça",
     "reviewMeta": "Bilişsel eğitim doğruluğu incelendi • Ekim 2026 güncellemesi"
+  },
+  "related": {
+    "coach": "2048 Koçu",
+    "stressCheck": "Stres Testi",
+    "futureSelf": "Gelecekteki Ben",
+    "hspTest": "HSP Hassasiyet Testi"
+  },
+  "nextStep": {
+    "highLabel": "Önerilen sonraki adım",
+    "highTitle": "Taktiksel karar verme becerisini geliştir",
+    "highDesc": "2048 Koçu ile gerçek zamanlı hamle analizi ve strateji rehberliğini deneyimleyin.",
+    "highCta": "2048 Koçunu Başlat →",
+    "midLabel": "Önerilen sonraki adım",
+    "midTitle": "Bilişsel düşünme stilini keşfet",
+    "midDesc": "Beyninizin mantık, sezgi veya stratejiye mi yatkın olduğunu Brain Type ile öğrenin.",
+    "midCta": "Brain Type Testini Başlat →",
+    "lowLabel": "Önerilen sonraki adım",
+    "lowTitle": "Zihinsel yorgunluk ve stresi ölç",
+    "lowDesc": "Odaklanma güçlüğü sinir sistemi yorgunluğu olabilir. Stres seviyenizi kontrol edin.",
+    "lowCta": "Stres Testini Başlat →"
   }
 }

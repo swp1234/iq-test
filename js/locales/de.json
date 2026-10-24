@@ -83,5 +83,25 @@
     "faq5A": "A: Nein. Sämtliche Berechnungen laufen ausschließlich lokal im Browser ab. Keine Daten werden an externe Server übertragen.",
     "referencesTitle": "Wissenschaftliche Grundlagen & Referenzen",
     "reviewMeta": "Auf kognitiv-pädagogische Genauigkeit geprüft • Aktualisiert Oktober 2026"
+  },
+  "related": {
+    "coach": "2048 Coach",
+    "stressCheck": "Stresstest",
+    "futureSelf": "Zukunfts-Ich",
+    "hspTest": "HSP-Test"
+  },
+  "nextStep": {
+    "highLabel": "Empfohlener nächster Schritt",
+    "highTitle": "Meistere taktische Entscheidungsfindung",
+    "highDesc": "Nutze dein logisches Denkvermögen mit Echtzeit-Zuganlyse im 2048 Coach.",
+    "highCta": "2048 Coach öffnen →",
+    "midLabel": "Empfohlener nächster Schritt",
+    "midTitle": "Entdecke deinen kognitiven Denkstil",
+    "midDesc": "Finde heraus, ob dein Gehirn eher auf Analyse, Intuition oder Strategie ausgerichtet ist.",
+    "midCta": "Brain Type Test starten →",
+    "lowLabel": "Empfohlener nächster Schritt",
+    "lowTitle": "Überprüfe geistige Ermüdung & Stress",
+    "lowDesc": "Konzentrationsprobleme deuten oft auf Nervenüberlastung hin. Teste deinen Stresspegel.",
+    "lowCta": "Stresstest starten →"
   }
 }

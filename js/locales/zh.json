@@ -83,5 +83,25 @@
     "faq5A": "A: 完全不会。所有计算均在您的本地浏览器中完成，不会向服务器上传任何作答记录。",
     "referencesTitle": "学术背景与理论参考文献",
     "reviewMeta": "认知教育准确性已审阅 • 2026年10月更新"
+  },
+  "related": {
+    "coach": "2048教练",
+    "stressCheck": "压力自测",
+    "futureSelf": "未来的自己",
+    "hspTest": "高敏感测试"
+  },
+  "nextStep": {
+    "highLabel": "推荐下一步",
+    "highTitle": "强化战术决策与逻辑推演",
+    "highDesc": "在2048教练中体验实时盘面分析与最佳移动建议。",
+    "highCta": "开启2048教练 →",
+    "midLabel": "推荐下一步",
+    "midTitle": "探索你的认知思维风格",
+    "midDesc": "在Brain Type测试中发现你的大脑更偏向分析、直觉还是策略。",
+    "midCta": "开始脑类型测试 →",
+    "lowLabel": "推荐下一步",
+    "lowTitle": "检测认知疲劳与神经负荷",
+    "lowDesc": "注意力下降可能是身体疲劳的信号。在压力自测中评估神经系统紧张度。",
+    "lowCta": "开始压力自测 →"
   }
 }
