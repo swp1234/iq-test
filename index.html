@@ -12,6 +12,7 @@
       content="숫자와 기호로 구성된 언어중립 퍼즐 10개를 약 2분 안에 풀어보세요. 점수는 이번 게임의 정답 수만 나타내며 표준화 IQ 검사가 아닙니다."
     />
     <link rel="canonical" href="https://dopabrain.com/iq-test/" />
+    <meta name="dateModified" content="2026-10-27" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta property="og:type" content="website" />
     <meta
@@ -117,28 +118,85 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "DopaBrain 10-Puzzle Challenge",
-        "applicationCategory": "GameApplication",
-        "operatingSystem": "Any",
-        "url": "https://dopabrain.com/iq-test/",
-        "dateModified": "2026-10-24",
-        "description": "A ten-question language-neutral number and symbol puzzle game with a transparent correct-answer score.",
-        "inLanguage": [
-          "ko",
-          "en",
-          "ja",
-          "zh",
-          "hi",
-          "ru",
-          "es",
-          "pt",
-          "id",
-          "tr",
-          "de",
-          "fr"
-        ],
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "DopaBrain 10-Puzzle Challenge",
+            "applicationCategory": "GameApplication",
+            "operatingSystem": "Any",
+            "url": "https://dopabrain.com/iq-test/",
+            "dateModified": "2026-10-27",
+            "description": "A ten-question language-neutral number and symbol puzzle game measuring fluid reasoning across pattern, sequence, logic, and spatial domains.",
+            "inLanguage": [
+              "ko",
+              "en",
+              "ja",
+              "zh",
+              "hi",
+              "ru",
+              "es",
+              "pt",
+              "id",
+              "tr",
+              "de",
+              "fr"
+            ],
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/#tests" },
+              { "@type": "ListItem", "position": 3, "name": "IQ Puzzle Challenge", "item": "https://dopabrain.com/iq-test/" }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "이 퍼즐 결과가 공식 지능 수치인가요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "아닙니다. 표준 지능 측정은 표준화된 인구 규준과 전문 검사자의 감독이 필요합니다. 본 도구는 이번 10문제에 대한 정답 비율만을 투명하게 제공하는 두뇌 트레이닝 퍼즐입니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "왜 언어중립 형식으로 구성되었나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "언어적 지식이나 문화적 배경에 따른 유불리를 없애고, 전 세계 누구나 동일한 조건에서 순수 추상 기호와 수치 규칙만을 탐색할 수 있도록 설계되었습니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "어떤 인지 능력이 주로 발휘되나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cattell-Horn-Carroll(CHC) 인지 이론의 유동 추론(Fluid Reasoning) 영역과 작동 기억, 시각-공간 처리 능력이 종합적으로 관여합니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "추론 감각을 향상시킬 수 있나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "네. 체스, 스도쿠, 다양한 수열 퍼즐 풀이와 같은 인지 훈련은 규칙 가설 설정 및 오류 배제 능력을 향상시키는 데 긍정적인 영향을 줍니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "풀이 기록이나 정답이 외부로 전송되나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "전혀 전송되지 않습니다. 모든 연산은 사용자의 브라우저 내에서만 안전하게 실행되며, 외부 서버로 개별 정답이나 선택지가 저장되지 않습니다."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
