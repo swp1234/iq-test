@@ -75,6 +75,14 @@ class IQPuzzleApp {
           .replace(/^\//, "")
           .replace(/\/$/, "")
           .replace(/[^a-z0-9/-]/gi, "-");
+        if (typeof gtag === "function") {
+          gtag("event", "content_cta_click", {
+            event_category: "engagement",
+            page_path: location.pathname,
+            target_url: link.href,
+            link_id: link.id === "next-step-cta" ? "iq_test_next_step" : ("iq_test_related_" + targetSlug)
+          });
+        }
         this.track("iq_puzzle_related_click", {
           target_slug: targetSlug,
           is_hero: link.id === "next-step-cta"
@@ -93,7 +101,8 @@ class IQPuzzleApp {
   updateRelatedLinks() {
     document.querySelectorAll("[data-related-route]").forEach((link) => {
       const url = new URL(link.dataset.relatedRoute, location.origin);
-      url.searchParams.set("lang", i18n.currentLang);
+      url.searchParams.set("lang", i18n.currentLang || "en");
+      url.searchParams.set("source", "iq_test");
       link.href = `${url.pathname}${url.search}`;
     });
     if (this.screen === "results") this.renderNextStep();
@@ -266,7 +275,7 @@ class IQPuzzleApp {
     desc.textContent = rec.desc;
     cta.textContent = rec.cta;
     cta.dataset.relatedRoute = rec.route;
-    cta.href = `${rec.route}?lang=${encodeURIComponent(lang)}`;
+    cta.href = `${rec.route}?lang=${encodeURIComponent(lang)}&source=iq_test`;
   }
 
   openNotes() {
