@@ -85,20 +85,20 @@
     "reviewMeta": "인지 교육적 신뢰성 검토 완료 • 2026년 10월 개정"
   },
   "related": {
-    "coach": "2048 코치",
     "stressCheck": "스트레스 진단",
     "futureSelf": "미래의 나",
-    "hspTest": "HSP 민감성 테스트"
+    "hspTest": "HSP 민감성 테스트",
+    "stressType": "스트레스 유형"
   },
   "nextStep": {
     "highLabel": "추천 다음 단계",
-    "highTitle": "전술적 수읽기와 전략 강화",
-    "highDesc": "2048 코치에서 실시간 보드 분석과 최적 수 추천을 직접 경험해보세요.",
-    "highCta": "2048 코치 시작하기 →",
+    "highTitle": "압박 속 인지 탄력성과 스트레스 반응",
+    "highDesc": "높은 추론 능력은 압박 속에서 어떻게 발휘될까요? 바디 히트맵으로 나의 스트레스 반응 유형을 Stress Type에서 확인해보세요.",
+    "highCta": "스트레스 유형 검사하기 →",
     "midLabel": "추천 다음 단계",
-    "midTitle": "나만의 인지 사고 스타일 발견",
-    "midDesc": "논리와 직관 중 당신의 뇌가 선호하는 사고 패턴을 Brain Type에서 확인해보세요.",
-    "midCta": "Brain Type 테스트하기 →",
+    "midTitle": "나만의 미래 궤적과 전략적 아키타입",
+    "midDesc": "당신의 인지적 판단이 리더십, 창의적 비전, 자율성 중 어느 경로로 기우는지 Future Self에서 확인해보세요.",
+    "midCta": "미래의 나 테스트하기 →",
     "lowLabel": "추천 다음 단계",
     "lowTitle": "두뇌 피로도 및 인지 과부하 점검",
     "lowDesc": "집중력 저하는 신경계 피로의 신호일 수 있습니다. 스트레스 진단으로 몸과 마음의 긴장을 측정해보세요.",

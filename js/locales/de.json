@@ -85,20 +85,20 @@
     "reviewMeta": "Auf kognitiv-pädagogische Genauigkeit geprüft • Aktualisiert Oktober 2026"
   },
   "related": {
-    "coach": "2048 Coach",
     "stressCheck": "Stresstest",
     "futureSelf": "Zukunfts-Ich",
-    "hspTest": "HSP-Test"
+    "hspTest": "HSP-Test",
+    "stressType": "Stress-Typ"
   },
   "nextStep": {
     "highLabel": "Empfohlener nächster Schritt",
-    "highTitle": "Meistere taktische Entscheidungsfindung",
-    "highDesc": "Nutze dein logisches Denkvermögen mit Echtzeit-Zuganlyse im 2048 Coach.",
-    "highCta": "2048 Coach öffnen →",
+    "highTitle": "Kognitive Resilienz & Stressreaktion",
+    "highDesc": "Hohe fluide Intelligenz meistert Druck. Erkunden Sie Ihre autonome Reaktion mit einer Körper-Heatmap.",
+    "highCta": "Stress-Typ testen →",
     "midLabel": "Empfohlener nächster Schritt",
-    "midTitle": "Entdecke deinen kognitiven Denkstil",
-    "midDesc": "Finde heraus, ob dein Gehirn eher auf Analyse, Intuition oder Strategie ausgerichtet ist.",
-    "midCta": "Brain Type Test starten →",
+    "midTitle": "Erkunden Sie Ihre Zukunftstrajektorie",
+    "midDesc": "Finden Sie heraus, ob Ihre Entscheidungen auf strategische Führung, Kreativität oder Autonomie ausgerichtet sind.",
+    "midCta": "Zukunfts-Ich erkunden →",
     "lowLabel": "Empfohlener nächster Schritt",
     "lowTitle": "Überprüfe geistige Ermüdung & Stress",
     "lowDesc": "Konzentrationsprobleme deuten oft auf Nervenüberlastung hin. Teste deinen Stresspegel.",

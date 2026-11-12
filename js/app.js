@@ -246,19 +246,19 @@ class IQPuzzleApp {
     let rec;
     if (correct >= 7) {
       rec = {
-        route: "/puzzle-2048/coach.html",
+        route: "/stress-type/",
         label: i18n.t("nextStep.highLabel", "Recommended Next Step"),
-        title: i18n.t("nextStep.highTitle", "Master Tactical Decision-Making"),
-        desc: i18n.t("nextStep.highDesc", "Put your pattern recognition to work with real-time heuristic coaching in 2048 Coach."),
-        cta: i18n.t("nextStep.highCta", "Open 2048 Coach →")
+        title: i18n.t("nextStep.highTitle", "Stress Resilience & Response Type"),
+        desc: i18n.t("nextStep.highDesc", "High fluid reasoning thrives under pressure. Explore your autonomic reaction to overload with a body heatmap in Stress Type."),
+        cta: i18n.t("nextStep.highCta", "Test Stress Type →")
       };
     } else if (correct >= 4) {
       rec = {
-        route: "/brain-type/",
+        route: "/future-self/",
         label: i18n.t("nextStep.midLabel", "Recommended Next Step"),
-        title: i18n.t("nextStep.midTitle", "Explore Your Cognitive Thinking Style"),
-        desc: i18n.t("nextStep.midDesc", "Discover whether your brain leans toward creation, analysis, strategy, or empathy in Brain Type."),
-        cta: i18n.t("nextStep.midCta", "Take Brain Type Test →")
+        title: i18n.t("nextStep.midTitle", "Explore Strategic Archetypes & Future Trajectory"),
+        desc: i18n.t("nextStep.midDesc", "Discover whether your cognitive instincts align with strategic leadership, creative vision, autonomy, or wisdom in Future Self."),
+        cta: i18n.t("nextStep.midCta", "Explore Future Self →")
       };
     } else {
       rec = {

@@ -85,20 +85,20 @@
     "reviewMeta": "Content reviewed for cognitive educational accuracy • Updated October 2026"
   },
   "related": {
-    "coach": "2048 Coach",
     "stressCheck": "Stress Check",
     "futureSelf": "Future Self",
-    "hspTest": "HSP Test"
+    "hspTest": "HSP Test",
+    "stressType": "Stress Type"
   },
   "nextStep": {
     "highLabel": "Recommended Next Step",
-    "highTitle": "Master Tactical Decision-Making",
-    "highDesc": "Put your pattern recognition to work with real-time heuristic coaching in 2048 Coach.",
-    "highCta": "Open 2048 Coach →",
+    "highTitle": "Stress Resilience & Response Type",
+    "highDesc": "High fluid reasoning thrives under pressure. Explore your autonomic reaction to overload with a body heatmap in Stress Type.",
+    "highCta": "Test Stress Type →",
     "midLabel": "Recommended Next Step",
-    "midTitle": "Check for Cognitive & Mental Fatigue",
-    "midDesc": "Discover whether your brain leans toward creation, analysis, strategy, or empathy in Brain Type.",
-    "midCta": "Take Brain Type Test →",
+    "midTitle": "Explore Strategic Archetypes & Future Trajectory",
+    "midDesc": "Discover whether your cognitive instincts align with strategic leadership, creative vision, autonomy, or wisdom in Future Self.",
+    "midCta": "Explore Future Self →",
     "lowLabel": "Recommended Next Step",
     "lowDesc": "Low focus often reflects nervous system strain. Assess somatic tension in Stress Check.",
     "lowCta": "Check Stress Levels →"

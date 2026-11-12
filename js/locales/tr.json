@@ -85,20 +85,20 @@
     "reviewMeta": "Bilişsel eğitim doğruluğu incelendi • Ekim 2026 güncellemesi"
   },
   "related": {
-    "coach": "2048 Koçu",
     "stressCheck": "Stres Testi",
     "futureSelf": "Gelecekteki Ben",
-    "hspTest": "HSP Hassasiyet Testi"
+    "hspTest": "HSP Hassasiyet Testi",
+    "stressType": "Stres Tipi"
   },
   "nextStep": {
     "highLabel": "Önerilen sonraki adım",
-    "highTitle": "Taktiksel karar verme becerisini geliştir",
-    "highDesc": "2048 Koçu ile gerçek zamanlı hamle analizi ve strateji rehberliğini deneyimleyin.",
-    "highCta": "2048 Koçunu Başlat →",
+    "highTitle": "Bilişsel Dayanıklılık ve Stres Tipi",
+    "highDesc": "Yüksek akıl yürütme baskı altında nasıl çalışır? Vücut ısı haritasıyla stres tepkinizi keşfedin.",
+    "highCta": "Stres Tipini Keşfet →",
     "midLabel": "Önerilen sonraki adım",
-    "midTitle": "Bilişsel düşünme stilini keşfet",
-    "midDesc": "Beyninizin mantık, sezgi veya stratejiye mi yatkın olduğunu Brain Type ile öğrenin.",
-    "midCta": "Brain Type Testini Başlat →",
+    "midTitle": "Gelecekteki Benlik ve Stratejik Yolculuk",
+    "midDesc": "Karar verme eğiliminizin liderlik, yaratıcılık veya özerklikle nasıl örtüştüğünü keşfedin.",
+    "midCta": "Gelecek Benliği Keşfet →",
     "lowLabel": "Önerilen sonraki adım",
     "lowTitle": "Zihinsel yorgunluk ve stresi ölç",
     "lowDesc": "Odaklanma güçlüğü sinir sistemi yorgunluğu olabilir. Stres seviyenizi kontrol edin.",

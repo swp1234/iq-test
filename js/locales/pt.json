@@ -85,20 +85,20 @@
     "reviewMeta": "Revisado para precisão educativa • Atualizado em outubro de 2026"
   },
   "related": {
-    "coach": "Coach 2048",
     "stressCheck": "Teste de Estresse",
     "futureSelf": "Meu Eu Futuro",
-    "hspTest": "Teste PAS (HSP)"
+    "hspTest": "Teste PAS (HSP)",
+    "stressType": "Tipo de Estresse"
   },
   "nextStep": {
     "highLabel": "Próximo passo recomendado",
-    "highTitle": "Aprimore decisões táticas e estratégia",
-    "highDesc": "Teste seu raciocínio lógico com análise heurística em tempo real no Coach 2048.",
-    "highCta": "Abrir Coach 2048 →",
+    "highTitle": "Resiliência Cognitiva e Tipo de Estresse",
+    "highDesc": "O raciocínio fluido se destaca sob pressão. Explore sua reação autonômica com um mapa corporal.",
+    "highCta": "Ver Tipo de Estresse →",
     "midLabel": "Próximo passo recomendado",
-    "midTitle": "Descubra seu estilo de pensamento",
-    "midDesc": "Veja se seu cérebro prioriza lógica, intuição ou estratégia no Brain Type.",
-    "midCta": "Fazer teste Brain Type →",
+    "midTitle": "Explore sua Trajetória e Arquétipo Futuro",
+    "midDesc": "Descubra se suas decisões alinham-se com liderança estratégica, visão criativa ou autonomia.",
+    "midCta": "Explorar Futuro Eu →",
     "lowLabel": "Próximo passo recomendado",
     "lowTitle": "Verifique fadiga mental e estresse",
     "lowDesc": "Dificuldade de concentração pode ser estresse acumulado. Avalie no Teste de Estresse.",
