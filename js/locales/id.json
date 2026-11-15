@@ -103,5 +103,15 @@
     "lowTitle": "Periksa kelelahan mental & stres",
     "lowDesc": "Penurunan fokus sering kali menandakan stres saraf. Periksa di Tes Stres.",
     "lowCta": "Mulai Tes Stres →"
+  },
+  "curated": {
+    "badge": "BACAAN PENALARAN KOGNITIF",
+    "title": "Buku Strategi Logika & Pemecahan Masalah",
+    "book1Title": "Thinking, Fast and Slow",
+    "book1Desc": "Daniel Kahneman • Penalaran dua sistem, heuristik kognitif, dan deduksi terarah.",
+    "book2Title": "A Mind for Numbers",
+    "book2Desc": "Barbara Oakley • Mode berpikir fokus vs. menyebar untuk menguasai pola.",
+    "readPill": "Lihat Buku ↗",
+    "disclosure": "Kurasi bacaan untuk penggemar teka-teki logika. Tautan regional terbuka di tab baru."
   }
 }

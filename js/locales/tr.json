@@ -103,5 +103,15 @@
     "lowTitle": "Zihinsel yorgunluk ve stresi ölç",
     "lowDesc": "Odaklanma güçlüğü sinir sistemi yorgunluğu olabilir. Stres seviyenizi kontrol edin.",
     "lowCta": "Stres Testini Başlat →"
+  },
+  "curated": {
+    "badge": "BİLİŞSEL AKIL YÜRÜTME OKUMALARI",
+    "title": "Mantık ve Problem Çözme Becerisi Kitapları",
+    "book1Title": "Hızlı ve Yavaş Düşünme",
+    "book1Desc": "Daniel Kahneman • Çift süreçli akıl yürütme, bilişsel kısayollar ve analitik çıkarım.",
+    "book2Title": "Sayısal Zekâ (A Mind for Numbers)",
+    "book2Desc": "Barbara Oakley • Örüntü hakimiyeti için odaklanmış ve dağınık düşünme modları.",
+    "readPill": "Kitaba Bak ↗",
+    "disclosure": "Bilişsel bulmaca meraklıları için seçilmiştir. Bölgesel bağlantılar yeni sekmede açılır."
   }
 }

@@ -102,5 +102,15 @@
     "lowLabel": "Recommended Next Step",
     "lowDesc": "Low focus often reflects nervous system strain. Assess somatic tension in Stress Check.",
     "lowCta": "Check Stress Levels →"
+  },
+  "curated": {
+    "badge": "COGNITIVE REASONING READING",
+    "title": "Sharp Reasoning & Problem-Solving Books",
+    "book1Title": "Thinking, Fast and Slow",
+    "book1Desc": "Daniel Kahneman • Dual-process reasoning, cognitive heuristics, and deliberate deduction.",
+    "book2Title": "A Mind for Numbers",
+    "book2Desc": "Barbara Oakley, Ph.D. • Focused vs. diffuse problem-solving modes and pattern mastery.",
+    "readPill": "View Book ↗",
+    "disclosure": "Curated for cognitive puzzle fans. Regional storefront links open in a new tab."
   }
 }

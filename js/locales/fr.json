@@ -103,5 +103,15 @@
     "lowTitle": "Évaluez la fatigue mentale et le stress",
     "lowDesc": "Une baisse de concentration signale souvent une surcharge. Testez votre stress.",
     "lowCta": "Tester mon niveau de stress →"
+  },
+  "curated": {
+    "badge": "LECTURES SUR LE RAISONNEMENT COGNITIF",
+    "title": "Livres sur la logique et la résolution de problèmes",
+    "book1Title": "Système 1 / Système 2 : Les deux vitesses de la pensée",
+    "book1Desc": "Daniel Kahneman • Biais cognitifs, heuristiques et déduction analytique.",
+    "book2Title": "A Mind for Numbers",
+    "book2Desc": "Barbara Oakley • Alterner pensée focalisée et pensée diffuse pour maîtriser les schémas.",
+    "readPill": "Voir le livre ↗",
+    "disclosure": "Sélection éditoriale pour amateurs de casse-têtes. Les liens régionaux s’ouvrent dans un nouvel onglet."
   }
 }

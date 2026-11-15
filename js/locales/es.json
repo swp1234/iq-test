@@ -103,5 +103,15 @@
     "lowTitle": "Evalúa la fatiga cognitiva y el estrés",
     "lowDesc": "La falta de enfoque suele reflejar sobrecarga nerviosa. Evalúa tu tensión en Test de Estrés.",
     "lowCta": "Evaluar mi estrés →"
+  },
+  "curated": {
+    "badge": "LECTURAS DE RAZONAMIENTO COGNITIVO",
+    "title": "Libros para entrenar la lógica y la resolución de problemas",
+    "book1Title": "Pensar rápido, pensar despacio",
+    "book1Desc": "Daniel Kahneman • Razonamiento dual, sesgos cognitivos y deducción deliberada.",
+    "book2Title": "Abre tu mente a los números (A Mind for Numbers)",
+    "book2Desc": "Barbara Oakley • Modos de pensamiento enfocado y difuso para dominar patrones.",
+    "readPill": "Ver libro ↗",
+    "disclosure": "Lecturas seleccionadas para aficionados a los acertijos lógicos. Enlaces regionales en nueva pestaña."
   }
 }

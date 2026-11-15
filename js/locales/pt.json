@@ -103,5 +103,15 @@
     "lowTitle": "Verifique fadiga mental e estresse",
     "lowDesc": "Dificuldade de concentração pode ser estresse acumulado. Avalie no Teste de Estresse.",
     "lowCta": "Fazer teste de estresse →"
+  },
+  "curated": {
+    "badge": "LEITURA DE RACIOCÍNIO COGNITIVO",
+    "title": "Livros sobre lógica e resolução de problemas",
+    "book1Title": "Rápido e Devagar: Duas Formas de Pensar",
+    "book1Desc": "Daniel Kahneman • Raciocínio dual, heurísticas cognitivas e dedução analítica.",
+    "book2Title": "Aprendendo Inteligência Matemática (A Mind for Numbers)",
+    "book2Desc": "Barbara Oakley • Modos focado e difuso para dominar padrões e problemas lógicos.",
+    "readPill": "Ver livro ↗",
+    "disclosure": "Curadoria para fãs de desafios lógicos. Links regionais abrem em nova aba."
   }
 }

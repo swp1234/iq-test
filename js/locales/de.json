@@ -103,5 +103,15 @@
     "lowTitle": "Überprüfe geistige Ermüdung & Stress",
     "lowDesc": "Konzentrationsprobleme deuten oft auf Nervenüberlastung hin. Teste deinen Stresspegel.",
     "lowCta": "Stresstest starten →"
+  },
+  "curated": {
+    "badge": "EMPFEHLUNGEN FÜR LOGISCHES DENKEN",
+    "title": "Bücher zu Mustererkennung & analytischer Problemlösung",
+    "book1Title": "Schnelles Denken, langsames Denken",
+    "book1Desc": "Daniel Kahneman • Zweiprozess-Theorie, Denkfehler und strukturiertes Urteilen.",
+    "book2Title": "A Mind for Numbers (Lernen für Zahlen & Muster)",
+    "book2Desc": "Barbara Oakley, Ph.D. • Fokussiertes vs. diffuses Denken beim Lösen komplexer Aufgaben.",
+    "readPill": "Buch ansehen ↗",
+    "disclosure": "Ausgewählte Literatur für Logik- und Puzzle-Fans. Öffnet regional im neuen Tab."
   }
 }

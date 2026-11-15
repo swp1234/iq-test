@@ -1,4 +1,4 @@
-const CACHE_NAME = "iq-puzzle-v5";
+const CACHE_NAME = "iq-puzzle-v6";
 const APP_ROOT = new URL("./", self.location.href);
 const ASSETS = [
   "./",

@@ -105,7 +105,55 @@ class IQPuzzleApp {
       url.searchParams.set("source", "iq_test");
       link.href = `${url.pathname}${url.search}`;
     });
+    this.updateCuratedResources();
     if (this.screen === "results") this.renderNextStep();
+  }
+
+  updateCuratedResources() {
+    const asins = { thinkingFastSlow: "0374533555", mindForNumbers: "039916524X" };
+    const koQueries = {
+      thinkingFastSlow: "생각에 관한 생각 대니얼 카너먼",
+      mindForNumbers: "바바라 오클리"
+    };
+    const partnerTag = "dopabrain-" + "20";
+    const amazonDomains = {
+      en: { domain: "amazon.com", tag: partnerTag },
+      de: { domain: "amazon.de", tag: "" },
+      fr: { domain: "amazon.fr", tag: "" },
+      es: { domain: "amazon.es", tag: "" },
+      pt: { domain: "amazon.com", tag: partnerTag },
+      ja: { domain: "amazon.co.jp", tag: "" }
+    };
+    const resolvedLang = i18n.currentLang || "en";
+    document.querySelectorAll("#curated-resources-card .curated-item").forEach((item) => {
+      const key = item.dataset.curatedKey;
+      const asin = asins[key];
+      if (!asin) return;
+      if (resolvedLang === "ko") {
+        item.href = "https://search.kyobobook.co.kr/search?keyword=" + encodeURIComponent(koQueries[key] || key);
+      } else {
+        const market = amazonDomains[resolvedLang] || amazonDomains.en;
+        item.href = "https://www." + market.domain + "/dp/" + asin + (market.tag ? ("?tag=" + market.tag) : "");
+      }
+      if (!item.dataset.curatedTracked) {
+        item.dataset.curatedTracked = "true";
+        item.addEventListener("click", () => {
+          if (typeof gtag === "function") {
+            gtag("event", "curated_resource_click", {
+              app_name: "iq-test",
+              resource_key: key,
+              content_locale: i18n.currentLang || resolvedLang,
+              cta_surface: "curated_resources"
+            });
+            gtag("event", "content_cta_click", {
+              page_path: location.pathname,
+              target_url: item.href,
+              link_id: "iq_test_curated_" + key
+            });
+          }
+        });
+      }
+    });
   }
 
   startTest() {
